@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    
+   <?php include 'global/sections/head.php';?> 
   </head>
   <body>
 
-<!-- *** Page Content Goes Here *** -->
+    <!-- Page-->
     <div class="page">
+      <!-- Page preloader-->
+     <?php include 'global/sections/page-loader.php';?>
+        <!-- RD Navbar-->
+      <?php include 'global/sections/nav.php';?>
+
+<!-- *** Page Content Goes Here *** -->
+
       <!-- Swiper-->
       <section class="swiper-container swiper-slider" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
@@ -227,6 +234,8 @@
     <!-- *** Page Content Ends Here *** -->
 
     <!-- Page Footer-->
+      <?php include 'global/sections/footer.php';?>
+    </div>    
 
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
