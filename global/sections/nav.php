@@ -17,15 +17,15 @@
                   </li>
                   <li class="rd-nav-item active"><a class="rd-nav-link" href="about-us.php">About Us</a>
                     <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">FAQ</a>
+                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="faq.php">FAQ</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="services.php">Services</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="gallery.html">Sign Up</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="sign-up.php">Sign Up</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contact Us</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="contact.php">Contact Us</a>
                   </li>
                 </ul>
               </div>
