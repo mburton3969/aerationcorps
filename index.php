@@ -17,13 +17,13 @@
       <!-- Swiper-->
       <section class="swiper-container swiper-slider" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
         </div>
@@ -114,11 +114,11 @@
         </div>
       </section>
       <!-- FALL SPECIAL-->
-      <section class="well-xl-var-1 grass-upclose">
+      <section class="well-xl-var-1 lawn-turf">
         <div class="container text-center">
-          <h1 style="color: #f3b143;">FALL SPECIAL</h1>
+          <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">FALL SPECIAL</h1>
           <h2></h2>
-          <h2 class="text-bold text-shadow" style="color: #ffff;">$95 to aerate your ¼ acre lawn!</h2>
+          <h2 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">$95 to aerate your ¼ acre lawn!</h2>
           <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
         </div>
       </section>

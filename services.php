@@ -140,7 +140,7 @@
         <div class="container">
           <h1 class="text-center" style="color: #f3b143; font-size: 175px">FALL SPECIAL</h1>
           <div class="row row-30 row-md-reverse offset-10">
-            <div class="col-md-4 text-center"><img src="images/acpics/backgrounds/grass-upclose.jpg" width="370" height="384" alt=""></div>
+            <div class="col-md-4 text-center"><img src="images/acpics/backgrounds/lawn-turf-3.jpg" width="370" height="384" alt=""></div>
             <div class="col-md-8 text-center">
               <h2 class="text-bold text-uppercase">Just $95 to aerate <br>your ¼ acre lawn!</h2>
               <p>

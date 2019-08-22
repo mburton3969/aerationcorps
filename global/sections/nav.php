@@ -9,7 +9,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.php"><img class="logo-inverse" src="images/acpics/demo-aeration-logo-2.jpg" width="500" height="74" alt=""><img class="logo-default" src="images/acpics/demo-aeration-logo-2.jpg" width="500" height="74" alt=""></a></div>
+                <div class="rd-navbar-brand"><a href="index.php"><img class="logo-inverse" src="images/acpics/aeration-logo_final.png" width="300" height="74" alt=""><img class="logo-default" src="images/acpics/aeration-logo_final.png" width="300" height="74" alt=""></a></div>
               </div>
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">

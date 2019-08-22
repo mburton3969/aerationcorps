@@ -72,7 +72,7 @@
               </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
               <div class="triangel-var-1"></div>
             </div>
-            <div class="col-md-7 bg-images-2"></div>
+            <div class="col-md-7 bg-images-10"></div>
           </div>
         </div>
       </section>
