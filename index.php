@@ -15,17 +15,17 @@
 <!-- *** Page Content Goes Here *** -->
 
       <!-- Swiper-->
-      <section class="swiper-container swiper-slider" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
+      <section class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
           <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
+          <!--<div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
           <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
-          </div>
+          </div>-->
         </div>
         <!-- Logo-->
         <div></div>

@@ -9,13 +9,13 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.php"><img class="logo-inverse" src="images/acpics/aeration-logo_final.png" width="300" height="74" alt=""><img class="logo-default" src="images/acpics/aeration-logo_final.png" width="300" height="74" alt=""></a></div>
+                <div class="rd-navbar-brand"><a href="index.php"><img class="logo-inverse" src="images/acpics/aeration-logo_final.png" style="width:145px;" alt=""><img class="logo-default" src="images/acpics/aeration-logo_final.png" style="width:145px;" alt=""></a></div>
               </div>
               <div class="rd-navbar-nav-wrap">
                 <ul class="rd-navbar-nav">
                   <li class="rd-nav-item"><a class="rd-nav-link" href="index.php">Home</a>
                   </li>
-                  <li class="rd-nav-item active"><a class="rd-nav-link" href="about-us.php">About Us</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.php">About Us</a>
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="faq.php">FAQ</a>
                       </li>
