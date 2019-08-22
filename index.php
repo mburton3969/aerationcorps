@@ -17,156 +17,114 @@
       <!-- Swiper-->
       <section class="swiper-container swiper-slider" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/swiper-1.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/swiper-2.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/swiper-3.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
         </div>
-        <!-- Swiper Pagination-->
-        <div class="swiper-pagination"></div>
-        <div class="brand"><span class="brand-name">Eden</span>
-          <p class="brand-slogan"><span>pro</span> exterior design</p>
+        <!-- Logo-->
+        <div></div>
+        <div class="brand"><span><img src="images/acpics/demo-aeration-logo.jpg"></span>
         </div>
       </section>
-      <!-- Perfect Garden-->
+      <!-- Learn More -->
       <section>
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-white">
-              <h2>Create <br class="d-none d-lg-block">the Perfect <br class="d-none d-lg-block">Garden
-              </h2>
+              <h2>Our mission:</h2>
+              <h2><strong style="color: #384e01;">Excellent Service</strong></h2>
+              <h2 style="color: #523329;">Affordable Prices</h2>
               <p>
-                Welcome to the top rated exterior design bureau with
-                a team of real experts in building exclusive modern spaces.
-              </p><a class="btn btn-default btn-md" href="#">More</a>
+                There’s a reason why we aerate more lawns than anyone else in Northern VA. <strong style="color: #523329;">This is all we do.</strong>
+              </p><a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
               <div class="triangel"></div>
             </div>
             <div class="col-md-7 bg-images-1"></div>
           </div>
         </div>
       </section>
-      <!-- Landscape Ideas-->
-      <section class="well-lg bg-secondary">
-        <div class="container">
-          <div class="row row-30 text-center">
-            <div class="col-md-4">
-              <div class="bg-white-var-1"><span class="thin-icon-lightbulb icon-xl icon-default"></span>
-                <div class="divider divider-1"></div>
-                <h6 class="text-sbold"><a href="#">Landscape Ideas</a></h6>
-                <p class="text-left small">
-                  From finding the best landscape design ideas or
-                  inspiration to maintaining your dream yard, the landscaping tips and
-                  design ideas below will keep you moving in the right direction.
-                  Go Green.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="bg-white-var-1"><span class="thin-icon-tint icon-xl icon-default"></span>
-                <div class="divider divider-2"></div>
-                <h6 class="text-sbold"><a href="#">Drainage Plans</a></h6>
-                <p class="text-left small">
-                  Landscape plans for drainage problems may also entail planting beds away from
-                  the home’s foundation,
-                  or installing downspouts complete with extensions or with access to perimeter drains.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="bg-white-var-1"><span class="thin-icon-picture icon-xl icon-default"></span>
-                <div class="divider divider-3"></div>
-                <h6 class="text-sbold"><a href="#">Photo Gallery</a></h6>
-                <p class="text-left small">
-                  There is a variety of different landscape design ideas to
-                  suit many different terrains and features that make every yard unique.
-                  Check out these slide shows of our favorite gardens around the world.
-                </p>
-              </div>
-            </div>
-          </div>
+      <!-- Break-->
+      <section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f0f0f0;">
+        <div class="container text-center">
         </div>
       </section>
-      <!-- Principles of Landscape Design-->
-      <section class="well-xl">
-        <div class="container text-center text-md-left">
-          <div class="row row-30 row-md-0">
-            <div class="col-md-6">
-              <h2>Principles <br class="d-none d-lg-block">of Landscape <br class="d-none d-lg-block">Design
-              </h2><img src="images/home-02.jpg" width="403" height="507" alt="">
-            </div>
-            <div class="col-md-6 text-left">
-              <div class="divider divider-4"></div>
-              <p>
-                Landscape design is a process of developing practical and pleasing outdoor
-                living space. There are six principles of design that have been used by
-                artists for centuries throughout all art forms, painting and floral design
-                as well as landscape design.
-              </p>
-              <h5 class="text-bold text-uppercase">They are:</h5>
-              <ul class="index-list">
-                <li><span class="index-list__counter"></span><a href="#">Balance</a></li>
-                <li><span class="index-list__counter"></span><a href="#">Focalization</a></li>
-                <li><span class="index-list__counter"></span><a href="#">Simplicity</a></li>
-                <li><span class="index-list__counter"></span><a href="#">Rhythm and Line</a></li>
-                <li><span class="index-list__counter"></span><a href="#">Proportion</a></li>
-                <li><span class="index-list__counter"></span><a href="#">Unity</a></li>
-              </ul><a class="btn btn-secondary btn-md" href="#">More</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Landscape  Design-->
+      <!-- How it Works-->
       <section>
         <div class="container">
           <div class="row row-md-reverse">
             <div class="col-md-5 bg-secondary-var-1">
               <h2>
-                Contemporary
-                Landscape <br class="d-none d-lg-block">Design
+                How It Works:
               </h2>
               <p>
-                Vivid colors and abstract patterns, combined with unique uses of lighting, textures, and space, create an
-                outdoor space that magnifies the beauty of nature with the sophistication of modern living.
-              </p><a class="btn btn-secondary-var-1 btn-md" href="#">More</a>
+                <ul>
+                  <li>
+                    <strong>1.</strong> You sign up for our services
+                  </li>
+                  <li>
+                    <strong>2.</strong> We perform your service with speed and accuracy
+                  </li>
+                  <li>
+                    <strong>3.</strong> You enjoy hassle-free email invoicing
+                  </li>
+                  <li style="font-style: italic; font-size: 11px">
+                    Pay securely online OR mail in payment
+                  </li>
+                </ul>
+              </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
               <div class="triangel-var-1"></div>
             </div>
             <div class="col-md-7 bg-images-2"></div>
           </div>
         </div>
       </section>
-      <!-- Works-->
-      <section class="well-lg-var-1 bg-secondary-var-4">
-        <div class="container text-center">
-          <div class="row row-30">
-            <div class="col-md-3 col-sm-6 col-xs-6 item"><span class="thin-icon-desktop icon-xl-var-1 icon-default"></span>
-              <h4 class="counter text-bold">67954</h4>
-              <h4 class="text-bold text-secondary">design projects</h4>
+      <!-- Qualtiy Customer Care-->
+      <section class="well-xl">
+        <div class="container text-center text-md-left">
+          <div class="row row-30 row-md-0">
+            <div class="col-md-6">
+              <h2>Quality <br class="d-none d-lg-block">Customer <br class="d-none d-lg-block">Care
+              </h2><img src="images/home-02.jpg" width="300" height="350" alt="">
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 item"><span class="thin-icon-email icon-xl-var-1 icon-default"></span>
-              <h4 class="counter text-bold">99456</h4>
-              <h4 class="text-bold text-secondary">emails sent</h4>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 item"><span class="thin-icon-user icon-xl-var-1 icon-default"></span>
-              <h4 class="counter text-bold">680578</h4>
-              <h4 class="text-bold text-secondary">clients served</h4>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-6 item"><span class="thin-icon-cup icon-xl-var-1 icon-default"></span>
-              <h4 class="counter text-bold">98047</h4>
-              <h4 class="text-bold text-secondary">cups of coffee</h4>
+            <div class="col-md-6 text-left">
+              <div class="divider divider-4"></div>
+              <p>
+               Some lawncare companies dabble in aeration – often with inexperienced operators, renting the same machine you can get at your local home center. We own and maintain our own heavy-duty commercial aerators. And, our service technicians are highly trained to ensure you get great results!
+              </p>
+              <p>
+                  
+              </p>
+              <h4 class="text-bold text-uppercase">We own and maintain our own heavy-duty commercial aerators.</h4>
+              <p>
+                  
+              </p>
+              <p>
+                  
+              </p>
+              <p>
+               And, our service technicians are highly trained to ensure you get great results!
+              </p>
+              <p>
+                  
+              </p>
+              <h2 style="color: #384e01;">Our mission is to deliver the best possible service in the industry.</h2>
             </div>
           </div>
         </div>
       </section>
-      <!-- Garden-->
-      <section class="well-xl-var-1 bg-images-3">
+      <!-- FALL SPECIAL-->
+      <section class="well-xl-var-1 grass-upclose">
         <div class="container text-center">
-          <h1>Garden</h1>
-          <h3 class="text-bold text-shadow">Plants & flowers</h3><a class="btn btn-md btn-secondary-var-2 offset-3" href="#">learn More</a>
+          <h1 style="color: #f3b143;">FALL SPECIAL</h1>
+          <h2></h2>
+          <h2 class="text-bold text-shadow" style="color: #ffff;">$95 to aerate your ¼ acre lawn!</h2>
+          <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
         </div>
       </section>
       <!-- Testimonials-->
@@ -179,39 +137,56 @@
               <!-- Owl Carousel-->
               <div class="owl-carousel" data-nav="true">
                 <div>
-                  <h3>Sarah black</h3>
-                  <p>I would like to take this opportunity to thank you for the excellent service your <br class="d-none d-xl-block">company provides. Our yard always looks perfect after your professional touch. You are very thorough and always go the extra mile. Thanks again.
+                  <h3>Joyce B.</h3>
+                  <p>We've had other companies stopping by, trying to sell their services, but I tell them that I have a great company that does a wonderful job and am not interested in switching.<br class="d-none d-xl-block">So thanks for doing a great job every year! Consistency & trustworthiness is nice to have in a company!
                   </p>
-                </div>
-                <div>
-                  <h3>linda mayers</h3>
                   <p>
-                    Hi guys! I'm soo impressed! Your service is unbeaten, support staff is so friendly!
-                    Very knowledgeable and professional team. The ultimate result I've received is of the highest
-                    quality ever! And in addition I've saved my money!
+                       
                   </p>
+                  <h6>Leesburg,VA</h6>
                 </div>
                 <div>
-                  <h3>lora smith</h3>
-                  <p>I just wanted to let you know that our property has never looked better. <br class="d-none d-xl-block">What an amazing job your crew does.  Very professional, hard working and show great pride in their work.
+                  <h3>S.K.</h3>
+                  <p>Thank you for your professional work done on my property. It was an excellent job done by the real professional. I would not hesitate to refer you to my neighbour.<br class="d-none d-xl-block">Thank you again for your excellent job done on my property.
                   </p>
+                  <p>
+                       
+                  </p>
+                  <h6>Fairfax,VA</h6>
+                </div>
+                <div>
+                  <h3>Troy H.</h3>
+                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block">It's been a pleasure working with you all. Thank you!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6>Leesburg,VA</h6>
+                </div>
+                <div>
+                  <h3>Becki M.</h3>
+                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block">I'm happy to support a local business.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6>Ashburn,VA</h6>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Perfect Garden-->
+      <!--Seasonal-->
       <section class="bottom">
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-secondary-var-3">
-              <h2>Tuscan <br class="d-none d-lg-block">Landscape <br class="d-none d-lg-block">Design
+              <h2>Seasonal<br class="d-none d-lg-block">Aeration<br class="d-none d-lg-block">Process
               </h2>
               <p>
-                The Tuscan landscape design style blends charm and
-                Old World beauty with modern flair and elegance.
-              </p><a class="btn btn-secondary-var-3 btn-md" href="#">More</a>
+               Aeration is a very seasonal process. With our current demand, we may only be in your area one time this fall. Reserve your spot today to ensure your lawn receives our premium service. 
+              </p><a class="btn btn-secondary-var-3 btn-md" href="sign-up.php">Sign Up Today</a>
               <div class="triangel"></div>
             </div>
             <div class="col-md-7 bg-images-4"></div>
