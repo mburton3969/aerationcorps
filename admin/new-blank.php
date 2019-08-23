@@ -1,6 +1,6 @@
 <?php
-include 'security/session/session-settings.php';
-include 'php/connection.php';
+//include 'security/session/session-settings.php';
+//include 'php/connection.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
