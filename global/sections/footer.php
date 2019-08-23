@@ -11,12 +11,13 @@
             <div class="col-md-3">
               <ul class="inline-list">
                 <li><a class="fl-glypho-facebook2" href="https://www.facebook.com/theaerationcorps/"></a></li>
-                <li><a class="fl-glypho-twitter" href="#"></a></li>
-                <li><a class="fl-glypho-instagram19" href="#"></a></li>
+                <!--<li><a class="fl-glypho-twitter" href="#"></a></li>
+                <li><a class="fl-glypho-instagram19" href="#"></a></li>-->
               </ul>
             </div>
             <div class="col-md-4 text-center text-md-right">
-              <p class="rights copyright"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><a href="https://ignition-innovations.com/">Ignition Innovations</a></p>
+              <p class="rights copyright"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span>The Aeration Corps</p>
+              <p class="rights copyright"><span>Developed By <a href="https://ignition-innovations.com/">Ignition Innovations</a></p>
             </div>
           </div>
         </div>

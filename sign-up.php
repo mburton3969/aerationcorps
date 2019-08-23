@@ -40,7 +40,7 @@
               </p>
               <div class="triangel-var-1"></div>
             </div>
-            <div class="col-md-7 bg-images-10"></div>
+            <div class="col-md-7 bg-images-2"></div>
           </div>
         </div>
       </section>
