@@ -137,7 +137,7 @@
               <p>
                 <ul>
                   <li>
-                    <strong>1.</strong> Sign-up at <a href="TheAerationCorps.com;"> (takes just 60 seconds)
+                    <strong>1.</strong> Sign-up at <a href="index.php">TheAerationCorps.com</a> (takes just 60 seconds)
                   </li>
                   <li>
                     <strong>2.</strong> We schedule your service & notify you prior to service 
