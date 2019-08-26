@@ -34,3 +34,5 @@
 [22-Aug-2019 21:31:59 America/Chicago] PHP Warning:  include(global/sections/includes.php): failed to open stream: No such file or directory in /home3/mburton9/public_html/aerationcorps/admin/new-blank.php on line 225
 [22-Aug-2019 21:31:59 America/Chicago] PHP Warning:  include(global/sections/includes.php): failed to open stream: No such file or directory in /home3/mburton9/public_html/aerationcorps/admin/new-blank.php on line 225
 [22-Aug-2019 21:31:59 America/Chicago] PHP Warning:  include(): Failed opening 'global/sections/includes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/mburton9/public_html/aerationcorps/admin/new-blank.php on line 225
+[24-Aug-2019 08:50:20 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/admin/global/sections/left-sidebar.php on line 18
+[24-Aug-2019 08:50:20 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/mburton9/public_html/aerationcorps/admin/global/sections/left-sidebar.php on line 19

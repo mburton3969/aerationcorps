@@ -3136,7 +3136,7 @@ html body .page .text-primary {
 	}
 }
 
-.bg-images-2:before {
+/*.bg-images-2:before {
 	content: '';
 	background-image: url("../images/acpics/backgrounds/lawn-house-2.jpg");
 	position: absolute;
@@ -3147,7 +3147,7 @@ html body .page .text-primary {
 	bottom: 0;
 	right: 0;
 	z-index: 1;
-}
+}*/
 
 @media (min-width: 992px) {
 	.bg-images-2:before {

@@ -5,11 +5,11 @@
 	<meta name="author" content="hencework"/>
 	
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../images/brand/favicon.PNG">
+	<link rel="icon" href="../images/brand/favicon.PNG" type="image/x-icon">
 	
 	<!-- Morris Charts CSS -->
-    <link href="skin2-assets/vendors/bower_components/morris.js/morris.css" rel="stylesheet" type="text/css"/>
+  <link href="skin2-assets/vendors/bower_components/morris.js/morris.css" rel="stylesheet" type="text/css"/>
 	
 	<!-- Data table CSS -->
 	<link href="skin2-assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css"/>
