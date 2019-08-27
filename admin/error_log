@@ -42,3 +42,19 @@
 [26-Aug-2019 16:19:16 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/admin/service-report.php on line 22
 [26-Aug-2019 16:19:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/admin/service-report.php on line 22
 [26-Aug-2019 17:42:28 America/Chicago] PHP Warning:  main(): Cannot add element searchresults number 1 when only 0 such elements exist in /home3/mburton9/public_html/aerationcorps/admin/test.php on line 13
+[27-Aug-2019 01:44:42 America/Chicago] PHP Warning:  file_get_contents(https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17p4gr0dnnv_38l6u&amp;address=2200 Granville Ave&amp;citystatezip=Muncie, VA 47303): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 89
+[27-Aug-2019 01:45:10 America/Chicago] PHP Warning:  file_get_contents(https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17p4gr0dnnv_38l6u&amp;address=2200 Granville Ave&amp;citystatezip=Muncie, VA 47303): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 90
+[27-Aug-2019 01:47:18 America/Chicago] PHP Warning:  file_get_contents(https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17p4gr0dnnv_38l6u&amp;address=2200 Granville Ave&amp;citystatezip=Muncie, VA 47303): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 90
+[27-Aug-2019 01:49:55 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:55 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:55 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
+[27-Aug-2019 02:01:36 America/Chicago] PHP Fatal error:  Call to undefined function float() in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 93
