@@ -47,7 +47,7 @@
               <a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
             </div>
             <br><br>
-            <div>
+            <div style="border: 5px solid brown;padding:10px;">
             <h3 style="color: #f3b143; text-shadow: 2px 2px #041103;">FALL SPECIAL: $95 to aerate your ¼ acre lawn!</h3>
               <br>
             <h5 class="text-bold text-shadow" style="color: #523329; font-style: italic;">For the price you’d pay to <u>rent an aerator</u>, you can enjoy premium aeration service.</h5>
