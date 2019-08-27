@@ -40,82 +40,47 @@
             <div class="text-center">
               <h2><strong style="color: #384e01;">There’s a reason so many homeowners in NOVA depend on The Aeration Corps</strong></h2>
               <h2 style="color: #523329;">year after year.</h2>
-              <p>
-                  
-                </p>
+              <br>
                 <h6>
                   Some lawncare companies dabble in aeration, <strong style="color: #523329;">but aeration is all we do.</strong> (with optional overseeding & fertilization). With our own commercial equipment and highly trained service techs, we are laser focused on delivering the results you expect.
                 </h6>
-                <p>
-                  
-                </p>
               <a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
-              <p>
-                  
-                </p>
-                <p>
-                  
-                </p>
             </div>
-            <h2 style="color: #f3b143; text-shadow: 2px 2px #041103;">FALL SPECIAL: $95 to aerate your ¼ acre lawn!</h2>
-              <p>
-
-              </p>
-            <h4 class="text-bold text-shadow" style="color: #523329; font-style: italic;">For the price you’d pay to <u>rent an aerator</u>, you can enjoy premium aeration service.</h4>
+            <br><br>
+            <div>
+            <h3 style="color: #f3b143; text-shadow: 2px 2px #041103;">FALL SPECIAL: $95 to aerate your ¼ acre lawn!</h3>
+              <br>
+            <h5 class="text-bold text-shadow" style="color: #523329; font-style: italic;">For the price you’d pay to <u>rent an aerator</u>, you can enjoy premium aeration service.</h5>
               <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
-              <p>
-                  
-                </p>
-                <p>
-                  
-                </p>
-              <h2 style="color: #523329;">Optional Services</h2>
-                <a class="btn btn-default btn-md" href="faq.php">YES, we do offer group discounts!</a>
-                <p>
-                  
-                </p>
-                <p>
-                  
-                </p>
-              <h3 style="color: #523329;"><strong>Overseeding $95</strong></h3>
+             </div>
+              <br><br>
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 style="color: #523329;">Optional Services</h2>
+                <br><br>
+                </div>
+                <div class="col-md-6">
+                 <h3 style="color: #523329;"><strong>Overseeding $95</strong></h3>
                     <p style="font-style: italic;">
                     For ¼ acre lawn.
                     </p>
-                  <p>
-                       
-                  </p>
                   <h6 style="color: #523329;">learn more about our <br> premium turf-type tall fescue overseeding.</h6>
                    <a class="btn btn-default btn-md" href="faq.php"> More </a>
-                   <p>
-
-                    </p>
-                    <p>
-
-                    </p>
-                    <p>
-
-                    </p>
+                </div>
+                <div class="col-md-6">
                   <h3 style="color: #523329;"><strong>Fertilizer $95</strong></h3>
                     <p style="font-style: italic;">
                     For ¼ acre lawn.
                     </p>
-                  <p>
-                       
-                  </p>
                   <h6 style="color: #523329;">learn more about our <br> top-quality organic fertilizer.</h6>
                    <a class="btn btn-default btn-md" href="faq.php"> More </a>
-                   <p>
-
-                    </p>
-                    <p>
-
-                    </p>
-                    <p>
-
-                    </p>
+                   </div>
+                 </div>
+                  <br><br>
                 <h4>
                Aeration is a very seasonal process. <br>With our current demand, we may only be in your area one time this fall. <br> Reserve your spot today to ensure your lawn receives our premium service. 
               </h4>
+                <a class="btn btn-default btn-md" href="faq.php">YES, we do offer group discounts!</a>
               <a class="btn btn-default btn-md" href="sign-up.php">Sign Up Today</a>
           </div>
         </div>
