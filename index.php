@@ -37,7 +37,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-white">
-              <h2><strong style="color: #384e01;">There’s a reason so many homeowners depend on The Aeration Corps</strong></h2>
+              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in NOVA depend on The Aeration Corps</strong></h2>
               <h2 style="color: #523329;">year after year.</h2>
               <p>
                 Some lawncare companies dabble in aeration,  
@@ -66,7 +66,7 @@
           <p>
 
           </p>
-          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">For the price you’d pay to rent an aerator, <br> you can enjoy premium aeration service.</h4>
+          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">For the price you’d pay to <u>rent an aerator</u>, <br> you can enjoy premium aeration service.</h4>
           <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
       </section>
 
@@ -79,7 +79,7 @@
           <div class="row row-xs-center">
             <div class="col-sm-8">
               <!-- Owl Carousel-->
-              <div class="owl-carousel" data-nav="true" style="color: #523329;">
+              <div style="color: #523329;">
                 <div>
                   <h3 style="color: #523329;"><strong>Overseeding $95</strong></h3>
                     <p style="font-style: italic;">
@@ -90,6 +90,15 @@
                   </p>
                   <h6 style="color: #523329;">learn more about our <br> premium turf-type tall fescue overseeding.</h6>
                    <a class="btn btn-default btn-md" href="faq.php"> More </a>
+                   <p>
+
+                    </p>
+                    <p>
+
+                    </p>
+                    <p>
+
+                    </p>
                 </div>
                 <div>
                   <h3 style="color: #523329;"><strong>Fertilizer $95</strong></h3>
