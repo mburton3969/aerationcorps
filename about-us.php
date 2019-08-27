@@ -21,26 +21,23 @@
           <div class="row row-30 text-center offset-4">
             <div class="col-md-4"><img src="images/acpics/backgrounds/lawn-care-3.jpg" width="370" height="500" alt=""></div>
             <div class="col-md-8 text-center text-md-left">
-              <h5 class="text-bold text-uppercase">
-                Why is it vital to have good quality lawn care?
-              </h5>
               <p>
-               The Aeration Corps is a Loudoun County-based company. We have been in the Green Industry for over twenty years – most of that doing aeration. Our purpose and ultimate goals is to delight our customers with excellent service and fair pricing. 
+               The Aeration Corps has been providing core aeration and related services for almost 20 years in Loudoun and surrounding counties. Many lawncare and landscape companies provide aeration services - typically when their regular season ends, using rented equipment.
               </p>
               <p>
                    
               </p>
               <h6>
-                <strong>We strive to deliver the best possible service in the industry.</strong>
+                <strong>We pride ourselves on our highly-trained technicians who specialize in aeration service using our own commercial equipment.</strong>
               </h6>
               <p>
                    
               </p>
               <p>
-                We are licensed and fully insured, equipped with a hard-working, reliable team.
+                Our goal is to delight our customers with excellent service and fair pricing. 
               </p>
               <p>
-                <strong>Plus, our service technicians are highly trained to ensure you get great results!</strong>
+                <strong>We are licensed and fully insured.</strong>
               </p>
             </div>
           </div>
@@ -52,18 +49,18 @@
           <div class="row row-md-reverse">
             <div class="col-md-5 bg-secondary-var-1">
               <h2>
-                How It Works:
+                How To Reserve Your Service:
               </h2>
               <p>
                 <ul>
                   <li>
-                    <strong>1.</strong> You sign up for our services
+                    <strong>1.</strong> Sign-up at <a href="index.php">TheAerationCorps.com</a> (takes just 60 seconds)
                   </li>
                   <li>
-                    <strong>2.</strong> We perform your service with speed and accuracy
+                    <strong>2.</strong> We schedule your service & notify you prior to service 
                   </li>
                   <li>
-                    <strong>3.</strong> You enjoy hassle-free email invoicing
+                    <strong>3.</strong> Payment is due (online or mail) after work is complete
                   </li>
                   <li style="font-style: italic; font-size: 11px">
                     Pay securely online OR mail in payment
@@ -72,37 +69,7 @@
               </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
               <div class="triangel-var-1"></div>
             </div>
-            <div class="col-md-7 bg-images-10"></div>
-          </div>
-        </div>
-      </section>
-      <!-- Qualtiy Customer Care-->
-      <?php include 'about/sections/quality-care.php'; ?>
-    
-      <!-- Break-->
-      <section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f3b243;">
-        <div class="container text-center">
-          <div class="row row-xs-center">
-            <h1 style="color: #523329; font-size: 85px">you will not be dissappointed</h1>
-          </div>
-        </div>
-      </section>
-       <!--Seasonal-->
-      <section class="bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5 bg-secondary-var-3">
-              <h2>Why<br class="d-none d-lg-block">Overseed?</h2>
-              <p>
-               Overseeding will contribute to <strong>NEW GROWTH</strong> <br>and a uniform appearance to your lawn. 
-              </p>
-              <p>
-               Thick, healthy turf is your <strong>BEST DEFENCE</strong> <br>against weeds! 
-              </p>
-                <a class="btn btn-secondary-var-3 btn-md" href="sign-up.php">Sign Up Today</a>
-              <div class="triangel"></div>
-            </div>
-            <div class="col-md-7 bg-images-2"></div>
+            <div class="col-md-7 reg-bg"></div>
           </div>
         </div>
       </section>

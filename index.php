@@ -37,110 +37,79 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-white">
-              <h2>Our mission:</h2>
-              <h2><strong style="color: #384e01;">Excellent Service</strong></h2>
-              <h2 style="color: #523329;">Affordable Prices</h2>
+              <h2><strong style="color: #384e01;">There’s a reason so many homeowners depend on The Aeration Corps</strong></h2>
+              <h2 style="color: #523329;">year after year.</h2>
               <p>
-                There’s a reason why we aerate more lawns than anyone else in Northern VA. <strong style="color: #523329;">This is all we do.</strong>
-              </p><a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
+                Some lawncare companies dabble in aeration,  
+                </p>
+                <h6>
+                  <strong style="color: #523329;">but aeration is all we do.</strong> 
+                </h6>
+                <p style="font-style: italic;">
+                  (with optional overseeding & fertilization).
+                </p>
+                <p>
+                  With our own commercial equipment and highly trained service techs, we are laser focused on delivering the results you expect.
+                </p>
+              <a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
               <div class="triangel"></div>
             </div>
             <div class="col-md-7 bg-images-1"></div>
           </div>
         </div>
       </section>
-      <!-- How it Works-->
-      <section>
-        <div class="container">
-          <div class="row row-md-reverse">
-            <div class="col-md-5 bg-secondary-var-1">
-              <h2>
-                How It Works:
-              </h2>
-              <p>
-                <ul>
-                  <li>
-                    <strong>1.</strong> You sign up for our services
-                  </li>
-                  <li>
-                    <strong>2.</strong> We perform your service with speed and accuracy
-                  </li>
-                  <li>
-                    <strong>3.</strong> You enjoy hassle-free email invoicing
-                  </li>
-                  <li style="font-style: italic; font-size: 11px">
-                    Pay securely online OR mail in payment
-                  </li>
-                </ul>
-              </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
-              <div class="triangel-var-1"></div>
-            </div>
-            <div class="col-md-7 reg-bg"></div>
-          </div>
-        </div>
-      </section>
-      <!-- Qualtiy Customer Care-->
-      <?php include 'about/sections/quality-care.php'; ?>
-    
       <!-- FALL SPECIAL-->
       <section class="well-xl-var-1 lawn-turf">
         <div class="container text-center">
           <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">FALL SPECIAL</h1>
-          <h2></h2>
           <h2 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">$95 to aerate your ¼ acre lawn!</h2>
+          <p>
+
+          </p>
+          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">For the price you’d pay to rent an aerator, <br> you can enjoy premium aeration service.</h4>
           <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
-        </div>
       </section>
-      <!-- Testimonials-->
-      <section class="well-lg well-lg-var-2 bg-secondary-var-2">
+
+       <!-- Optional Services-->
+      <section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f3b243;">
         <div class="container text-center">
-          <h2>testimonials</h2>
+          <h2 style="color: #523329;">Optional Services</h2>
+          <a class="btn btn-default btn-md" style="background: transparent;" href="faq.php">YES, we do offer group discounts!</a>
           <div class="divider divider-5"></div>
           <div class="row row-xs-center">
             <div class="col-sm-8">
               <!-- Owl Carousel-->
-              <div class="owl-carousel" data-nav="true">
+              <div class="owl-carousel" data-nav="true" style="color: #523329;">
                 <div>
-                  <h3>Joyce B.</h3>
-                  <p>We've had other companies stopping by, trying to sell their services, but I tell them that I have a great company that does a wonderful job and am not interested in switching.<br class="d-none d-xl-block">So thanks for doing a great job every year! Consistency & trustworthiness is nice to have in a company!
-                  </p>
+                  <h3 style="color: #523329;"><strong>Overseeding $95</strong></h3>
+                    <p style="font-style: italic;">
+                    For ¼ acre lawn.
+                    </p>
                   <p>
                        
                   </p>
-                  <h6>Leesburg,VA</h6>
+                  <h6 style="color: #523329;">learn more about our <br> premium turf-type tall fescue overseeding.</h6>
+                   <a class="btn btn-default btn-md" href="faq.php"> More </a>
                 </div>
                 <div>
-                  <h3>S.K.</h3>
-                  <p>Thank you for your professional work done on my property. It was an excellent job done by the real professional. I would not hesitate to refer you to my neighbour.<br class="d-none d-xl-block">Thank you again for your excellent job done on my property.
-                  </p>
+                  <h3 style="color: #523329;"><strong>Fertilizer $95</strong></h3>
+                    <p style="font-style: italic;">
+                    For ¼ acre lawn.
+                    </p>
                   <p>
                        
                   </p>
-                  <h6>Fairfax,VA</h6>
+                  <h6 style="color: #523329;">learn more about our <br> top-quality organic fertilizer.</h6>
+                   <a class="btn btn-default btn-md" href="faq.php"> More </a>
                 </div>
-                <div>
-                  <h3>Troy H.</h3>
-                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block">It's been a pleasure working with you all. Thank you!
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6>Leesburg,VA</h6>
-                </div>
-                <div>
-                  <h3>Becki M.</h3>
-                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block">I'm happy to support a local business.
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6>Ashburn,VA</h6>
+                
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!--Seasonal-->
       <section class="bottom">
         <div class="container">
@@ -157,6 +126,87 @@
           </div>
         </div>
       </section>
+      <!-- How it Works-->
+      <section>
+        <div class="container">
+          <div class="row row-md-reverse">
+            <div class="col-md-5 bg-secondary-var-1">
+              <h2>
+                How To Reserve Your Service:
+              </h2>
+              <p>
+                <ul>
+                  <li>
+                    <strong>1.</strong> Sign-up at <a href="index.php">TheAerationCorps.com</a> (takes just 60 seconds)
+                  </li>
+                  <li>
+                    <strong>2.</strong> We schedule your service & notify you prior to service 
+                  </li>
+                  <li>
+                    <strong>3.</strong> Payment is due (online or mail) after work is complete
+                  </li>
+                  <li style="font-style: italic; font-size: 11px">
+                    Pay securely online OR mail in payment
+                  </li>
+                </ul>
+              </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
+              <div class="triangel-var-1"></div>
+            </div>
+            <div class="col-md-7 reg-bg"></div>
+          </div>
+        </div>
+      </section>
+       <!-- Testimonials-->
+      <section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f3b243;">
+        <div class="container text-center">
+          <h2 style="color: #523329;">testimonials</h2>
+          <div class="divider divider-5"></div>
+          <div class="row row-xs-center">
+            <div class="col-sm-8">
+              <!-- Owl Carousel-->
+              <div class="owl-carousel" data-nav="true" style="color: #523329;">
+                <div>
+                  <h3 style="color: #523329;">Joyce B.</h3>
+                  <p>We've had other companies stopping by, trying to sell their services, but I tell them that I have a great company that does a wonderful job and am not interested in switching.<br class="d-none d-xl-block">So thanks for doing a great job every year! Consistency & trustworthiness is nice to have in a company!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <div>
+                  <h3 style="color: #523329;">S.K.</h3>
+                  <p>Thank you for your professional work done on my property. It was an excellent job done by the real professional. I would not hesitate to refer you to my neighbour.<br class="d-none d-xl-block">Thank you again for your excellent job done on my property.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Fairfax,VA</h6>
+                </div>
+                <div>
+                  <h3 style="color: #523329;">Troy H.</h3>
+                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block">It's been a pleasure working with you all. Thank you!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <div>
+                  <h3 style="color: #523329;">Becki M.</h3>
+                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block">I'm happy to support a local business.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Ashburn,VA</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
       <!--Google Map-->
       <section class="section">
         <!--Please, add the data attribute data-key="YOUR_API_KEY" in order to insert your own API key for the Google map.-->
