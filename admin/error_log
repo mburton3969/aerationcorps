@@ -36,3 +36,9 @@
 [22-Aug-2019 21:31:59 America/Chicago] PHP Warning:  include(): Failed opening 'global/sections/includes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/mburton9/public_html/aerationcorps/admin/new-blank.php on line 225
 [24-Aug-2019 08:50:20 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/admin/global/sections/left-sidebar.php on line 18
 [24-Aug-2019 08:50:20 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/mburton9/public_html/aerationcorps/admin/global/sections/left-sidebar.php on line 19
+[26-Aug-2019 15:22:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 91
+[26-Aug-2019 15:23:06 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 78
+[26-Aug-2019 16:18:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/mburton9/public_html/aerationcorps/admin/service-report.php on line 108
+[26-Aug-2019 16:19:16 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/admin/service-report.php on line 22
+[26-Aug-2019 16:19:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/admin/service-report.php on line 22
+[26-Aug-2019 17:42:28 America/Chicago] PHP Warning:  main(): Cannot add element searchresults number 1 when only 0 such elements exist in /home3/mburton9/public_html/aerationcorps/admin/test.php on line 13

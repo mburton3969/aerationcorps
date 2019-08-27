@@ -1,8 +1,11 @@
 <?php
-include '../../global/php/connection.php';
+include '../../../global/php/connection.php';
 //print_r($_POST);
 
 //Load Variables...
+$mode = $_POST['form_mode'];
+$cid = $_POST['form_cid'];
+
 $ip = $_SERVER['REMOTE_ADDR'];
 $cust_type = $_POST['cust_type'];
 $fname = mysqli_real_escape_string($conn, $_POST['fname']);
@@ -30,8 +33,10 @@ $prop_unique = $_POST['prop_unique'];
 $prop_gate = $_POST['prop_gate'];
 $comments = mysqli_real_escape_string($conn, $_POST['comments']);
 $terms_ack = $_POST['terms_cb'];
+$int_comments = mysqli_real_escape_string($conn, $_POST['internal_comments']);
 
 
+if($mode == 'New'){
 //INSERT Customer...
 $iq = "INSERT INTO `customers`
        (
@@ -64,6 +69,7 @@ $iq = "INSERT INTO `customers`
        `prop_unique`,
        `prop_gate`,
        `comments`,
+       `internal_comments`,
        `terms_ack`,
        `inactive`
        )
@@ -72,7 +78,7 @@ $iq = "INSERT INTO `customers`
        CURRENT_DATE,
        NOW() + 1,
        '" . $ip . "',
-       'Customer',
+       'Manual Entry',
        '" . $cust_type . "',
        '" . $fname . "',
        '" . $lname . "',
@@ -98,10 +104,52 @@ $iq = "INSERT INTO `customers`
        '" . $prop_unique . "',
        '" . $prop_gate . "',
        '" . $comments . "',
+       '" . $int_comments . "',
        '" . $terms_ack . "',
        'No'
        )";
 mysqli_query($conn, $iq) or die('ERROR CODE 28583: ' . $conn->error);
 
 echo 'Your form was submitted successfully!';
+}
+
+if($mode == 'Edit'){
+  $uq = "UPDATE `customers` SET
+       `cust_type` = '" . $cust_type . "',
+       `fname` = '" . $fname . "',
+       `lname` = '" . $lname . "',
+       `address` = '" . $address . "',
+       `address2` = '" . $address2 . "',
+       `city` = '" . $city . "',
+       `state` = '" . $state . "',
+       `zip` = '" . $zip . "',
+       `county` = '" . $county . "',
+       `lot_size` = '" . $lot_size . "',
+       `day_phone` = '" . $day_phone . "',
+       `ext` = '" . $ext . "',
+       `night_phone` = '" . $night_phone . "',
+       `email` = '" . $email . "',
+       `email_ack` = '" . $email_ack . "',
+       `aeration` = '" . $aeration . "',
+       `overseeding` = '" . $overseeding . "',
+       `double_aeration` = '" . $double_aeration . "',
+       `double_overseeding` = '" . $double_overseeding . "',
+       `fertilizer` = '" . $fertilizer . "',
+       `prop_maintain` = '" . $prop_maintain . "',
+       `prop_identify` = '" . $prop_identify . "',
+       `prop_unique` = '" . $prop_unique . "',
+       `prop_gate` = '" . $prop_gate . "',
+       `comments` = '" . $comments . "',
+       `internal_comments` = '" . $int_comments . "',
+       `terms_ack` = '" . $terms_ack . "',
+       `inactive` = 'No'
+       WHERE `ID` = '" . $cid . "'";
+  mysqli_query($conn, $uq) or die($conn->error);
+  
+  echo 'The Customer has been updated!';
+}
+
+echo '<script>
+        window.location = "../../customers.php";
+      </script>';
 ?>

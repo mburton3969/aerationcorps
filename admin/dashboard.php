@@ -1,6 +1,6 @@
 <?php
-//include 'security/session/session-settings.php';
-//include 'php/connection.php';
+include '../global/php/connection.php';
+include 'global/php/security.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,7 @@
 
 
             	<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<!--<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                        <div class="panel panel-default card-view panel-refresh">
 							<div class="refresh-container">
 								<div class="la-anim-1"></div>
@@ -38,17 +38,6 @@
 									<h6 class="panel-title txt-dark">Visit by Traffic Types</h6>
 								</div>
 								<div class="pull-right">
-									<!--<a href="#" class="pull-left inline-block refresh mr-15">
-										<i class="zmdi zmdi-replay"></i>
-									</a>-->
-									<!--<div class="pull-left inline-block dropdown">
-										<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false" role="button"><i class="zmdi zmdi-more-vert"></i></a>
-										<ul class="dropdown-menu bullet dropdown-menu-right"  role="menu">
-											<li role="presentation"><a href="javascript:void(0)" role="menuitem"><i class="icon wb-reply" aria-hidden="true"></i>Devices</a></li>
-											<li role="presentation"><a href="javascript:void(0)" role="menuitem"><i class="icon wb-share" aria-hidden="true"></i>General</a></li>
-											<li role="presentation"><a href="javascript:void(0)" role="menuitem"><i class="icon wb-trash" aria-hidden="true"></i>Referral</a></li>
-										</ul>
-									</div>-->
 								</div>
 								<div class="clearfix"></div>
 							</div>
@@ -87,7 +76,7 @@
 								</div>	
 							</div>
 						</div>
-					</div>
+					</div>-->
 								
 					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 						<div class="panel panel-default card-view pa-0">

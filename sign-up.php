@@ -25,11 +25,10 @@
 							<h3 style="color:black;">Customer Type</h3>
 							<p style="color:red;font-weight:bold;" id="cust_error"></p>
 						</div>
-						<div class="col-md-6">
-         		  <input type="radio" class="form-control" name="cust_type" id="cust_type_new" value="New" style="-webkit-appearance: radio;" /> New Customer
-						</div>
-						<div class="col-md-6">
-         		  <input type="radio" class="form-control" name="cust_type" id="cust_type_return" value="Return" style="-webkit-appearance: radio;" /> Return Customer
+						<div class="col-md-12 text-center">
+         		  <input type="radio" class="" name="cust_type" id="cust_type_new" value="New" style="-webkit-appearance: radio;" /> New Customer
+						  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         		  <input type="radio" class="" name="cust_type" id="cust_type_return" value="Return" style="-webkit-appearance: radio;" /> Return Customer
 						</div>
 					</div>
 					

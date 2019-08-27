@@ -29,7 +29,7 @@
 					</li>-->
 					<li class="dropdown auth-drp">
 						<a href="#" class="dropdown-toggle pr-0" data-toggle="dropdown" style="line-height:0px;">
-							<i class="zmdi zmdi-account zmdi-hc-lg" style="line-height:3.5em;vertical-align:0px;"></i><span> <?php echo $_SESSION['op_full_name']; ?></span>
+							<i class="zmdi zmdi-account zmdi-hc-lg" style="line-height:3.5em;vertical-align:0px;"></i><span> <?php echo $_SESSION['full_name']; ?></span>
 							<i class="zmdi zmdi-caret-down"></i>
 							<!--<img src="dist/img/user1.png" alt="user_auth" class="user-auth-img img-circle"/>-->
 							<!--<span class="user-online-status"></span>-->
@@ -39,7 +39,7 @@
 								<a href="#"><i class="zmdi zmdi-settings"></i><span>My Account</span></a>
 							</li>-->
               <li>
-								<a href="mailto:support@marketforceapp.com?subject=Customer%20Portal%20Bug%20Report&body=I%20am%20having%20an%20issue%20with%20the%20following:"><i class="zmdi zmdi-bug"></i><span>Report A Bug</span></a>
+								<a href="mailto:info@ignition-innovations.com?subject=Portal%20Bug%20Report&body=I%20am%20having%20an%20issue%20with%20the%20following:"><i class="zmdi zmdi-bug"></i><span>Report A Bug</span></a>
 							</li>
 							<li class="divider"></li>
 							<li>
