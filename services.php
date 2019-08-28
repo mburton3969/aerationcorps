@@ -188,7 +188,7 @@
               </p>
               <div class="triangel"></div>
             </div>
-            <div class="col-md-7 bg-images-11"></div>
+            <div class="col-md-7 bg-images-10"></div>
           </div>
         </div>
       </section>
