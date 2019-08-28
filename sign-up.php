@@ -240,7 +240,7 @@
 				</form>
 			</section>
 			
-      <section>
+      <!--<section>
         <div class="container">
           <div class="row row-md-reverse">
             <div class="col-md-5 bg-secondary-var-1">
@@ -260,7 +260,7 @@
             <div class="col-md-7 bg-images-2" style="background-size:cover !Important;background-position: 80% 30% !Important;"></div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- *** Page Content Ends Here *** -->
 
     <!-- Page Footer-->

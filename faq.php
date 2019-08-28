@@ -111,7 +111,7 @@
         </div>
       </section>
        <!-- Our Promise-->
-      <section>
+      <!--<section>
         <div class="container">
           <div class="row row-md-reverse">
             <div class="col-md-5 bg-secondary-var-1">
@@ -127,7 +127,7 @@
             <div class="col-md-7 bg-images-2"></div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- *** Page Content Ends Here *** -->
 
     <!-- Page Footer-->
