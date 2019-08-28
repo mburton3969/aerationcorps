@@ -261,7 +261,7 @@
                 <!-- T4 -->
                 <div>
                   <h3 style="color: #523329;">Troy H.</h3>
-                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block">It's been a pleasure working with you all. Thank you!
+                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block"> It's been a pleasure working with you all. Thank you!
                   </p>
                   <p>
                        
@@ -271,7 +271,7 @@
                 <!-- T5 -->
                 <div>
                   <h3 style="color: #523329;">Becki M.</h3>
-                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block">I'm happy to support a local business.
+                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block"> I'm happy to support a local business.
                   </p>
                   <p>
                        
@@ -651,12 +651,212 @@
                 <!-- T43 -->
                 <div>
                   <h3 style="color: #523329;">J.B.</h3>
-                  <p>I had my lawn serviced yesterday and I am very pleased with the job the technicians did. <br class="d-none d-xl-block">YThank you again for a great job.
+                  <p>I had my lawn serviced yesterday and I am very pleased with the job the technicians did. <br class="d-none d-xl-block">Thank you again for a great job.
                   </p>
                   <p>
                        
                   </p>
                   <h6 style="color: #523329;">Haymarket,VA</h6>
+                </div>
+                <!-- T44 -->
+                <div>
+                  <h3 style="color: #523329;">D.J.</h3>
+                  <p>Happy to be a repeat customer again this year. <br class="d-none d-xl-block">You guys do a great job.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T45 -->
+                <div>
+                  <h3 style="color: #523329;">Sam A.</h3>
+                  <p>Many thanks for the service, it was thoroughly done.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Herndon,VA</h6>
+                </div>
+                <!-- T46 -->
+                <div>
+                  <h3 style="color: #523329;">Stan M.</h3>
+                  <p>Thanks again!  The lawn has done very well since you have been doing the fall aeration.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Potomac Falls,VA</h6>
+                </div>
+                <!-- T47 -->
+                <div>
+                  <h3 style="color: #523329;">Sue Y.</h3>
+                  <p>Thank you. Looks like your crew did a great job.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Warrenton,VA</h6>
+                </div>
+                <!-- T48 -->
+                <div>
+                  <h3 style="color: #523329;">Brooke G.</h3>
+                  <p>I did this last year and my yard never looked better. <br class="d-none d-xl-block">You did an excellent job!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T49 -->
+                <div>
+                  <h3 style="color: #523329;">Tom S.</h3>
+                  <p>Your workers did a great job aerating my lawn today.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Vienna,VA</h6>
+                </div>
+                <!-- T50 -->
+                <div>
+                  <h3 style="color: #523329;">Beth W.</h3>
+                  <p>Thank you. The guys were great and very nice and polite!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T51 -->
+                <div>
+                  <h3 style="color: #523329;">Kevin C.</h3>
+                  <p>I wanted to let you know how absolutely great the team was that came here yesterday to aerate and over seed our lawn. <br class="d-none d-xl-block">Very professional, courteous, prompt - I was very impressed... <br class="d-none d-xl-block">Once again, my wife and I are so pleased with your company and will be a permanent client.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T52 -->
+                <div>
+                  <h3 style="color: #523329;">Sue Y.</h3>
+                  <p>Thanks, guys. The lawn looks GREAT after your aeration and overseeding... <br class="d-none d-xl-block">Will recommend you to all my neighbors.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Warrenton,VA</h6>
+                </div>
+                 <!-- T53 -->
+                <div>
+                  <h3 style="color: #523329;">M.L.</h3>
+                  <p>Thank you for the great service. Please send me the invoice for the double aeration and one-time overseeding. <br class="d-none d-xl-block">You guys did a terrific job.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Fairfax,VA</h6>
+                </div>
+                <!-- T54 -->
+                <div>
+                  <h3 style="color: #523329;">David F.</h3>
+                  <p>Good job! Thank you!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Ashburn,VA</h6>
+                </div>
+                <!-- T55 -->
+                <div>
+                  <h3 style="color: #523329;">Tom W.</h3>
+                  <p>[My mowing company] said you did a good job.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Herndon,VA</h6>
+                </div>
+                <!-- T56 -->
+                <div>
+                  <h3 style="color: #523329;">Cheryl D.</h3>
+                  <p>My lawn is healthy due in large part to the great aeration job you do!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Arlington,VA</h6>
+                </div>
+                <!-- T57 -->
+                <div>
+                  <h3 style="color: #523329;">Bob H.</h3>
+                  <p>I want to commend you and your crew on the excellent results, not only on my lawn, but a few others I spoke to today... <br class="d-none d-xl-block">Everybody I spoke to was extremely pleased with the results of their service. <br class="d-none d-xl-block">You have made my task of selling your company to others very easy.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T58 -->
+                <div>
+                  <h3 style="color: #523329;">Don B.</h3>
+                  <p>Thank you for the excellent job on our lawn!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Aldie,VA</h6>
+                </div>
+                <!-- T59 -->
+                <div>
+                  <h3 style="color: #523329;">M.B.</h3>
+                  <p>Thank you for the good job!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Clifton,VA</h6>
+                </div>
+                <!-- T60 -->
+                <div>
+                  <h3 style="color: #523329;">O.C.</h3>
+                  <p>Our grass [is starting] to look good and green thanks to your work...
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Sterling,VA</h6>
+                </div>
+                <!-- T61 -->
+                <div>
+                  <h3 style="color: #523329;">James J.</h3>
+                  <p>Great job on my lawn today!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T62 -->
+                <div>
+                  <h3 style="color: #523329;">Joyce B.</h3>
+                  <p>Thanks! Your men did a great job - got all the corners - covered everything!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T63 -->
+                <div>
+                  <h3 style="color: #523329;">David K.</h3>
+                  <p>Great job! Thanks!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Lovettsville,VA</h6>
                 </div>
                 <!-- End Testimonials-->
               </div>
