@@ -3321,10 +3321,11 @@ html body .page .text-primary {
 
 .bg-images-9:before {
 	content: '';
-	background-image: url("../images/acpics/backgrounds/fertilizer.jpg");
+	background-image: url("../images/acpics/uniform-lawn.jpg");
 	position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 50% 50%;
 	top: 0;
 	left: 0;
 	bottom: 0;
