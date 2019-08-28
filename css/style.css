@@ -3400,7 +3400,7 @@ html body .page .text-primary {
 @media (min-width: 992px) {
 	.bg-images-10:before {
 		left: -42vw;
-		right: 53px;
+		/*right: 53px;*/
 		background-position: right top;
 	}
 }
