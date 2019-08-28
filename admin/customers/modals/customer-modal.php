@@ -9,57 +9,59 @@
         
         
         <form id="portal_signup_form" action="customers/php/portal-signup-form-handler.php" method="POST">
-					<div class="row mb-65 text-center">
-						<div class="col-md-12">
-							<h3>Customer Type</h3>
+					<div class="row mb-15 text-center">
+						<div class="col-md-6">
+							<h5>Customer Type</h5>
 							<p style="color:red;font-weight:bold;" id="cust_error"></p>
 						</div>
-						<div class="col-md-12 text-center">
+						<div class="col-md-6 text-center">
          		  <input type="radio" class="" name="cust_type" id="cust_type_new" value="New" style="-webkit-appearance: radio;" /> New Customer
 						  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          		  <input type="radio" class="" name="cust_type" id="cust_type_return" value="Return" style="-webkit-appearance: radio;" /> Return Customer
 						</div>
 					</div>
 					
-					<div class="row mb-65">
-						<div class="col-md-12 text-center">
-							<h3>Customer Name</h3>
+					<div class="row mb-15">
+						<div class="col-md-6 text-center">
+							<h5>Customer Name</h5>
 							<p style="color:red;font-weight:bold;" id="name_error"></p>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<input type="text" class="form-input form-control" id="fname" name="fname" placeholder="First Name" />
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<input type="text" class="form-input form-control" id="lname" name="lname" placeholder="Last Name" />
 						</div>
 					</div>
 					
-					<div class="row mb-35">
-						<div class="col-md-12 text-center">
-							<h3>Customer Address</h3>
+					<div class="row mb-15">
+						<div class="col-md-6 text-center">
+							<h5>Customer Address</h5>
 							<p style="color:red;font-weight:bold;" id="address_error"></p>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<input type="text" class="form-input form-control" id="address" name="address" placeholder="Address Line 1" />
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<input type="text" class="form-input form-control" id="address2" name="address2" placeholder="Address Line 2" />
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-6"></div>
+						<div class="col-md-2">
 							<input type="text" class="form-input form-control" id="city" name="city" placeholder="City" />
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-2">
 							<select class="form-input form-control" id="state" name="state">
 								<option value="VA">VA</option>
 							</select>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-2">
 							<input type="text" class="form-input form-control zipCode" id="zip" name="zip" placeholder="Zip Code" />
 						</div>
 					</div>
 					
-					<div class="row mb-65">
-						<div class="col-md-6">
+					<div class="row mb-15">
+						<div class="col-md-6"></div>
+						<div class="col-md-3">
 							<label for="county">County:</label>
 							<select class="form-input form-control" id="county" name="county">
 								<option value="Loudoun">Loudoun</option>
@@ -70,7 +72,7 @@
 								<option value="Other">Other</option>
 							</select>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<label for="lot_size">Lot Size:</label>
 							<select class="form-input form-control" id="lot_size" name="lot_size">
 								<option value="">Select Lot Size</option>
@@ -85,51 +87,52 @@
 						</div>
 					</div>
 					
-					<div class="row mb-65">
-						<div class="col-md-12 text-center">
-							<h3>Contact Info</h3>
+					<div class="row mb-15">
+						<div class="col-md-6 text-center">
+							<h5>Contact Info</h5>
 							<p style="color:red;font-weight:bold;" id="contact_error"></p>
 						</div>
-						<div class="col-md-5">
+						<div class="col-md-4">
 							<input type="text" class="form-input form-control phone_us" id="day_phone" name="day_phone" placeholder="Day Time Phone" />
 						</div>
 						<div class="col-md-2">
 							<input type="text" class="form-input form-control" id="ext" name="ext" placeholder="Ext." />
 						</div>
-						<div class="col-md-5">
+						<div class="col-md-6"></div>
+						<div class="col-md-4">
 							<input type="text" class="form-input form-control phone_us" id="night_phone" name="night_phone" placeholder="Evening Phone" />
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6"></div>
+						<div class="col-md-3">
 							<input type="text" class="form-input form-control" id="email" name="email" placeholder="Email" />
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<input type="text" class="form-input form-control" id="vemail" name="vemail" placeholder="Verify Email" />
 						</div>
 					</div>
 					
-					<div class="row mb-65">
-						<div class="col-md-12">
-							<h3>Work to Perform:</h3>
+					<div class="row mb-15">
+						<div class="col-md-3 text-center">
+							<h5>Work to Perform:</h5>
 							<p style="color:red;font-weight:bold;" id="work_error"></p>
 						</div>
-						<div class="col-md-12">
+						<div class="col-md-9">
 							<input type="checkbox" class="" id="aeration" name="aeration" style="-webkit-appearance:checkbox;"/> Aeration
 							&nbsp;&nbsp;&nbsp;&nbsp;
-							<br><br>
 							<input type="checkbox" class="" id="overseeding" name="overseeding" style="-webkit-appearance:checkbox;"/> Overseeding
-							<br><br>
-							<input type="checkbox" class="" id="double_aeration" name="double_aeration" style="-webkit-appearance:checkbox;"/> Double Aeration <small style="display:inline;">(1 1/2 times the standard cost to Aerate your Lot Size)</small>
-							<br><br>
-							<input type="checkbox" class="" id="double_overseeding" name="double_overseeding" style="-webkit-appearance:checkbox;"/> Double Overseeding <small style="display:inline;">(twice the standard cost to Overseed your Lot Size)</small>
-							<br><br>
-							<input type="checkbox" class="" id="fertilizer" name="fertilizer" style="-webkit-appearance:checkbox;"/> Application of Premium Organic Fertilizer <small style="display:inline;">(see Services Page for pricing)</small>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="checkbox" class="" id="double_aeration" name="double_aeration" style="-webkit-appearance:checkbox;"/> Double Aeration
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="checkbox" class="" id="double_overseeding" name="double_overseeding" style="-webkit-appearance:checkbox;"/> Double Overseeding
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="checkbox" class="" id="fertilizer" name="fertilizer" style="-webkit-appearance:checkbox;"/> Organic Fertilizer
 						</div>
 					</div>
 			
 					
-					<div class="row mb-65">
+					<div class="row mb-15">
 						<div class="col-md-12">
-							<h3>Property Questions</h3>
+							<h5>Property Questions</h5>
 							<p style="color:red;font-weight:bold;" id="question_error"></p>
 							<p>
 							Do you maintain any portion of property that is not technically yours (common grounds, public parkland, etc.) that you wish us to service?
@@ -164,11 +167,15 @@
 							
 					<div class="row mb-25">
 							<p style="color:red;font-weight:bold;" id="comments_terms_error"></p>
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<label for="comments">Customer Comments:</label>
 							<textarea id="comments" name="comments" class="form-input form-control" style="min-height:150px;"></textarea>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-4">
+							<label for="special_requests">Special Requests:</label>
+							<textarea id="special_requests" name="special_requests" class="form-input form-control" style="min-height:150px;"></textarea>
+						</div>
+						<div class="col-md-4">
 							<label for="internal_comments">Internal Comments:</label>
 							<textarea id="internal_comments" name="internal_comments" class="form-input form-control" style="min-height:150px;"></textarea>
 						</div>

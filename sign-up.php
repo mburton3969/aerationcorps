@@ -204,12 +204,12 @@
 					<div class="row">
 							<p style="color:red;font-weight:bold;" id="comments_terms_error"></p>
 						<div class="col-md-6">
-							<label for="comments">Comments:</label>
+							<label for="comments">Comments (Info we need to know for your service):</label>
 							<textarea id="comments" name="comments" class="form-input form-control"></textarea>
 						</div>
 						<div class="col-md-6">
-							<br><br>
-							<img src="images/acpics/payment-options.gif" />
+							<label for="special_requests">Special Requests (Regarding scheduling or pricing):</label>
+							<textarea id="special_requests" name="special_requests" class="form-input form-control"></textarea>
 						</div>
 						<div class="col-md-12">
 							<br>
@@ -217,7 +217,13 @@
 								<input type="checkbox" id="terms_cb" name="terms_cb" style="-webkit-appearance:checkbox;" />
 								I agree to all of the TERMS AND CONDITIONS <u>below</u> AND I understand that I will be given the option to pay my Invoice online using my Visa, MasterCard, Discover, American Express card or my check.
 							</p>
+							<br>
+						</div>
+						<div class="col-md-6">
 							<button type="button" class="btn btn-default btn-md" onclick="submit_signup_form();">Submit</button>
+						</div>
+						<div class="col-md-6">
+							<img src="images/acpics/payment-options.gif" />
 						</div>
 					</div>
 					

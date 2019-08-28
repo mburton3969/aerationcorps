@@ -38,6 +38,7 @@ $x->prop_identify = $r['prop_identify'];
 $x->prop_unique = $r['prop_unique'];
 $x->prop_gate = $r['prop_gate'];
 $x->comments = $r['comments'];
+$x->special_requests = $r['special_requests'];
 $x->internal_comments = $r['internal_comments'];
 $x->serviced_date = date("m/d/Y",strtotime($r['serviced_date']));
 $x->invoiced_date = date("m/d/Y",strtotime($r['invoiced_date']));

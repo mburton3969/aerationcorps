@@ -215,6 +215,7 @@ function load_form(mode,cid){
           }
           
           document.getElementById('comments').value = r.comments;
+          document.getElementById('special_requests').value = r.special_requests;
           document.getElementById('internal_comments').value = r.internal_comments;
           document.getElementById('form_cid').value = r.ID;
           console.log('Customer '+r.ID+' Loaded Successfully...');

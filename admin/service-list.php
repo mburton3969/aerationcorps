@@ -47,8 +47,20 @@ include '../global/php/connection.php';
         <td>' . $cr['address'] . ' ' . $cr['address2'] . '</td>
         <td>' . $cr['city'] . '</td>
         <td>' . $cr['zip'] . '</td>
-        <td class="header">DA</td>
-        <td class="header"></td>
+        <td class="header">';
+          if($cr['double_aeration'] == 'on'){
+            echo 'DA';
+          }elseif($cr['aeration'] == 'on'){
+            echo 'A';
+          }
+  echo '</td>
+        <td class="header">';
+          if($cr['double_overseeding'] == 'on'){
+            echo 'DO';
+          }elseif($cr['overseeding'] == 'on'){
+            echo 'O';
+          }
+  echo '</td>
       </tr>
       <tr>
         <td colspan="2">Lot Size:&nbsp;&nbsp;';
@@ -87,7 +99,11 @@ include '../global/php/connection.php';
             echo 'Eve: ' . $cr['night_phone'];
           }
   echo '</td>
-        <td class="header">F</td>
+        <td class="header">';
+          if($cr['fertilizer'] == 'on'){
+            echo 'F';
+          }
+  echo '</td>
       </tr>
       <tr>
         <td colspan="7">
@@ -100,7 +116,12 @@ include '../global/php/connection.php';
           }else{
             $ct = 'Old Customer';
           }
-          echo $ct . '&nbsp;&nbsp;&nbsp;&nbsp;Customer States:&nbsp;&nbsp;&nbsp;&nbsp;' . $cr['comments'] . '</td>
+          if($cr['prop_gate'] === 'Yes'){
+            $gated = '<b>[Gated Community]</b>';
+          }else{
+            $gated = '';
+          }
+          echo $ct . '&nbsp;&nbsp;&nbsp;&nbsp;Customer States:&nbsp;&nbsp;' . $gated . '&nbsp;&nbsp;' . $cr['comments'] . '. <b>Internal Notes</b>: ' . $cr['internal_comments'] . '</td>
       </tr>
       <tr>
         <td height="10"></td>

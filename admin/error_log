@@ -58,3 +58,4 @@
 [27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
 [27-Aug-2019 01:49:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 92
 [27-Aug-2019 02:01:36 America/Chicago] PHP Fatal error:  Call to undefined function float() in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 93
+[27-Aug-2019 10:57:08 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/beta-customers.php on line 112

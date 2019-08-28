@@ -1,7 +1,7 @@
 <?php
 include '../global/php/connection.php';
 include 'global/php/security.php';
-error_reporting(E_ALL);
+error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +65,7 @@ error_reporting(E_ALL);
 														<th>Address</th>
 														<th>City</th>
 														<!--<th>Neighborhood</th>-->
-														<!--<th>Lot Size</th>-->
+														<th>Lot Size</th>
 														<th>Date Added</th>
 														<th>Source</th>
 														<th>New</th>
@@ -75,7 +75,7 @@ error_reporting(E_ALL);
 												</thead>
 												<tbody>
                           <?php
-                          $q = "SELECT * FROM `customers` ORDER BY `ID` DESC";
+                          $q = "SELECT * FROM `customers` WHERE `inactive` != 'Yes' ORDER BY `ID` DESC";
                           $g = mysqli_query($conn, $q) or die($conn->error);
                           while($r = mysqli_fetch_array($g)){
                             echo '<tr>
@@ -85,25 +85,66 @@ error_reporting(E_ALL);
                                     <td><span class="txt-dark">' . $r['address'] . ' ' . $r['address2'] . '</span></td>
                                     <td><span class="txt-dark">' . $r['city'] . '</span></td>
                                     <!--<td><span class="txt-dark">Neighborhood</span></td>-->
-                                    <!--
+                                    
 																		<td><span class="txt-dark">';
 																		
+                                    //1/4 Acre is 10890sqft...
+																		$acre = 43560;
 																		$zillowURL = 'https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17p4gr0dnnv_38l6u&address=' . str_replace(' ','+',$r['address']) . '&citystatezip=' . $r['city'] . '%2C+' . $r['state'] . '+' . $r['zip'];
 																		$search = file_get_contents($zillowURL);
 																		$xml = simplexml_load_string($search) or die("SEARCH ERROR");
+																		$zillowURL2 = $xml->response[0]->results[0]->result[0]->links[0]->homedetails;
 																		if((int)$xml->message[0]->code === 0){
-																			echo $xml->response[0]->results[0]->result[0]->lotSizeSqFt . 'SqFt';
+                                      $zlls = $xml->response[0]->results[0]->result[0]->lotSizeSqFt;
+																			echo round(($zlls / $acre),2) . ' Acres - ';
 																		}else if((int)$xml->message[0]->code === 508){
-																			echo 'No Result';
+																			echo 'No Result - ';
+																			//echo $zillowURL;
 																		}else{
 																			echo 'ERROR! - ';
 																			echo $xml->message[0]->code;
 																			//echo $zillowURL;
 																		}
+                            
+        //Flag Lot Size that is off...
+              $quarter = 10890;
+              $third = 14520;
+        switch($r['lot_size']) {
+            case '1':
+              $ls = $quarter;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            case '2':
+              $ls = $third;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            case '3':
+              $ls = $quarter * 2;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            case '4':
+              $ls = $third * 2;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            case '5':
+              $ls = $quarter * 3;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            case '6':
+              $ls = $quarter * 4;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            case '7':
+              $ls = $quarter * 8;
+              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+              break;
+            default:
+              $lot_size = 'LOT SIZE ERROR!!!!';
+          }
 																		
 																		
 															echo '</span></td>
-																		-->
+																		
                                     <td><span class="txt-dark">' . date("m/d/Y", strtotime($r['date'])) . '</span></td>
                                     <td><span class="txt-dark">' . $r['source'] . '</span></td>
                                     <td><span class="txt-dark">';

@@ -29,6 +29,7 @@ $prop_identify = $_POST['prop_identify'];
 $prop_unique = $_POST['prop_unique'];
 $prop_gate = $_POST['prop_gate'];
 $comments = mysqli_real_escape_string($conn, $_POST['comments']);
+$special_requests = mysqli_real_escape_string($conn, $_POST['special_requests']);
 $terms_ack = $_POST['terms_cb'];
 
 
@@ -64,6 +65,7 @@ $iq = "INSERT INTO `customers`
        `prop_unique`,
        `prop_gate`,
        `comments`,
+       `special_requests`,
        `terms_ack`,
        `inactive`
        )
@@ -98,10 +100,44 @@ $iq = "INSERT INTO `customers`
        '" . $prop_unique . "',
        '" . $prop_gate . "',
        '" . $comments . "',
+       '" . $special_requests . "',
        '" . $terms_ack . "',
        'No'
        )";
 mysqli_query($conn, $iq) or die('ERROR CODE 28583: ' . $conn->error);
 
-echo 'Your form was submitted successfully!';
+
+include '../../email/templates/confirm-order-email.php';
+// Set Email Display Parameters...
+$header = 'From: The Areation Corps <info@theaerationcorps.com>' . "\r\n";
+//$header .= "Reply-To: " . $email . "\r\n";
+$header .= "Bcc: michael@ignition-innovations.com" . "\r\n";
+$header .= 'X-Mailer: PHP/' . phpversion();
+$header .= "MIME-Version: 1.0\r\n";
+//$header .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+$header .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+$sub = 'TheAerationCorps Service Request Confirmation';
+mail($email,$sub,$etemp,$header);
+
+
+echo '<html>
+    <head>
+      <link rel="stylesheet" href="http://ignition.church/creation/css/bootstrap.min.css">
+    </head>
+    <body>
+  <div class="jumbotron text-xs-center" style="text-align:center;height:100%;">
+  <img src="../../images/acpics/aeration-logo_final.png" style="width:20%;" />
+  <h1 class="display-3">Thank You!</h1>
+  <p class="lead">Your order was submitted and you should receive an email shortly confirming the details of your order!</p>
+  <hr>
+  <!--<p>
+    Having trouble? <a href="mailto:info@theaerationcorps.com">Contact us</a>
+  </p>-->
+  <p class="lead">
+    <a class="btn btn-primary btn-sm" href="../../index.php" role="button">Continue</a>
+  </p>
+</div>
+</body>
+</html>';
 ?>

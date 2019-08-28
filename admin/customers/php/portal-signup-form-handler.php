@@ -32,6 +32,7 @@ $prop_identify = $_POST['prop_identify'];
 $prop_unique = $_POST['prop_unique'];
 $prop_gate = $_POST['prop_gate'];
 $comments = mysqli_real_escape_string($conn, $_POST['comments']);
+$special_requests = mysqli_real_escape_string($conn, $_POST['special_requests']);
 $terms_ack = $_POST['terms_cb'];
 $int_comments = mysqli_real_escape_string($conn, $_POST['internal_comments']);
 
@@ -69,6 +70,7 @@ $iq = "INSERT INTO `customers`
        `prop_unique`,
        `prop_gate`,
        `comments`,
+       `special_requests`,
        `internal_comments`,
        `terms_ack`,
        `inactive`
@@ -104,6 +106,7 @@ $iq = "INSERT INTO `customers`
        '" . $prop_unique . "',
        '" . $prop_gate . "',
        '" . $comments . "',
+       '" . $special_requests . "',
        '" . $int_comments . "',
        '" . $terms_ack . "',
        'No'
@@ -140,6 +143,7 @@ if($mode == 'Edit'){
        `prop_unique` = '" . $prop_unique . "',
        `prop_gate` = '" . $prop_gate . "',
        `comments` = '" . $comments . "',
+       `special_requests` = '" . $special_requests . "',
        `internal_comments` = '" . $int_comments . "',
        `terms_ack` = '" . $terms_ack . "',
        `inactive` = 'No'
