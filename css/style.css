@@ -3321,7 +3321,7 @@ html body .page .text-primary {
 
 .bg-images-9:before {
 	content: '';
-	background-image: url("../images/acpics/backgrounds/grass-leaf.jpg");
+	background-image: url("../images/acpics/backgrounds/fertilizer.jpg");
 	position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3398,6 +3398,39 @@ html body .page .text-primary {
 
 @media (min-width: 992px) {
 	.bg-images-10:before {
+		left: -42vw;
+		right: 53px;
+		background-position: right top;
+	}
+}
+
+.bg-images-11 {
+	display: none;
+	position: relative;
+	min-height: 576px;
+}
+
+@media (min-width: 992px) {
+	.bg-images-11 {
+		display: block;
+	}
+}
+
+.bg-images-11:before {
+	content: '';
+	background-image: url("../images/acpics/backgrounds/aerate.jpg");
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+}
+
+@media (min-width: 992px) {
+	.bg-images-11:before {
 		left: -42vw;
 		right: 53px;
 		background-position: right top;

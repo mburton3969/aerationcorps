@@ -21,12 +21,12 @@
           </div>
         </div>
       </section>
-      <!-- Contact Form-->
+           <!-- Contact Form-->
       <section class="bottom">
         <div class="container">
           <div class="row row-md-justify">
             <div class="col-md-6 bg-secondary-var-3 inset-3">
-              <h2>contact form</h2>
+              <h2>Contact Us</h2>
               <!-- RD Mailform-->
               <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="row row-30">
@@ -53,10 +53,9 @@
               </form>
             </div>
             <div class="col-md-4 well-sm">
-              <h2>Address</h2>
-              <p>
-                Email us with any questions or inquiries. 
-                <br>We would be happy to answer your questions.
+              <h4>Call or Email us with any questions or inquiries.</h4>
+                <p>
+                We would be happy to answer your questions.
               </p>
               <address>
                 PO Box 447    
@@ -65,7 +64,7 @@
               <div class="contact-info">
                 <dl>
                   <dt>Telephone</dt>
-                  <dd><a href="tel:#">1 (877) 267-3799</a></dd>
+                  <dd><a href="tel:#">1.877.CORES.99</a></dd>
                 </dl>
                 <dl>
                 </dl>E-mail:<a class="mail" href="mailto:#"> service@theaerationcorps.com</a>
