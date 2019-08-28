@@ -74,55 +74,8 @@
         </div>
       </section>
       <!-- Testimonials-->
-      <section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f3b243;">
-        <div class="container text-center">
-          <h2 style="color: #523329;">testimonials</h2>
-          <div class="divider divider-5"></div>
-          <div class="row row-xs-center">
-            <div class="col-sm-8">
-              <!-- Owl Carousel-->
-              <div class="owl-carousel" data-nav="true" style="color: #523329;">
-                <div>
-                  <h3 style="color: #523329;">Joyce B.</h3>
-                  <p>We've had other companies stopping by, trying to sell their services, but I tell them that I have a great company that does a wonderful job and am not interested in switching.<br class="d-none d-xl-block">So thanks for doing a great job every year! Consistency & trustworthiness is nice to have in a company!
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6 style="color: #523329;">Leesburg,VA</h6>
-                </div>
-                <div>
-                  <h3 style="color: #523329;">S.K.</h3>
-                  <p>Thank you for your professional work done on my property. It was an excellent job done by the real professional. I would not hesitate to refer you to my neighbour.<br class="d-none d-xl-block">Thank you again for your excellent job done on my property.
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6 style="color: #523329;">Fairfax,VA</h6>
-                </div>
-                <div>
-                  <h3 style="color: #523329;">Troy H.</h3>
-                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block">It's been a pleasure working with you all. Thank you!
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6 style="color: #523329;">Leesburg,VA</h6>
-                </div>
-                <div>
-                  <h3 style="color: #523329;">Becki M.</h3>
-                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block">I'm happy to support a local business.
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6 style="color: #523329;">Ashburn,VA</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+      <?php include 'about/sections/testimonials.php'; ?>
       <!-- *** Page Content Ends Here *** -->
 
     <!-- Page Footer-->
