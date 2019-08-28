@@ -17,12 +17,24 @@
       <!-- Main services-->
       <section class="well-lg-var-5 bg-secondary">
         <div class="container text-center">
-          <a class="btn btn-default btn-md" style="background: transparent; color:#384e01;" href="faq.php"> Sign Up For Services</a>
+          <a class="btn btn-default btn-lg" style="background: transparent; color:#384e01;" href="sign-up.php"> Order Now</a>
           <p>
+
+          </p>
+           <p>
+
+          </p>
+           <p>
 
           </p>
           <p style="font-style: italic;">
             Prices apply to lots that are at, or slightly larger, than listed size – at our discretion. We reserve the right to refuse any job. 
+          </p>
+           <p>
+
+          </p>
+           <p>
+
           </p>
           <div class="row row-40 text-center text-sm-left offset-4 row-xs-center">
             <div class="col-md-4 col-sm-6">
@@ -147,7 +159,7 @@
                 </li>
               </ul>
             </div>
-            <a class="btn btn-default btn-md" href="sign-up.php">YES, we do offer group discounts!</a>
+            <a class="btn btn-default btn-md" href="faq.php">Group Discounts - Learn More</a>
             </div>
             <p style="font-size: 10px">
               <strong>DISCLAIMER: </strong>All gates and areas to be aerated must be wide enough to accommodate our machines. Excludes areas on steep hills and where shallow roots are present. <br>All lawn sprinkler heads (on or adjacent to your property) and ambiguous or abnormally shaped property lines MUST BE CLEARLY MARKED WITH PIN FLAGS. <br>We cannot be responsible for damage to any unmarked sprinkler head or damage to any pipe, wire, cable or other utility. <br>Areas adjacent to, but not part of your property (such as public parkland and common grounds) may cost extra. <br>Payment shall become due upon completion of work. <br>We reserve the right to refuse any job.
@@ -176,7 +188,7 @@
               </p>
               <div class="triangel"></div>
             </div>
-            <div class="col-md-7 bg-images-9"></div>
+            <div class="col-md-7 bg-images-11"></div>
           </div>
         </div>
       </section>
@@ -195,7 +207,7 @@
               </p>
               <div class="triangel-var-1"></div>
             </div>
-            <div class="col-md-7 bg-images-10"></div>
+            <div class="col-md-7 bg-images-9"></div>
           </div>
         </div>
       </section>
