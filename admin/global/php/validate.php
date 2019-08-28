@@ -5,6 +5,7 @@ include '../../../global/php/connection.php';
 //Load Variables...
 $user = $_POST['username'];
 $pass = $_POST['password'];
+$cb = $_POST['cb'];
 
 //Validate User...
 $q = "SELECT * FROM `users` WHERE `inactive` != 'Yes' AND `username` = '" . $user . "' AND `password` = '" . $pass . "'";
@@ -20,8 +21,13 @@ if(mysqli_num_rows($g) > 0){
   $_SESSION['user_id'] = $r['ID'];
   $_SESSION['role'] = $r['role'];
   
-  echo '<script>
-          window.location = "../../dashboard.php";
+  echo '<script>';
+          if($cb == 'on'){
+          echo 'localStorage.setItem("ac_cred","True");';
+          echo 'localStorage.setItem("ac_user","' . $user . '");';
+          echo 'localStorage.setItem("ac_pass","' . $pass . '");';
+        }
+    echo 'window.location = "../../dashboard.php";
         </script>';
 }else{
   echo '<script>

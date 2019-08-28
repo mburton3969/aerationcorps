@@ -160,10 +160,10 @@
           <div class="row">
             <div class="col-md-5 bg-secondary-var-3">
               <h2>
-                Why aerate my lawn?
+                Why core aerate my lawn?
               </h2>
               <p>
-                Soil in Northern Virginia is notoriously hard & nutrient-poor due to high clay content. Plus, summer heat and lack of rain adds to the detrimental impact on your lawn.
+                Soil in Northern Virginia is notoriously hard & nutrient-poor due to its high clay content. Plus, summer heat and lack of rain adds to the detrimental impact on your lawn.
               </p>
               <p>
                   <strong>Our Core Aeration treatment reduces soil density and thatch build-up allowing air, water, sunlight and nutrients into the root zone.</strong>
@@ -188,10 +188,10 @@
               <h2 class="letter-spasing">Why Overseeding<br class="d-none d-xl-block">& Fertilizer?
               </h2>
               <p>
-                Fall is perfect time for overseeding and fertilization - which will contribute to new growth and a uniform appearance in your lawn. Thick, healthy turf is also your best defense against weeds.
+                Fall is the perfect time for Overseeding and Fertilization - which will contribute to new growth and a uniform appearance in your lawn. Thick, healthy turf is also your best defense against weeds!
               </p>
               <p>
-                We offer optional Overseeding (Professional Turf-Type Tall Fescue) and/or Premium Organic Fertilizer at excellent pricing if installed by our technicians at time of aeration service.
+                We offer optional Overseeding (Professional Turf-Type Tall Fescue) and/or Premium Organic Fertilizer at excellent pricing if applied by our technicians at time of Core Aeration service.
               </p>
               <div class="triangel-var-1"></div>
             </div>

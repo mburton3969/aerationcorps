@@ -72,7 +72,7 @@
                     <p style="font-style: italic;">
                     For ¼ acre lawn.
                     </p>
-                  <h6 style="color: #523329;">learn more about our <br> top-quality organic fertilizer.</h6>
+                  <h6 style="color: #523329;">learn more about our <br> premium organic fertilizer.</h6>
                    <a class="btn btn-default btn-md" href="faq.php"> More </a>
                    </div>
                  </div>
