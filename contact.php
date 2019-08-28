@@ -64,7 +64,7 @@
               <div class="contact-info">
                 <dl>
                   <dt>Telephone</dt>
-                  <dd><a href="tel:#">1 (877) 267-3799</a></dd>
+                  <dd><a href="tel:#">1.877.CORES.99</a></dd>
                 </dl>
                 <dl>
                 </dl>E-mail:<a class="mail" href="mailto:#"> service@theaerationcorps.com</a>
