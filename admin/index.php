@@ -54,7 +54,7 @@
 												<div class="form-group">
 													<div class="checkbox checkbox-primary pr-10 pull-left">
 														<input id="cb" name="cb" type="checkbox">
-														<label for="cb"> Keep me logged in</label>
+														<label for="cb"> Remember Me</label>
 													</div>
 													<div class="clearfix"></div>
 												</div>
@@ -93,5 +93,6 @@
 	<!--Footer-->
 	<?php include 'global/sections/includes.php'; ?>
 </body>
+<script src="global/js/credentials.js"></script>
 
 </html>

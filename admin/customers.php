@@ -110,33 +110,45 @@ error_reporting(0);
               $quarter = 10890;
               $third = 14520;
         switch($r['lot_size']) {
-            case '1':
-              $ls = $quarter;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '1':// 1/4 Acre
+							$max_ls = .29;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls > $max_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
-            case '2':
-              $ls = $third;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '2':// 1/3 Acre
+							$min_ls = .30;
+							$max_ls = .44;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls < $min_ls || $c_ls > $max_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
-            case '3':
-              $ls = $quarter * 2;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '3':// 1/2 Acre
+              $min_ls = .45;
+							$max_ls = .59;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls < $min_ls || $c_ls > $max_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
-            case '4':
-              $ls = $third * 2;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '4':// 2/3 Acre
+              $min_ls = .60;
+							$max_ls = .72;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls < $min_ls || $c_ls > $max_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
-            case '5':
-              $ls = $quarter * 3;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '5':// 3/4 Acre
+              $min_ls = .73;
+							$max_ls = .85;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls < $min_ls || $c_ls > $max_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
-            case '6':
-              $ls = $quarter * 4;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '6':// 1 Acre
+              $min_ls = .86;
+							$max_ls = 1.1;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls < $min_ls || $c_ls > $max_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
-            case '7':
-              $ls = $quarter * 8;
-              if((int)$zlls >= $ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
+            case '7':// 2+ Acre
+              $min_ls = 1.1;
+							$c_ls = round(($zlls / $acre),2);
+              if($c_ls <= $min_ls){echo '<a href="' . $zillowURL2 . '" target="_blank"><i class="zmdi zmdi-flag" style="color:red;font-size:24px;font-weight:bold;text-align:center;"></i></a>';}else{echo '<i class="zmdi zmdi-check" style="color:green;font-size:24px;font-weight:bold;text-align:center;"></i>';}
               break;
             default:
               $lot_size = 'LOT SIZE ERROR!!!!';
@@ -204,6 +216,7 @@ error_reporting(0);
 			$(document).ready(function($){
   			$('.phone_us').mask('000.000.0000');
   			$('.zipCode').mask('00000');
+				$( ".date" ).datepicker();
 			});
 		</script>
 </body>

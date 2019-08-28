@@ -36,6 +36,18 @@ $special_requests = mysqli_real_escape_string($conn, $_POST['special_requests'])
 $terms_ack = $_POST['terms_cb'];
 $int_comments = mysqli_real_escape_string($conn, $_POST['internal_comments']);
 
+if($_POST['serviced_date'] == ''){
+  $serviced_date = '';
+}else{
+  $serviced_date = date("Y-m-d",strtotime($_POST['serviced_date']));
+}
+if($_POST['invoiced_date'] == ''){
+  $invoiced_date = '';
+}else{
+  $invoiced_date = date("Y-m-d",strtotime($_POST['invoiced_date']));
+}
+
+
 
 if($mode == 'New'){
 //INSERT Customer...
@@ -146,6 +158,8 @@ if($mode == 'Edit'){
        `special_requests` = '" . $special_requests . "',
        `internal_comments` = '" . $int_comments . "',
        `terms_ack` = '" . $terms_ack . "',
+       `serviced_date` = '" . $serviced_date . "',
+       `invoiced_date` = '" . $invoiced_date . "',
        `inactive` = 'No'
        WHERE `ID` = '" . $cid . "'";
   mysqli_query($conn, $uq) or die($conn->error);

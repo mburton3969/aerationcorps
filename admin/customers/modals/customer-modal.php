@@ -1,14 +1,24 @@
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;" id="customerModal">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
+        <form id="portal_signup_form" action="customers/php/portal-signup-form-handler.php" method="POST">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<div class="col-md-3">
         <h5 class="modal-title" id="myLargeModalLabel">Add/Edit Customer</h5>
+				</div>
+				<div class="col-md-3">
+				<label for="serviced_date">Serviced Date:</label>
+				<input type="text" class="form-control date" id="serviced_date" name="serviced_date" />
+				</div>
+				<div class="col-md-3">
+				<label for="invoiced_date">Invoiced Date</label>
+				<input type="text" class="form-control date" id="invoiced_date" name="invoiced_date" />
+				</div>
       </div>
       <div class="modal-body">
         
         
-        <form id="portal_signup_form" action="customers/php/portal-signup-form-handler.php" method="POST">
 					<div class="row mb-15 text-center">
 						<div class="col-md-6">
 							<h5>Customer Type</h5>
@@ -182,7 +192,7 @@
 					</div>
           <input type="hidden" id="form_mode" name="form_mode" />
           <input type="hidden" id="form_cid" name="form_cid" />
-				</form>
+				
         
         
       </div>
@@ -190,6 +200,7 @@
         <button type="button" class="btn btn-danger text-left" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-success text-left" onclick="portal_submit_form();">Save</button>
       </div>
+				</form>
     </div>
     <!-- /.modal-content -->
   </div>

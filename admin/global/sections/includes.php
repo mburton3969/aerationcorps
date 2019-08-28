@@ -44,3 +44,7 @@
 	<!-- Init JavaScript -->
 	<script src="skin2-assets/dist/js/init.js"></script>
 	<!--<script src="../skin2-assets/dist/js/dashboard-data.js"></script>-->
+
+<!--JQuery-->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
