@@ -24,6 +24,16 @@ $x->state = $r['state'];
 $x->zip = $r['zip'];
 $x->county = $r['county'];
 $x->lot_size = $r['lot_size'];
+if($r['zillow_lot_size'] != ''){
+  $x->zillow_ls = $r['zillow_lot_size'];
+}else{
+  $x->zillow_ls = 'No Results';
+}
+if($r['zillow_link'] != ''){
+  $x->zillow_link = $r['zillow_link'];
+}else{
+  $x->zillow_link = 'http://zillow.com';
+}
 $x->day_phone = $r['day_phone'];
 $x->ext = $r['ext'];
 $x->night_phone = $r['night_phone'];
@@ -37,6 +47,8 @@ $x->prop_maintain = $r['prop_maintain'];
 $x->prop_identify = $r['prop_identify'];
 $x->prop_unique = $r['prop_unique'];
 $x->prop_gate = $r['prop_gate'];
+$x->prop_sprinkler = $r['prop_sprinkler'];
+$x->prop_fence = $r['prop_fence'];
 $x->comments = $r['comments'];
 $x->special_requests = $r['special_requests'];
 $x->internal_comments = $r['internal_comments'];

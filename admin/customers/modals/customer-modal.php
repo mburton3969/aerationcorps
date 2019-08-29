@@ -94,6 +94,8 @@
 								<option value="6">1 Acre</option>
 								<option value="7">2 or More Acres</option>
 							</select>
+							<a id="zillow_ls" href="" target="_blank" style="font-weight:bold;color:red;text-align:center;"></a>
+							<br>
 						</div>
 					</div>
 					
@@ -171,6 +173,20 @@
 							<input type="radio" class="" name="prop_gate" id="prop_gate_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
 							&nbsp;&nbsp;&nbsp;&nbsp;
 							<input type="radio" class="" name="prop_gate" id="prop_gate_no" value="No" style="-webkit-appearance:radio;" /> No
+							</p>
+							<p>
+							Do you have an underground sprinkler system?
+							&nbsp;&nbsp;&nbsp;&nbsp;<br>
+							<input type="radio" name="prop_sprinkler" id="prop_sprinkler_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="prop_sprinkler" id="prop_sprinkler_no" value="No" style="-webkit-appearance:radio;" /> No
+							</p>
+							<p>
+							Do you have and invisible dog fence (buried wire)?
+							&nbsp;&nbsp;&nbsp;&nbsp;<br>
+							<input type="radio" name="prop_fence" id="prop_fence_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" name="prop_fence" id="prop_fence_no" value="No" style="-webkit-appearance:radio;" /> No
 							</p>
 						</div>
 					</div>

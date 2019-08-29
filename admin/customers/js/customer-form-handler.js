@@ -56,12 +56,12 @@ function portal_submit_form(){
     return;
   }
   
-  if(document.getElementById('night_phone').value === ''){
+  /*if(document.getElementById('night_phone').value === ''){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Evening Phone Number!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
     return;
-  }
+  }*/
   
   if(document.getElementById('email').value === ''){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Email Address!';
@@ -127,6 +127,24 @@ function portal_submit_form(){
     q_trip = true;
   }
   
+  if(!$("input[name='prop_sprinkler']:checked").val()) {
+    document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
+    window.location.href = '#question_error';
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+    return;
+  }else if($("#prop_sprinkler_yes").is(':checked')){
+    q_trip = true;
+  }
+  
+  if(!$("input[name='prop_fence']:checked").val()) {
+    document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
+    window.location.href = '#question_error';
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+    return;
+  }else if($("#prop_fence_yes").is(':checked')){
+    q_trip = true;
+  }
+  
   if(document.getElementById('comments').value === '' && q_trip === true){
     document.getElementById('comments_terms_error').innerHTML = '* Please Enter Comments Regarding the questions above that were answered YES!';
     window.location.href = '#comments_terms_error';
@@ -149,6 +167,9 @@ function portal_submit_form(){
 
 function load_form(mode,cid){
   document.getElementById('portal_signup_form').reset();
+  document.getElementById('zillow_ls').innerHTML = '';
+  document.getElementById('zillow_ls').setAttribute('href','');
+  
   if(mode === 'Edit'){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -168,6 +189,10 @@ function load_form(mode,cid){
           document.getElementById('zip').value = r.zip;
           document.getElementById('county').value = r.county;
           document.getElementById('lot_size').value = r.lot_size;
+          //Add Zillow Lot Size...
+          var linkText = document.createTextNode("[Zillow: "+r.zillow_ls+"]");
+          document.getElementById('zillow_ls').appendChild(linkText);
+          document.getElementById('zillow_ls').setAttribute('href',r.zillow_link);
           document.getElementById('day_phone').value = r.day_phone;
           document.getElementById('ext').value = r.ext;
           document.getElementById('night_phone').value = r.night_phone;
@@ -212,6 +237,18 @@ function load_form(mode,cid){
             document.getElementById('prop_gate_yes').checked = true;
           }else{
             document.getElementById('prop_gate_no').checked = true;
+          }
+          
+          if(r.prop_sprinkler === 'Yes'){
+            document.getElementById('prop_sprinkler_yes').checked = true;
+          }else{
+            document.getElementById('prop_sprinkler_no').checked = true;
+          }
+          
+          if(r.prop_fence === 'Yes'){
+            document.getElementById('prop_fence_yes').checked = true;
+          }else{
+            document.getElementById('prop_fence_no').checked = true;
           }
           
           document.getElementById('comments').value = r.comments;

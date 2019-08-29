@@ -12,9 +12,9 @@ include '../global/php/connection.php';
 
   <table border="0" width=740>
     <tr>
-      <td class=header align=left>The Areation Corps Customer Service Report</td>
+      <td class=header align=left>The Aeration Corps Customer Service Report</td>
       <td width=50></td>
-      <td align=right class=header>8/26/2019</td>
+      <td align=right class=header><?php date("m/d/Y"); ?></td>
     </tr>
   </table>
 
@@ -89,7 +89,14 @@ include '../global/php/connection.php';
             default:
               $lot_size = 'LOT SIZE ERROR!!!!';
           }
-       echo $lot_size . '</td>
+       echo $lot_size . ' <b>[Zillow: ';
+          if($cr['zillow_lot_size'] != ''){
+            echo $cr['zillow_lot_size'] . ' Acre';
+          }else{
+            echo 'No Results';
+          }
+          echo ']</b>
+            </td>
         <td colspan="1">' . $cr['email'] . '</td>
         <td colspan="3">';
           if($cr['day_phone'] != ''){
@@ -121,7 +128,17 @@ include '../global/php/connection.php';
           }else{
             $gated = '';
           }
-          echo $ct . '&nbsp;&nbsp;&nbsp;&nbsp;Customer States:&nbsp;&nbsp;' . $gated . '&nbsp;&nbsp;' . $cr['comments'] . '. <b>Internal Notes</b>: ' . $cr['internal_comments'] . '</td>
+          if($cr['prop_sprinkler'] == 'Yes'){
+            $sprinkler = '<b style="color:red;">[Sprinkler System]</b>';
+          }else{
+            $sprinkler = '';
+          }
+          if($cr['prop_fence'] == 'Yes'){
+            $fence = '<b style="color:red;">[Invisible Dog Fence]</b>';
+          }else{
+            $fence = '';
+          }
+          echo $ct . '&nbsp;&nbsp;&nbsp;&nbsp;Customer States:&nbsp;&nbsp;' . $gated . '&nbsp;&nbsp;' . $cr['comments'] . '. <b>Internal Notes</b>: ' . $sprinkler . ' ' . $fence . ' ' . $cr['internal_comments'] . '</td>
       </tr>
       <tr>
         <td height="10"></td>

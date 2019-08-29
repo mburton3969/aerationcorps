@@ -34,3 +34,9 @@ function get_terms(lot){
     tc.innerHTML = '* ERROR: Lot size not recognized...';
 }
 }
+
+
+function load_sr_box(){
+  document.getElementById('sr_container').innerHTML = '<label for="special_requests">Special Requests (Regarding scheduling or pricing):</label>'+
+							                            '<textarea id="special_requests" name="special_requests" class="form-input form-control"></textarea>';
+}

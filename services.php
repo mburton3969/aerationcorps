@@ -50,7 +50,7 @@
                  Core Aeration: <strong>$95</strong>
                 </li>
                 <li>
-                 Organic Seeding: <strong>$95</strong> 
+                 Overseeding: <strong>$95</strong> 
                 </li>
                 <li>
                  Organic Fertilizer: <strong>$95</strong>
@@ -70,7 +70,7 @@
                  Core Aeration: <strong>$125</strong>
                 </li>
                 <li>
-                 Organic Seeding: <strong>$110</strong> 
+                 Overseeding: <strong>$110</strong> 
                 </li>
                 <li>
                  Organic Fertilizer: <strong>$125</strong>
@@ -90,7 +90,7 @@
                  Core Aeration: <strong>$175</strong>
                 </li>
                 <li>
-                 Organic Seeding: <strong>$125</strong> 
+                 Overseeding: <strong>$125</strong> 
                 </li>
                 <li>
                  Organic Fertilizer: <strong>$175</strong>
@@ -112,7 +112,7 @@
                  Core Aeration: <strong>$250</strong>
                 </li>
                 <li>
-                 Organic Seeding: <strong>$200</strong> 
+                 Overseeding: <strong>$200</strong> 
                 </li>
                 <li>
                  Organic Fertilizer: <strong>$225</strong>
@@ -132,7 +132,7 @@
                  Core Aeration: <strong>$300</strong>
                 </li>
                 <li>
-                 Organic Seeding: <strong>$250</strong> 
+                 Overseeding: <strong>$250</strong> 
                 </li>
                 <li>
                  Organic Fertilizer: <strong>$275</strong>
@@ -152,7 +152,7 @@
                  Core Aeration: <strong>$350</strong>
                 </li>
                 <li>
-                 Organic Seeding: <strong>$300</strong> 
+                 Overseeding: <strong>$300</strong> 
                 </li>
                 <li>
                  Organic Fertilizer: <strong>$325</strong>

@@ -56,12 +56,12 @@ function submit_signup_form(){
     return;
   }
   
-  if(document.getElementById('night_phone').value === ''){
+  /*if(document.getElementById('night_phone').value === ''){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Evening Phone Number!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
     return;
-  }
+  }*/
   
   if(document.getElementById('email').value === ''){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Email Address!';
@@ -131,6 +131,24 @@ function submit_signup_form(){
     window.scrollTo(window.scrollX, window.scrollY - 100);
     return;
   }else if($("#prop_gate_yes").is(':checked')){
+    q_trip = true;
+  }
+  
+  if(!$("input[name='prop_sprinkler']:checked").val()) {
+    document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
+    window.location.href = '#question_error';
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+    return;
+  }else if($("#prop_sprinkler_yes").is(':checked')){
+    q_trip = true;
+  }
+  
+  if(!$("input[name='prop_fence']:checked").val()) {
+    document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
+    window.location.href = '#question_error';
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+    return;
+  }else if($("#prop_fence_yes").is(':checked')){
     q_trip = true;
   }
   

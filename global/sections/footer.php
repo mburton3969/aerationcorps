@@ -24,3 +24,4 @@
           </div>
         </div>
       </footer>
+<?php include 'global/js/analytics.php'; ?>

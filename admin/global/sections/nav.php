@@ -43,7 +43,7 @@
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="login.php?logout=yes"><i class="zmdi zmdi-power"></i><span>Log Out</span></a>
+								<a href="index.php?logout=yes"><i class="zmdi zmdi-power"></i><span>Log Out</span></a>
 							</li>
 						</ul>
 					</li>

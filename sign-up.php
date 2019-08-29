@@ -197,6 +197,20 @@
 							&nbsp;&nbsp;&nbsp;&nbsp;
 							<input type="radio" class="form-control" name="prop_gate" id="prop_gate_no" value="No" style="-webkit-appearance:radio;" /> No
 							</p>
+							<p>
+							Do you have an underground sprinkler system?
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" class="form-control" name="prop_sprinkler" id="prop_sprinkler_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" class="form-control" name="prop_sprinkler" id="prop_sprinkler_no" value="No" style="-webkit-appearance:radio;" /> No
+							</p>
+							<p>
+							Do you have and invisible dog fence (buried wire)?
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" class="form-control" name="prop_fence" id="prop_fence_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" class="form-control" name="prop_fence" id="prop_fence_no" value="No" style="-webkit-appearance:radio;" /> No
+							</p>
 							<p><b>* IF YOU HAVE ANSWERED "YES" TO ANY OF THE ABOVE QUESTIONS, PLEASE ELABORATE IN THE "COMMENTS" BOX.</b></p>
 						</div>
 					</div>
@@ -207,9 +221,8 @@
 							<label for="comments">Comments (Info we need to know for your service):</label>
 							<textarea id="comments" name="comments" class="form-input form-control"></textarea>
 						</div>
-						<div class="col-md-6">
-							<label for="special_requests">Special Requests (Regarding scheduling or pricing):</label>
-							<textarea id="special_requests" name="special_requests" class="form-input form-control"></textarea>
+						<div class="col-md-6" id="sr_container">
+							<input type="checkbox" style="-webkit-appearance:checkbox;" onchange="load_sr_box();" /> I have a special request regarding scheduling or pricing.
 						</div>
 						<div class="col-md-12">
 							<br>

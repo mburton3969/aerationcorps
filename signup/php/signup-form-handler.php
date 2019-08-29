@@ -28,6 +28,8 @@ $prop_maintain = $_POST['prop_maintain'];
 $prop_identify = $_POST['prop_identify'];
 $prop_unique = $_POST['prop_unique'];
 $prop_gate = $_POST['prop_gate'];
+$prop_sprinkler = $_POST['prop_sprinkler'];
+$prop_fence = $_POST['prop_fence'];
 $comments = mysqli_real_escape_string($conn, $_POST['comments']);
 $special_requests = mysqli_real_escape_string($conn, $_POST['special_requests']);
 $terms_ack = $_POST['terms_cb'];
@@ -64,6 +66,8 @@ $iq = "INSERT INTO `customers`
        `prop_identify`,
        `prop_unique`,
        `prop_gate`,
+       `prop_sprinkler`,
+       `prop_fence`,
        `comments`,
        `special_requests`,
        `terms_ack`,
@@ -99,6 +103,8 @@ $iq = "INSERT INTO `customers`
        '" . $prop_identify . "',
        '" . $prop_unique . "',
        '" . $prop_gate . "',
+       '" . $prop_sprinkler . "',
+       '" . $prop_fence . "',
        '" . $comments . "',
        '" . $special_requests . "',
        '" . $terms_ack . "',
