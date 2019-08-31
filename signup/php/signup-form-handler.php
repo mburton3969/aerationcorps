@@ -133,7 +133,7 @@ mail($email,$sub,$etemp,$header);
 
 echo '<html>
     <head>
-      <link rel="stylesheet" href="http://ignition.church/creation/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
     </head>
     <body>
   <div class="jumbotron text-xs-center" style="text-align:center;height:100%;">
