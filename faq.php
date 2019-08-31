@@ -26,7 +26,7 @@
                   </p>
                 <li><h6 class="index-list-question">Is your advertised price an "introductory price?" Do you plan to raise your prices in the future?</h6></li>
                   <p class="index-list-answer">
-                    No! We do not plan to raise our prices BUT, IF WE EVER DO, WE WILL POST ANY CHANGE ON OUR WEB SITE. PLEASE NOTE THAT OVERSEEDING PRICES COULD INCREASE AS THE COST OF FUEL DIRECTLY AFFECTS SEEDS PRICES. AGAIN, ANY CHANGES TO OUR PRICES WILL BE POSTED ON OUR WEB SITE BUT IT IS NOT OUR INTENT TO INCREASE OUR PRICING STRUCTURE. 
+                    No! We do not plan to raise our prices BUT, IF WE EVER DO, WE WILL POST ANY CHANGE ON OUR WEB SITE. PLEASE NOTE THAT OVERSEEDING PRICES COULD INCREASE AS THE COST OF FUEL DIRECTLY AFFECTS SEED PRICES. AGAIN, ANY CHANGES TO OUR PRICES WILL BE POSTED ON OUR WEB SITE BUT IT IS NOT OUR INTENT TO INCREASE OUR PRICING STRUCTURE. 
                   </p>
                 <li><h6 class="index-list-question">While your prices are excellent, someone is offering a cheaper price; are you able to beat it?</h6></li>
                   <p class="index-list-answer">
@@ -66,7 +66,7 @@
                   </p>
                 <li><h6 class="index-list-question">What can I expect from Overseeding?</h6></li>
                   <p class="index-list-answer">
-                    Overseeding is for lawns in generally GOOD condition and contributes to new growth and a uniform appearance.  Overseeding an existing lawn is NOT re-seeding areas of dead turf and/or bare soil.  While we can give some such areas a little extra attention, we cannot do so if these areas comprise a significant portion of your lawn; in such cases a Double-Overseeding is recommended.  IF YOU WANT A DOUBLE-OVERSEEDING (AT TWICE THE OVERSEEDING PRICE FOR THE SIZE OF YOUR LOT), PLEASE INDICATE SO IN THE COMMENTS FIELD. Seeded areas of dead turf/bare soil will need to be covered with a top dressing BY THE CUSTOMER for optimal germination.
+                    Overseeding is for lawns in generally GOOD condition and contributes to new growth and a uniform appearance.  Overseeding an existing lawn is NOT re-seeding areas of dead turf and/or bare soil.  While we can give some such areas a little extra attention, we cannot do so if these areas comprise a significant portion of your lawn; in such cases Double-Overseeding is recommended.  If you would like Double-overseeding (AT TWICE THE OVERSEEDING PRICE FOR YOUR LOT SIZE), you may select it on the Sign-up Page.
                   </p>
                 <li><h6 class="index-list-question">You Just Overseeded My Lawn, Why Can’t I See Any Seeds?</h6></li>
                   <p class="index-list-answer">
@@ -78,11 +78,11 @@
                   </p>
                 <li><h6 class="index-list-question">Can I get a discount by having my lawn aerated twice during the same visit?</h6></li>
                   <p class="index-list-answer">
-                    Yes. We can Core Aerate your lawn a second time for half the original price.
+                    Yes.  We can Core Aerate your lawn a second time for half the original price; simply select Double-aeration on the Sign-up Page.
                   </p>
                 <li><h6 class="index-list-question">Do You Offer Group Discounts?</h6></li>
                   <p class="index-list-answer">
-                     Yes.
+                     Yes. Groups of:
                     <ul>
                       <li>3 = $15 Off per Customer*
                       </li>
@@ -111,7 +111,7 @@
         </div>
       </section>
        <!-- Our Promise-->
-      <section>
+      <!--<section>
         <div class="container">
           <div class="row row-md-reverse">
             <div class="col-md-5 bg-secondary-var-1">
@@ -122,16 +122,12 @@
                 with a full range of exterior maintenance and cleaning services.
                 We maintain excellent, quality care, with trained professionals on the job.
               </p>
-              <p>
-                All year long, and throughout any weather conditions, your lawn and surrounding
-                areas will be kept pristine by our reliable, experienced staff.
-              </p>
               <div class="triangel-var-1"></div>
             </div>
             <div class="col-md-7 bg-images-2"></div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- *** Page Content Ends Here *** -->
 
     <!-- Page Footer-->

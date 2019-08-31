@@ -1,0 +1,209 @@
+[28-Aug-2019 19:25:31 America/Chicago] PHP Notice:  Undefined variable: str_replace in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 93
+[28-Aug-2019 19:25:31 America/Chicago] PHP Fatal error:  Function name must be a string in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 93
+[28-Aug-2019 19:25:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:56 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:57 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:59 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:59 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:59 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:25:59 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:20 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:21 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:21 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:21 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:21 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:44 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:44 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:44 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:26:44 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:04 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:04 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:04 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:04 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:25 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:27:26 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:02 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:27 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:27 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:27 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:27 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:05 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:05 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:05 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:05 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 19:31:06 America/Chicago] PHP Notice:  Trying to get property of non-object in /home3/mburton9/public_html/aerationcorps/admin/customers.php on line 97
+[28-Aug-2019 20:03:05 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[28-Aug-2019 20:03:05 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[28-Aug-2019 20:57:11 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:11 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 109
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 127
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 109
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 121
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:12 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:13 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:13 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:13 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:13 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:13 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:13 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 109
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 127
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 109
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 121
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:57:14 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:53 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:53 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 109
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 127
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 109
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 121
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:58:54 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 103
+[28-Aug-2019 20:59:51 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 105
+[28-Aug-2019 20:59:51 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 105
+[28-Aug-2019 21:00:09 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 105
+[28-Aug-2019 21:00:09 America/Chicago] PHP Notice:  Undefined variable: zillowURL2 in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 105
+[28-Aug-2019 21:09:13 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/mburton9/public_html/aerationcorps/admin/service-list.php on line 17
+[28-Aug-2019 21:28:15 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:29:51 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:30:50 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:31:13 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:45:32 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:46:56 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:49:05 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:50:06 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:56:47 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 110
+[28-Aug-2019 21:56:47 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:57:20 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:57:44 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:58:11 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 21:59:20 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:22:16 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:24:43 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:26:00 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:27:29 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:28:50 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:29:27 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:31:18 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:32:05 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:32:20 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:32:57 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:34:09 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:38:34 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:39:12 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:39:38 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:40:05 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:41:00 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:41:56 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:42:11 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:42:32 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:43:14 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:44:05 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:44:31 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:44:46 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:45:58 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:46:22 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:47:05 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:47:31 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:49:20 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:49:53 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:51:32 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:52:17 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 87
+[28-Aug-2019 23:52:30 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:53:04 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 88
+[28-Aug-2019 23:53:25 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 129
+[28-Aug-2019 23:55:03 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[28-Aug-2019 23:56:47 America/Chicago] PHP Notice:  Undefined variable: zlls in /home3/mburton9/public_html/aerationcorps/admin/customers/sections/pending-orders-table.php on line 128
+[29-Aug-2019 02:43:31 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[29-Aug-2019 02:43:31 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[29-Aug-2019 03:44:58 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[29-Aug-2019 03:44:58 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[29-Aug-2019 11:31:51 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[29-Aug-2019 11:31:51 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[30-Aug-2019 13:54:58 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[30-Aug-2019 13:54:58 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[30-Aug-2019 23:30:33 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[30-Aug-2019 23:30:33 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32

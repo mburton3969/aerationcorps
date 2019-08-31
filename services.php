@@ -17,168 +17,197 @@
       <!-- Main services-->
       <section class="well-lg-var-5 bg-secondary">
         <div class="container text-center">
-          <h2>Main services</h2>
+          <a class="btn btn-default btn-lg" style="background: transparent; color:#384e01;" href="sign-up.php"> Order Now</a>
           <p>
+
+          </p>
+           <p>
+
+          </p>
+           <p>
+
+          </p>
+          <p style="font-style: italic;">
             Prices apply to lots that are at, or slightly larger, than listed size – at our discretion. We reserve the right to refuse any job. 
+          </p>
+           <p>
+
+          </p>
+           <p>
+
           </p>
           <div class="row row-40 text-center text-sm-left offset-4 row-xs-center">
             <div class="col-md-4 col-sm-6">
-              <h5 class="text-bold text-uppercase">Aeration</h5>
+              <h5 class="text-bold text-uppercase">Up to 1/4 Acre</h5>
               <p style="font-style: italic; font-weight: bold;">
-              Basic Pricing Per Acre:
+              Basic Pricing:
               </p>
               <p>
 
               </p>
                 <ul class="text-secondary" style="font-size: 25px;">
                 <li>
-                 <strong>.25</strong> ac. = <strong>$99</strong>
+                 Core Aeration: <strong>$95</strong>
                 </li>
                 <li>
-                 <strong>.33</strong> ac. = <strong>$125</strong> 
+                 Overseeding: <strong>$95</strong> 
                 </li>
                 <li>
-                 <strong>.50</strong> ac. = <strong>$175</strong>
-                </li>
-                <li>
-                 <strong>.66</strong> ac. = <strong>$225</strong> 
-                </li>
-                <li>
-                 <strong>.77</strong> ac. = <strong>$249</strong>
-                </li>
-                <li>
-                 <strong>1.0</strong> ac. = <strong>$325</strong>
+                 Organic Fertilizer: <strong>$95</strong>
                 </li>
               </ul>
             </div>
             <div class="col-md-4 col-sm-6">
-              <h5 class="text-bold text-uppercase">Option: Overseeding</h5>
+              <h5 class="text-bold text-uppercase">1/3 Acre</h5>
               <p style="font-style: italic; font-weight: bold;">
-              Premium turf-type tall fescue
+              Basic Pricing:
               </p>
               <p>
 
               </p>
                 <ul class="text-secondary" style="font-size: 25px;">
                 <li>
-                 <strong>.25</strong> ac. = <strong>$99</strong>
+                 Core Aeration: <strong>$125</strong>
                 </li>
                 <li>
-                 <strong>.33</strong> ac. = <strong>$115</strong> 
+                 Overseeding: <strong>$110</strong> 
                 </li>
                 <li>
-                 <strong>.50</strong> ac. = <strong>$145</strong>
-                </li>
-                <li>
-                 <strong>.66</strong> ac. = <strong>$175</strong> 
-                </li>
-                <li>
-                 <strong>.77</strong> ac. = <strong>$199</strong>
-                </li>
-                <li>
-                 <strong>1.0</strong> ac. = <strong>$249</strong>
+                 Organic Fertilizer: <strong>$125</strong>
                 </li>
               </ul>
             </div>
             <div class="col-md-4 col-sm-6">
-              <h5 class="text-bold text-uppercase letter-spasing-1">Option: Fertilizer</h5>
+              <h5 class="text-bold text-uppercase">1/2 Acre (& B. 1/2 Acre)</h5>
               <p style="font-style: italic; font-weight: bold;">
-              Top quality organic fertilizer
+              Basic Pricing:
               </p>
               <p>
 
               </p>
                 <ul class="text-secondary" style="font-size: 25px;">
                 <li>
-                 <strong>.25</strong> ac. = <strong>$99</strong>
+                 Core Aeration: <strong>$175</strong>
                 </li>
                 <li>
-                 <strong>.33</strong> ac. = <strong>$125</strong> 
+                 Overseeding: <strong>$125</strong> 
                 </li>
                 <li>
-                 <strong>.50</strong> ac. = <strong>$175</strong>
-                </li>
-                <li>
-                 <strong>.66</strong> ac. = <strong>$225</strong> 
-                </li>
-                <li>
-                 <strong>.77</strong> ac. = <strong>$249</strong>
-                </li>
-                <li>
-                 <strong>1.0</strong> ac. = <strong>$325</strong>
+                 Organic Fertilizer: <strong>$175</strong>
                 </li>
               </ul>
             </div>
-          </div>
+
+            <div class="row row-40 text-center text-sm-left offset-4 row-xs-center">
+            <div class="col-md-4 col-sm-6">
+              <h5 class="text-bold text-uppercase">2/3 Acre</h5>
+              <p style="font-style: italic; font-weight: bold;">
+              Basic Pricing:
+              </p>
+              <p>
+
+              </p>
+                <ul class="text-secondary" style="font-size: 25px;">
+                <li>
+                 Core Aeration: <strong>$250</strong>
+                </li>
+                <li>
+                 Overseeding: <strong>$200</strong> 
+                </li>
+                <li>
+                 Organic Fertilizer: <strong>$225</strong>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <h5 class="text-bold text-uppercase">3/4 Acre</h5>
+              <p style="font-style: italic; font-weight: bold;">
+              Basic Pricing:
+              </p>
+              <p>
+
+              </p>
+                <ul class="text-secondary" style="font-size: 25px;">
+                <li>
+                 Core Aeration: <strong>$300</strong>
+                </li>
+                <li>
+                 Overseeding: <strong>$250</strong> 
+                </li>
+                <li>
+                 Organic Fertilizer: <strong>$275</strong>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <h5 class="text-bold text-uppercase">1 Acre</h5>
+              <p style="font-style: italic; font-weight: bold;">
+              Basic Pricing:
+              </p>
+              <p>
+
+              </p>
+                <ul class="text-secondary" style="font-size: 25px;">
+                <li>
+                 Core Aeration: <strong>$350</strong>
+                </li>
+                <li>
+                 Overseeding: <strong>$300</strong> 
+                </li>
+                <li>
+                 Organic Fertilizer: <strong>$325</strong>
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-default btn-md" href="faq.php">Group Discounts - Learn More</a>
+            </div>
+            <p style="font-size: 10px">
+              <strong>DISCLAIMER: </strong>All gates and areas to be aerated must be wide enough to accommodate our machines. Excludes areas on steep hills and where shallow roots are present. <br>All lawn sprinkler heads (on or adjacent to your property) and ambiguous or abnormally shaped property lines MUST BE CLEARLY MARKED WITH PIN FLAGS. <br>We cannot be responsible for damage to any unmarked sprinkler head or damage to any pipe, wire, cable or other utility. <br>Areas adjacent to, but not part of your property (such as public parkland and common grounds) may cost extra. <br>Payment shall become due upon completion of work. <br>We reserve the right to refuse any job.
+            </p>
         </div>
       </section>
-      <!-- Why exterior design is important-->
+      <!-- Why aerate my lawn Panel-->
       <section class="bottom">
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-secondary-var-3">
               <h2>
-                Why aerate my lawn?
+                Why core aerate my lawn?
               </h2>
               <p>
-                Immediately following aeration, your lawn is <strong>ripe</strong> for overseeding and fertilizing.
+                Soil in Northern Virginia is notoriously hard & nutrient-poor due to its high clay content. Plus, summer heat and lack of rain adds to the detrimental impact on your lawn.
+              </p>
+              <p>
+                  <strong>Our Core Aeration treatment reduces soil density and thatch build-up allowing air, water, sunlight and nutrients into the root zone.</strong>
               </p>
               <p>
                    
               </p>
               <p>
-                The holes provide excellent soil exposure for seeds and deliver fertilizer directly to the roots of your grass.
+                Strong roots support healthy lawns, helping them resist traffic, disease, drought and weeds.
               </p>
               <div class="triangel"></div>
             </div>
-            <div class="col-md-7 bg-images-9"></div>
+            <div class="col-md-7 bg-images-10"></div>
           </div>
         </div>
       </section>
-      <!-- Program for Any Budget-->
-      <section class="well-xl-var-3">
-        <div class="container">
-          <h1 class="text-center" style="color: #f3b143; font-size: 175px">FALL SPECIAL</h1>
-          <div class="row row-30 row-md-reverse offset-10">
-            <div class="col-md-4 text-center"><img src="images/acpics/backgrounds/grass-upclose.jpg" width="370" height="384" alt=""></div>
-            <div class="col-md-8 text-center">
-              <h2 class="text-bold text-uppercase">Just $95 to aerate <br>your ¼ acre lawn!</h2>
-              <p>
-                   
-              </p>
-              <h5>
-                Our professional service troops will aerate your lawn with commercial equipment for the same price you would pay just to rent a low-quality aerator
-              </h5>
-              <p>
-                   
-              </p>
-              <p>
-                Give us a call today and we will inspect your property to make your lawn vibrant again!    
-              </p>
-              <a class="btn btn-default btn-md" href="sign-up.php">Sign Up Now!</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Main services-->
+      <!-- Why Overseeding Panel-->
       <section>
         <div class="container">
           <div class="row row-md-reverse">
             <div class="col-md-5 bg-secondary-var-1">
-              <h2 class="letter-spasing">Our <br class="d-none d-xl-block">Promise
+              <h2 class="letter-spasing">Why Overseeding<br class="d-none d-xl-block">& Fertilizer?
               </h2>
               <p>
-                We ensure that the first impression made by your property is impressive
-                with a full range of exterior maintenance and cleaning services.
-                We maintain excellent, quality care, with trained professionals on the job.
+                Fall is the perfect time for Overseeding and Fertilization - which will contribute to new growth and a uniform appearance in your lawn. Thick, healthy turf is also your best defense against weeds!
               </p>
               <p>
-                All year long, and throughout any weather conditions, your lawn and surrounding
-                areas will be kept pristine by our reliable, experienced staff.
+                We offer optional Overseeding (Professional Turf-Type Tall Fescue) and/or Premium Organic Fertilizer at excellent pricing if applied by our technicians at time of Core Aeration service.
               </p>
               <div class="triangel-var-1"></div>
             </div>
-            <div class="col-md-7 bg-images-10"></div>
+            <div class="col-md-7 bg-images-9"></div>
           </div>
         </div>
       </section>

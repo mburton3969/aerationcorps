@@ -15,170 +15,166 @@
 <!-- *** Page Content Goes Here *** -->
 
       <!-- Swiper-->
-      <section class="swiper-container swiper-slider" data-loop="true" data-autoplay="5000" data-simulate-touch="false">
+      <section class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
+          <!--<div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf.jpg">
+          <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
-          </div>
+          </div>-->
         </div>
         <!-- Logo-->
         <div></div>
-        <div class="brand"><span><img src="images/acpics/demo-aeration-logo.jpg"></span>
+        <div class="brand"><span><img src="images/acpics/aeration-logo_final.png" style="border:10px solid #657F4C;background:rgba(255,255,255,0.9);padding:15px;"></span>
         </div>
       </section>
+
+      <!-- SECTION 1 -->
+      <section class="well-lg-var-3 bg-secondary">
+        <div class="container">
+          <div class="text-center">
+            <div class="text-center">
+              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in NOVA depend on The Aeration Corps</strong></h2>
+              <h2 style="color: #523329;">year after year.</h2>
+              <br>
+                <h6>
+                  Some lawncare companies dabble in aeration, <strong style="color: #523329;">but aeration is all we do.</strong> (with optional overseeding & fertilization). With our own commercial equipment and highly trained service techs, we are laser focused on delivering the results you expect.
+                </h6>
+              <a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
+            </div>
+            <br><br>
+            <div style="border: 5px solid brown;padding:10px;">
+            <h3 style="color: #f3b143; text-shadow: 2px 2px #041103;">FALL SPECIAL: $95 to aerate your ¼ acre lawn!</h3>
+              <br>
+            <h5 class="text-bold text-shadow" style="color: #523329; font-style: italic;">For the price you’d pay to <u>rent an aerator</u>, you can enjoy premium aeration service.</h5>
+              <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
+             </div>
+              <br><br>
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 style="color: #523329;">Optional Services</h2>
+                <br><br>
+                </div>
+                <div class="col-md-6">
+                 <h3 style="color: #523329;"><strong>Overseeding $95</strong></h3>
+                    <p style="font-style: italic;">
+                    For ¼ acre lawn.
+                    </p>
+                  <h6 style="color: #523329;">learn more about our <br> premium turf-type tall fescue overseeding.</h6>
+                   <a class="btn btn-default btn-md" href="faq.php"> More </a>
+                </div>
+                <div class="col-md-6">
+                  <h3 style="color: #523329;"><strong>Fertilizer $95</strong></h3>
+                    <p style="font-style: italic;">
+                    For ¼ acre lawn.
+                    </p>
+                  <h6 style="color: #523329;">learn more about our <br> premium organic fertilizer.</h6>
+                   <a class="btn btn-default btn-md" href="faq.php"> More </a>
+                   </div>
+                 </div>
+                  <br><br>
+                <h4>
+               Aeration is a very seasonal process. <br>With our current demand, we may only be in your area one time this fall. <br> Reserve your spot today to ensure your lawn receives our premium service. 
+              </h4>
+                <a class="btn btn-default btn-md" href="faq.php">YES, we do offer group discounts!</a>
+              <a class="btn btn-default btn-md" href="sign-up.php">Sign Up Today</a>
+          </div>
+        </div>
+      </section>
+
       <!-- Learn More -->
-      <section>
+     <!-- <section>
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-white">
-              <h2>Our mission:</h2>
-              <h2><strong style="color: #384e01;">Excellent Service</strong></h2>
-              <h2 style="color: #523329;">Affordable Prices</h2>
+              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in NOVA depend on The Aeration Corps</strong></h2>
+              <h2 style="color: #523329;">year after year.</h2>
               <p>
-                There’s a reason why we aerate more lawns than anyone else in Northern VA. <strong style="color: #523329;">This is all we do.</strong>
-              </p><a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
+                Some lawncare companies dabble in aeration,  
+                </p>
+                <h6>
+                  <strong style="color: #523329;">but aeration is all we do.</strong> 
+                </h6>
+                <p style="font-style: italic;">
+                  (with optional overseeding & fertilization).
+                </p>
+                <p>
+                  With our own commercial equipment and highly trained service techs, we are laser focused on delivering the results you expect.
+                </p>
+              <a class="btn btn-default btn-md" href="about-us.php">Lean More About Us</a>
               <div class="triangel"></div>
             </div>
             <div class="col-md-7 bg-images-1"></div>
           </div>
         </div>
-      </section>
-      <!-- Break-->
-      <section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f0f0f0;">
-        <div class="container text-center">
-        </div>
-      </section>
-      <!-- How it Works-->
-      <section>
-        <div class="container">
-          <div class="row row-md-reverse">
-            <div class="col-md-5 bg-secondary-var-1">
-              <h2>
-                How It Works:
-              </h2>
-              <p>
-                <ul>
-                  <li>
-                    <strong>1.</strong> You sign up for our services
-                  </li>
-                  <li>
-                    <strong>2.</strong> We perform your service with speed and accuracy
-                  </li>
-                  <li>
-                    <strong>3.</strong> You enjoy hassle-free email invoicing
-                  </li>
-                  <li style="font-style: italic; font-size: 11px">
-                    Pay securely online OR mail in payment
-                  </li>
-                </ul>
-              </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
-              <div class="triangel-var-1"></div>
-            </div>
-            <div class="col-md-7 bg-images-2"></div>
-          </div>
-        </div>
-      </section>
-      <!-- Qualtiy Customer Care-->
-      <section class="well-xl">
-        <div class="container text-center text-md-left">
-          <div class="row row-30 row-md-0">
-            <div class="col-md-6">
-              <h2>Quality <br class="d-none d-lg-block">Customer <br class="d-none d-lg-block">Care
-              </h2><img src="images/home-02.jpg" width="300" height="350" alt="">
-            </div>
-            <div class="col-md-6 text-left">
-              <div class="divider divider-4"></div>
-              <p>
-               Some lawncare companies dabble in aeration – often with inexperienced operators, renting the same machine you can get at your local home center. We own and maintain our own heavy-duty commercial aerators. And, our service technicians are highly trained to ensure you get great results!
-              </p>
-              <p>
-                  
-              </p>
-              <h4 class="text-bold text-uppercase">We own and maintain our own heavy-duty commercial aerators.</h4>
-              <p>
-                  
-              </p>
-              <p>
-                  
-              </p>
-              <p>
-               And, our service technicians are highly trained to ensure you get great results!
-              </p>
-              <p>
-                  
-              </p>
-              <h2 style="color: #384e01;">Our mission is to deliver the best possible service in the industry.</h2>
-            </div>
-          </div>
-        </div>
-      </section>
+      </section> -->
+
       <!-- FALL SPECIAL-->
-      <section class="well-xl-var-1 grass-upclose">
+      <!-- <section class="well-xl-var-1 lawn-turf">
         <div class="container text-center">
-          <h1 style="color: #f3b143;">FALL SPECIAL</h1>
-          <h2></h2>
-          <h2 class="text-bold text-shadow" style="color: #ffff;">$95 to aerate your ¼ acre lawn!</h2>
+          <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">FALL SPECIAL</h1>
+          <h2 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">$95 to aerate your ¼ acre lawn!</h2>
+          <p>
+
+          </p>
+          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">For the price you’d pay to <u>rent an aerator</u>, <br> you can enjoy premium aeration service.</h4>
           <a class="btn btn-md btn-secondary-var-2 offset-2" href="services.php">learn More</a>
-        </div>
-      </section>
-      <!-- Testimonials-->
-      <section class="well-lg well-lg-var-2 bg-secondary-var-2">
+      </section> -->
+
+       <!-- Optional Services-->
+      <!--<section class="well-lg well-lg-var-2 bg-secondary-var-2" style="background-color: #f3b243;">
         <div class="container text-center">
-          <h2>testimonials</h2>
+          <h2 style="color: #523329;">Optional Services</h2>
+          <a class="btn btn-default btn-md" style="background: transparent;" href="faq.php">YES, we do offer group discounts!</a>
           <div class="divider divider-5"></div>
           <div class="row row-xs-center">
             <div class="col-sm-8">
-              <!-- Owl Carousel-->
-              <div class="owl-carousel" data-nav="true">
+              <div style="color: #523329;">
                 <div>
-                  <h3>Joyce B.</h3>
-                  <p>We've had other companies stopping by, trying to sell their services, but I tell them that I have a great company that does a wonderful job and am not interested in switching.<br class="d-none d-xl-block">So thanks for doing a great job every year! Consistency & trustworthiness is nice to have in a company!
-                  </p>
+                  <h3 style="color: #523329;"><strong>Overseeding $95</strong></h3>
+                    <p style="font-style: italic;">
+                    For ¼ acre lawn.
+                    </p>
                   <p>
                        
                   </p>
-                  <h6>Leesburg,VA</h6>
+                  <h6 style="color: #523329;">learn more about our <br> premium turf-type tall fescue overseeding.</h6>
+                   <a class="btn btn-default btn-md" href="faq.php"> More </a>
+                   <p>
+
+                    </p>
+                    <p>
+
+                    </p>
+                    <p>
+
+                    </p>
                 </div>
                 <div>
-                  <h3>S.K.</h3>
-                  <p>Thank you for your professional work done on my property. It was an excellent job done by the real professional. I would not hesitate to refer you to my neighbour.<br class="d-none d-xl-block">Thank you again for your excellent job done on my property.
-                  </p>
+                  <h3 style="color: #523329;"><strong>Fertilizer $95</strong></h3>
+                    <p style="font-style: italic;">
+                    For ¼ acre lawn.
+                    </p>
                   <p>
                        
                   </p>
-                  <h6>Fairfax,VA</h6>
+                  <h6 style="color: #523329;">learn more about our <br> top-quality organic fertilizer.</h6>
+                   <a class="btn btn-default btn-md" href="faq.php"> More </a>
                 </div>
-                <div>
-                  <h3>Troy H.</h3>
-                  <p>Just wanted to thank you all for a fantastic job! <br class="d-none d-xl-block">It was obvious from looking around my yard that you were extremely <br class="d-none d-xl-block">thorough and diligent and took the time to address the areas of our concern.<br class="d-none d-xl-block">It's been a pleasure working with you all. Thank you!
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6>Leesburg,VA</h6>
-                </div>
-                <div>
-                  <h3>Becki M.</h3>
-                  <p>Thank you again!  Your crew did a great job!<br class="d-none d-xl-block">I'm happy to support a local business.
-                  </p>
-                  <p>
-                       
-                  </p>
-                  <h6>Ashburn,VA</h6>
+                
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
       <!--Seasonal-->
-      <section class="bottom">
+      <!--<section class="bottom">
         <div class="container">
           <div class="row">
             <div class="col-md-5 bg-secondary-var-3">
@@ -192,19 +188,102 @@
             <div class="col-md-7 bg-images-4"></div>
           </div>
         </div>
-      </section>
-      <!--Google Map-->
-      <section class="section">
-        <!--Please, add the data attribute data-key="YOUR_API_KEY" in order to insert your own API key for the Google map.-->
-        <!--Please note that YOUR_API_KEY should replaced with your key.-->
-        <!--Example: <div class="google-map-container" data-key="YOUR_API_KEY">-->
-        <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;all&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]},{&quot;featureType&quot;:&quot;administrative.locality&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:&quot;-2&quot;},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#000000&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#050505&quot;},{&quot;lightness&quot;:17}]}]">
-          <div class="google-map"></div>
-          <ul class="google-map-markers">
-            <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
-          </ul>
+      </section> -->
+      <!-- How it Works-->
+      <section>
+        <div class="container">
+          <div class="row row-md-reverse">
+            <div class="col-md-5 bg-secondary-var-1">
+              <h2>
+                How To Reserve Your Service:
+              </h2>
+              <p>
+                <ul>
+                  <li>
+                    <strong>1.</strong> Sign-up at <a href="index.php">TheAerationCorps.com</a> (takes just 60 seconds)
+                  </li>
+                  <li>
+                    <strong>2.</strong> We schedule your service & notify you prior to service 
+                  </li>
+                  <li>
+                    <strong>3.</strong> Payment is due (online or mail) after work is complete
+                  </li>
+                  <li style="font-style: italic; font-size: 11px">
+                    Pay securely online OR mail in payment
+                  </li>
+                </ul>
+              </p><a class="btn btn-secondary-var-1 btn-md" href="faq.php">FAQ's</a>
+              <div class="triangel-var-1"></div>
+            </div>
+            <div class="col-md-7 reg-bg"></div>
+          </div>
         </div>
       </section>
+       <!-- Testimonials-->
+
+      <?php include 'about/sections/testimonials.php'; ?>
+
+      <!-- Contact Form-->
+      <section class="bottom">
+        <div class="container">
+          <div class="row row-md-justify">
+            <div class="col-md-6 bg-secondary-var-3 inset-3">
+              <h2>Contact Us</h2>
+              <!-- RD Mailform-->
+              <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                <div class="row row-30">
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-name">Name:</label>
+                      <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-email">Email:</label>
+                      <input class="form-input" id="contact-email" type="text" name="email" data-constraints="@Required @Email">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-wrap">
+                      <label class="form-label" for="contact-message">Message:</label>
+                      <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-md btn-secondary btn-no-arrow" type="submit">send message</button>
+              </form>
+            </div>
+            <div class="col-md-4 well-sm">
+              <h4>Call or Email us with any questions or inquiries.</h4>
+                <p>
+                We would be happy to answer your questions.
+              </p>
+              <address>
+                PO Box 447    
+                <br>Purcellville VA, 20134  
+              </address>
+              <div class="contact-info">
+                <dl>
+                  <dt>Telephone</dt>
+                  <dd><a href="tel:#">1 (877) 267-3799</a></dd>
+                </dl>
+                <dl>
+                </dl>E-mail:<a class="mail" href="mailto:#"> service@theaerationcorps.com</a>
+              </div>
+              <div>
+                <p>
+                     
+                </p>
+                <a class="btn btn-default btn-md" href="faq.php">FAQ's</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!--Google Map-->
+      <?php include 'contact/sections/google-map.php'; ?>
     </div>
     <!-- *** Page Content Ends Here *** -->
 

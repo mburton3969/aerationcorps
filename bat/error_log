@@ -1,0 +1,4 @@
+[29-Aug-2019 08:47:07 Etc/UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home3/mburton9/public_html/aerationcorps/bat/rd-mailform.php on line 86
+[29-Aug-2019 08:47:26 Etc/UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home3/mburton9/public_html/aerationcorps/bat/rd-mailform.php on line 86
+[29-Aug-2019 08:53:01 Etc/UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home3/mburton9/public_html/aerationcorps/bat/rd-mailform.php on line 86
+[29-Aug-2019 04:08:58 America/Chicago] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home3/mburton9/public_html/aerationcorps/bat/rd-mailform.php on line 29
