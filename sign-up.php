@@ -205,7 +205,7 @@
 							<input type="radio" class="form-control" name="prop_sprinkler" id="prop_sprinkler_no" value="No" style="-webkit-appearance:radio;" /> No
 							</p>
 							<p>
-							Do you have and invisible dog fence (buried wire)?
+							Do you have an invisible dog fence (buried wire)?
 							&nbsp;&nbsp;&nbsp;&nbsp;
 							<input type="radio" class="form-control" name="prop_fence" id="prop_fence_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
 							&nbsp;&nbsp;&nbsp;&nbsp;

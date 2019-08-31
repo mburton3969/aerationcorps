@@ -9,11 +9,11 @@
 				</div>
 				<div class="col-md-3">
 				<label for="serviced_date">Serviced Date:</label>
-				<input type="text" class="form-control date" id="serviced_date" name="serviced_date" />
+				<input type="text" class="form-control date" id="serviced_date" name="serviced_date" autocomplete="off" />
 				</div>
 				<div class="col-md-3">
 				<label for="invoiced_date">Invoiced Date</label>
-				<input type="text" class="form-control date" id="invoiced_date" name="invoiced_date" />
+				<input type="text" class="form-control date" id="invoiced_date" name="invoiced_date" autocomplete="off" />
 				</div>
       </div>
       <div class="modal-body">
@@ -182,7 +182,7 @@
 							<input type="radio" name="prop_sprinkler" id="prop_sprinkler_no" value="No" style="-webkit-appearance:radio;" /> No
 							</p>
 							<p>
-							Do you have and invisible dog fence (buried wire)?
+							Do you have an invisible dog fence (buried wire)?
 							&nbsp;&nbsp;&nbsp;&nbsp;<br>
 							<input type="radio" name="prop_fence" id="prop_fence_yes" value="Yes" style="-webkit-appearance:radio;" /> Yes
 							&nbsp;&nbsp;&nbsp;&nbsp;

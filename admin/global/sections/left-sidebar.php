@@ -8,7 +8,7 @@
 				<?php
 				
 			echo '<li>
-					<a href="index.php">
+					<a href="dashboard.php">
 						<div class="pull-left"><i class="fas fa-tachometer-alt mr-20"></i><span class="right-nav-text">Dashboard</span></div>';
 			//echo '<div class="pull-right"><span class="label label-danger">1</span></div>';
 			echo '<div class="clearfix"></div>

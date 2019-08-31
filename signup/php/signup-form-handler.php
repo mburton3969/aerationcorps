@@ -115,8 +115,12 @@ mysqli_query($conn, $iq) or die('ERROR CODE 28583: ' . $conn->error);
 
 include '../../email/templates/confirm-order-email.php';
 // Set Email Display Parameters...
-$header = 'From: The Areation Corps <info@theaerationcorps.com>' . "\r\n";
+
+$header = 'From: The Aeration Corps<service@theaerationcorps.com>' . "\r\n";
 //$header .= "Reply-To: " . $email . "\r\n";
+if($special_requests != ''){
+$header .= "Cc: service@theaerationcorps.com" . "\r\n";
+}
 $header .= "Bcc: michael@ignition-innovations.com" . "\r\n";
 $header .= 'X-Mailer: PHP/' . phpversion();
 $header .= "MIME-Version: 1.0\r\n";
@@ -134,8 +138,13 @@ echo '<html>
     <body>
   <div class="jumbotron text-xs-center" style="text-align:center;height:100%;">
   <img src="../../images/acpics/aeration-logo_final.png" style="width:20%;" />
-  <h1 class="display-3">Thank You!</h1>
-  <p class="lead">Your order was submitted and you should receive an email shortly confirming the details of your order!</p>
+  <h1 class="display-3">Thank You for your order!</h1>
+  <p class="lead">
+    We will contact you two days prior to your scheduled service and invoice after the work has been performed. 
+  </p>
+  <p class="lead">
+    You should receive a confirmation email shortly. If you don’t, please check your junk email folder <br> and designate our emails as “not junk” to ensure you receive future notifications from us.
+  </p>
   <hr>
   <!--<p>
     Having trouble? <a href="mailto:info@theaerationcorps.com">Contact us</a>

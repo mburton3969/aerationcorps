@@ -201,3 +201,9 @@
 [29-Aug-2019 02:43:31 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
 [29-Aug-2019 03:44:58 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
 [29-Aug-2019 03:44:58 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[29-Aug-2019 11:31:51 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[29-Aug-2019 11:31:51 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[30-Aug-2019 13:54:58 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[30-Aug-2019 13:54:58 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[30-Aug-2019 23:30:33 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
+[30-Aug-2019 23:30:33 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32

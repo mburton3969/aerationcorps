@@ -1,11 +1,46 @@
 <?php
 
+
 $formConfigFile = file_get_contents("rd-mailform.config.json");
 $formConfig = json_decode($formConfigFile, true);
 
 date_default_timezone_set('Etc/UTC');
 
-try {
+$recipients = $formConfig['recipientEmail'];
+
+include '../email/phpmailer/PHPMailerAutoload.php';
+$mail = new PHPMailer;
+include '../email/phpmailsettings.php';
+
+$mail->setFrom("service@theaerationcorps.com","Aeration Service");
+$mail->addAddress($recipients);
+$mail->Subject = 'Contact Form!';
+
+// Set Email Display Parameters...
+/*$header = 'From: The Aeration Corps<service@theaerationcorps.com>' . "\r\n";
+//$header .= "Reply-To: " . $email . "\r\n";
+$header .= "Bcc: michael@ignition-innovations.com" . "\r\n";
+$header .= 'X-Mailer: PHP/' . phpversion();
+$header .= "MIME-Version: 1.0\r\n";
+$header .= "Content-Type: text/html; charset=UTF-8\r\n";
+$sub = 'Contact Form!';*/
+$contact_name = $_POST['name'];
+$contact_email = $_POST['email'];
+$contact_message = $_POST['message'];
+
+include 'contact-template.php';
+//$mess = $etemp;
+$mail->Body = $etemp;
+
+//mail($recipients,$sub,$mess,$header);
+if($mail->send()){
+  die('MF000');
+}else{
+  die('MF255');
+}
+
+
+/*try {
     //require './phpmailer/PHPMailerAutoload.php';
 
     $recipients = $formConfig['recipientEmail'];
@@ -144,4 +179,6 @@ try {
     die('MF254');
 } catch (Exception $e) {
     die('MF255');
-}
+}*/
+
+?>

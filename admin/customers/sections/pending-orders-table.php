@@ -45,6 +45,7 @@ $rn = mysqli_num_rows($g);
 														<th>Source</th>
 														<th>New</th>
 														<!--<th>Serviced</th>-->
+														<th>Special Req</th>
 														<th>Actions</th>
 													</tr>
 												</thead>
@@ -157,7 +158,14 @@ $rn = mysqli_num_rows($g);
                               }else{
                                 echo date("m/d/Y", strtotime($r['serviced_date']));
                               }
-                              echo '</span></td>-->
+                              echo '</span></td>-->';
+														if($r['special_requests'] != ''){
+															echo '<td style="background:yellow;border:2px solid black;color:black;font-weight:bold;">' . $r['special_requests'] . '</td>';
+														}else{
+															echo '<td></td>';
+														}
+																		
+                                   echo '
                                     <td>
                                       <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#customerModal" onclick="load_form(\'Edit\',' . $r['ID'] . ');"><i class="fas fa-pencil-alt"></i> Edit</button>
                                       <button type="button" class="btn btn-danger btn-sm" onclick="remove_customer(' . $r['ID'] . ',this);"><i class="fas fa-trash"></i> Cancel</button>

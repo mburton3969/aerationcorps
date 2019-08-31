@@ -1,1 +1,4 @@
 [27-Aug-2019 14:48:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/mburton9/public_html/aerationcorps/email/templates/confirm-order-email.php on line 709
+[31-Aug-2019 12:20:50 America/Chicago] PHP Warning:  include(../global/php/connection.php): failed to open stream: No such file or directory in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 2
+[31-Aug-2019 12:20:50 America/Chicago] PHP Warning:  include(../global/php/connection.php): failed to open stream: No such file or directory in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 2
+[31-Aug-2019 12:20:50 America/Chicago] PHP Warning:  include(): Failed opening '../global/php/connection.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 2
