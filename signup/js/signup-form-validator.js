@@ -1,4 +1,4 @@
-function submit_signup_form(){
+function submit_signup_form(token){
   
   if(!$("input[name='cust_type']:checked").val()) {
     document.getElementById('cust_error').innerHTML = '* Please Select a Customer Type!';
@@ -165,6 +165,14 @@ function submit_signup_form(){
     window.scrollTo(window.scrollX, window.scrollY - 100);
     return;
   }
+  
+  var atc = document.getElementById('atc');
+  //if(localStorage.getItem('ad_code')){
+    atc.value = localStorage.getItem('ad_code');
+    localStorage.setItem('ads','YES!');
+  //}else{
+    //atc.value = '';
+  //}
   
   //Submit the form...
   document.getElementById('signup_form').submit();

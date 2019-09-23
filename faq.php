@@ -2,6 +2,13 @@
 <html class="wide wow-animation" lang="en">
   <head>
    <?php include 'global/sections/head.php';?> 
+    <style>
+      @media only screen and (max-width:500px){
+        .myVideo{
+          width: 100% !Important;
+        }
+      }
+    </style>
   </head>
   <body>
 
@@ -72,6 +79,15 @@
                   <p class="index-list-answer">
                     In MOST cases, you will NOT be able to see all of the individual seeds due to the lack of contrast in color between the grass seed and the turf. Even on areas of dead turf and bare soil, MOST of the grass seed will be IMPERCEPTIBLE to the naked eye in MOST cases. Another misconception people frequently have concerning Overseeding is that the lawn is supposed to be "blanketed" with grass seed. Turf-type Tall Fescue is a BUNCH-TYPE turfgrass, meaning several blades of grass will sprout from one seed. For this reason, it is not necessary to use exorbitant amounts of seed when Overseeding. Remember, Overseeding is NOT re-seeding. Overseeding is "seeding over" an EXISTING lawn in GENERALLY GOOD condition. WE TAKE GREAT CARE IN MAKING SURE ALL OF OUR OVERSEEDING CUSTOMERS GET A GENEROUS AMOUNT OF SEED ON THEIR LAWNS.
                   </p>
+          <!--Video Section-->
+                <p class="index-list-answer">
+                  This video shows Grass Seed and Fertilizer being applied to turf. 
+                  You will notice that it becomes very difficult to see once applied!
+                 </p>
+                 <video class="myVideo" style="width:500px;height:500px;background:black;margin:auto;text-align:center;" controls muted>
+                  <source src="video/IMG_0012.MOV" type="video/mp4">
+                  You browser does not support this video type...
+                 </video>
                 <li><h6 class="index-list-question">How many times will you go over my lawn with your machines?</h6></li>
                   <p class="index-list-answer">
                     We will Core Aerate all areas of your lawn that are safely accessible by our machines ONE TIME. WE ONLY USE THE HIGHEST QUALITY CORE AERATORS, WHICH EXTRACT CORES APPORXIMATELY EVERY 4 INCHES.
