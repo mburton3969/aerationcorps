@@ -38,11 +38,11 @@ include '../global/php/connection.php';
               <tr class="border">
                 <td colspan="7" height="1"></td>
               </tr>';
-        $cq = "SELECT * FROM `customers` WHERE `inactive` != 'Yes' AND `serviced_date` = '0000-00-00' AND `zip` = '" . $zr['zip'] . "'";
+        $cq = "SELECT * FROM `customers` WHERE `inactive` != 'Yes' AND `serviced_date` = '0000-00-00' AND `zip` = '" . $zr['zip'] . "' ORDER BY `address` ASC";
         $cg = mysqli_query($conn, $cq) or die($conn->error);
         while($cr = mysqli_fetch_array($cg)){
           echo '<tr>
-        <td class="header">' . $cr['fname'] . ' ' . $cr['lname'] . '</td>
+        <td class="header">' . ucwords($cr['fname'] . ' ' . $cr['lname']) . '</td>
         <td>Added: ' . date("m/d/Y", strtotime($cr['date'])) . '</td>
         <td>' . $cr['address'] . ' ' . $cr['address2'] . '</td>
         <td>' . $cr['city'] . '</td>

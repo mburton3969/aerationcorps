@@ -28,6 +28,13 @@ $contact_name = $_POST['name'];
 $contact_email = $_POST['email'];
 $contact_message = $_POST['message'];
 
+if($contact_message == '' || !isset($_POST['message']) ||
+   $contact_email == '' || !isset($_POST['email']) ||
+   $contact_name == '' || !isset($_POST['name']) 
+  ){
+    die('MF255');
+  }
+
 include 'contact-template.php';
 //$mess = $etemp;
 $mail->Body = $etemp;
