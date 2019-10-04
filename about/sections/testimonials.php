@@ -636,6 +636,27 @@
                   </p>
                   <h6 style="color: #523329;">Lovettsville,VA</h6>
                 </div>
+                <!-- T64 -->
+                <div>
+                  <h3 style="color: #523329;">David B.</h3>
+                  <p>Thanks! Great job. See you next year!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T65 -->
+                <div>
+                  <h3 style="color: #523329;">Lori A.</h3>
+                  <p>It was nice meeting you yesterday. I sincerely appreciate the information, suggestions and follow-up photo. 
+                    Your customer service is outstanding and I’ve already recommended you to my neighbor.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
                 <!-- End Testimonials-->
               </div>
             </div>

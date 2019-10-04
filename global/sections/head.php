@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="keywords" content="core aerator,aerator,theaerationcorps,aeration,lawn care,loudoun,ashburn,virginia,landscaping,lawn,grass,overseed,fertilizer,lawn maintenance,home">
-    <META NAME="Title" CONTENT="Home Page - The Aeration Corps Aeration, overseeding, fertilizer in Loudoun Virginia">
-    <META NAME="Subject" CONTENT="A Loudoun County based company with highly trained technicians who specialize in Aeration Service using our own commercial equiptment.">
-    <META NAME="Description" CONTENT="A Loudoun County based company with highly trained technicians who specialize in Aeration Service using our own commercial equiptment.">	
+    <META NAME="Title" CONTENT="The Aeration Corps | Aeration, Overseeding, Fertilizer in Loudoun County Virginia">
+    <META NAME="Subject" CONTENT="A Loudoun County based company with highly trained technicians who specialize in Aeration Service using our own commercial equipment.">
+    <META NAME="Description" CONTENT="A Loudoun County based company with highly trained technicians who specialize in Aeration Service using our own commercial equipment.">	
     <link rel="icon" href="images/brand/favicon.PNG">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Unica+One%7COpen+Sans:400,600,700,300%7CCabin:400,500,700,600">
     <link rel="stylesheet" href="css/style.css">
@@ -18,6 +18,5 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'UA-139176938-2');
     </script>
