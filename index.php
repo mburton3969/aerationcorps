@@ -14,24 +14,51 @@
 
 <!-- *** Page Content Goes Here *** -->
 
-      <!-- Swiper-->
-      <section class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false">
+ <!-- FALL SPECIAL-->
+      <section class="well-xl-var-1 lawn-turf-2">
+        <div class="container text-center">
+          <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">FALL SPECIAL</h1>
+          <h2 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">$95 to aerate your ¼ acre lawn!</h2>
+          <p>
+
+          </p>
+          <a class="btn btn-md btn-secondary-var-2 offset-2" href="sign-up.php">Reserve Your Service Today!</a>
+           <p>
+
+          </p>
+           <h3 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">Aeration Season is almost over & we have limited slots remaining.</h3>
+            <p>
+
+          </p>
+           <p>
+
+          </p>
+          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">We invoice only after work is complete. <br> Check <a href="services.php">services page</a>, <br> for other lot sizes & additional services.</h4>
+          <p>
+
+          </p>
+          <p class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">GROUP DISCOUNTS are still available. Sign up now and indicate you are assembling a group. Your price will be adjusted accordingly.</p>
+      </section>
+
+    <!-- Swiper-->
+      <!-- <section class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
           <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
-          </div>
+          </div> -->
           <!--<div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
           <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
-          </div>-->
-        </div>
-        <!-- Logo-->
-        <div></div>
+          </div>
+        </div> -->
+
+      <!-- Logo-->
+        <!--<div></div>
         <div class="brand"><span><img src="images/acpics/aeration-logo_final.png" style="border:10px solid #657F4C;background:rgba(255,255,255,0.9);padding:15px;"></span>
         </div>
-      </section>
+        </section> -->
 
       <!-- SECTION 1 -->
       <section class="well-lg-var-3 bg-secondary">
