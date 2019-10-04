@@ -26,18 +26,21 @@
            <p>
 
           </p>
-           <h3 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">Aeration Season is almost over & we have limited slots remaining.</h3>
+          <p>
+
+          </p>
+           <h3 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">Aeration Season is almost over <br>& we have limited slots remaining.</h3>
             <p>
 
           </p>
            <p>
 
           </p>
-          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">We invoice only after work is complete. <br> Check <a href="services.php">services page</a>, <br> for other lot sizes & additional services.</h4>
+          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">We invoice only after work is complete. <br> Check <a href="services.php" style="color: #f5f2ef; text-shadow: 2px 2px #041103;">services page</a>, <br> for other lot sizes & additional services.</h4>
           <p>
 
           </p>
-          <p class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">GROUP DISCOUNTS are still available. Sign up now and indicate you are assembling a group. Your price will be adjusted accordingly.</p>
+          <p class="text-bold text-shadow" style="color: #efe3d1; text-shadow: 2px 2px #041103; font-style: italic;">GROUP DISCOUNTS are still available. <br>Sign up now and indicate you are assembling a group. <br>Your price will be adjusted accordingly.</p>
       </section>
 
     <!-- Swiper-->
@@ -65,7 +68,7 @@
         <div class="container">
           <div class="text-center">
             <div class="text-center">
-              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in NOVA depend on The Aeration Corps</strong></h2>
+              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in Loudoun County depend on The Aeration Corps</strong></h2>
               <h2 style="color: #523329;">year after year.</h2>
               <br>
                 <h6>
