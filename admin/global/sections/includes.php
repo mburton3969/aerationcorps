@@ -49,5 +49,13 @@
 	<script src="skin2-assets/dist/js/init.js"></script>
 	<!--<script src="../skin2-assets/dist/js/dashboard-data.js"></script>-->
 
+	<script src="../global/js/jquery.mask.js"></script>
+  <script>
+			$(document).ready(function($){
+  			$('.phone_us').mask('000.000.0000');
+  			$('.zipCode').mask('00000');
+				$( ".date" ).datepicker();
+			});
+		</script>
 	
 

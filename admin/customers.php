@@ -81,14 +81,7 @@ include 'global/php/security.php';
 	<!--Footer-->
 	<?php include 'global/sections/includes.php'; ?>
   <script src="customers/js/customer-form-handler.js"></script>
-  <script src="../global/js/jquery.mask.js"></script>
-  <script>
-			$(document).ready(function($){
-  			$('.phone_us').mask('000.000.0000');
-  			$('.zipCode').mask('00000');
-				$( ".date" ).datepicker();
-			});
-		</script>
+  
   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	<script>
 		setTimeout(function (){

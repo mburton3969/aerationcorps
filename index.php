@@ -14,31 +14,61 @@
 
 <!-- *** Page Content Goes Here *** -->
 
-      <!-- Swiper-->
-      <section class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false">
+ <!-- FALL SPECIAL-->
+      <section class="well-xl-var-1 lawn-turf-2" style="background-size: 120% 100%;">
+        <div class="container text-center" style="margin-top: -85px;">
+          <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">FALL SPECIAL</h1>
+          <h2 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">$95 to aerate your ¼ acre lawn!</h2>
+          <p>
+
+          </p>
+          <a class="btn btn-md btn-secondary-var-2b offset-2" href="sign-up.php">Reserve Your Service Today!</a>
+           <p>
+
+          </p>
+          <p>
+
+          </p>
+           <h3 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">Aeration Season is almost over <br>& we have limited slots remaining.</h3>
+            <p>
+
+          </p>
+           <p>
+
+          </p>
+          <h4 class="text-bold text-shadow" style="color: #f3b143; text-shadow: 2px 2px #041103; font-style: italic;">We invoice only after work is complete. <br> Check <a href="services.php" style="color: #f5f2ef; text-shadow: 2px 2px #041103;">services page</a>, <br> for other lot sizes & additional services.</h4>
+          <p>
+
+          </p>
+          <p class="text-bold text-shadow" style="color: #efe3d1; text-shadow: 2px 2px #041103; font-style: italic;">GROUP DISCOUNTS are still available. <br>Sign up now and indicate you are assembling a group. <br>Your price will be adjusted accordingly.</p>
+      </section>
+
+    <!-- Swiper-->
+      <!-- <section class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false">
         <div class="swiper-wrapper">
           <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
-          </div>
+          </div> -->
           <!--<div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
           </div>
           <div class="swiper-slide" data-slide-bg="images/acpics/backgrounds/lawn-turf-2.jpg">
             <div class="swiper-slide-caption"></div>
-          </div>-->
-        </div>
-        <!-- Logo-->
-        <div></div>
+          </div>
+        </div> -->
+
+      <!-- Logo-->
+        <!--<div></div>
         <div class="brand"><span><img src="images/acpics/aeration-logo_final.png" style="border:10px solid #657F4C;background:rgba(255,255,255,0.9);padding:15px;"></span>
         </div>
-      </section>
+        </section> -->
 
       <!-- SECTION 1 -->
       <section class="well-lg-var-3 bg-secondary">
         <div class="container">
           <div class="text-center">
             <div class="text-center">
-              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in NOVA depend on The Aeration Corps</strong></h2>
+              <h2><strong style="color: #384e01;">There’s a reason so many homeowners in Loudoun County depend on The Aeration Corps</strong></h2>
               <h2 style="color: #523329;">year after year.</h2>
               <br>
                 <h6>

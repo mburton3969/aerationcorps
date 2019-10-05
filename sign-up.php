@@ -2,7 +2,6 @@
 <html class="wide wow-animation" lang="en">
   <head>
    <?php include 'global/sections/head.php';?> 
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
 
@@ -234,7 +233,7 @@
 							<br>
 						</div>
 						<div class="col-md-6">
-							<button type="button" class="btn btn-default btn-md g-recaptcha" data-sitekey="6LfOUbkUAAAAAIHdijdnmFdUiDKH3mY4Cbinh7wO" data-callback="submit_signup_form">Submit</button>
+							<button type="button" class="btn btn-default btn-md" onclick="submit_signup_form();">Submit</button>
 						</div>
 						<div class="col-md-6">
 							<img src="images/acpics/payment-options.gif" />
