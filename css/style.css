@@ -3166,6 +3166,12 @@ html body .page .text-primary {
 	background: url("../images/acpics/backgrounds/lawn-turf.jpg") no-repeat;
 	background-position: center;
 }
+
+.lawn-turf-2{
+	background: url("../images/acpics/backgrounds/lawn-turf-2.jpg") no-repeat;
+	background-position: center;
+}
+
 .reg-bg{
 	background: url("../images/acpics/backgrounds/register.JPG") no-repeat;
 	background-position: 70% 50%;
