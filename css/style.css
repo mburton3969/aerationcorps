@@ -17434,6 +17434,23 @@ html:not(.lt-ie10) .not-animated {
 	border-color: #dedede;
 }
 
+.btn-secondary-var-2b {
+	background: #f3b143;
+	border-color: #f3b143;
+	color: #fff;
+}
+
+.btn-secondary-var-2b:hover {
+	background: #041103;
+	border-color: #041103;
+	color: #fff;
+}
+
+.btn-secondary-var-2b:active {
+	background: #dedede;
+	border-color: #dedede;
+}
+
 .btn-secondary-var-3 {
 	color: #2c461a;
 	background: #fff;
