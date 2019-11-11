@@ -46,7 +46,7 @@ $valid_captcha = 'Yes';
 $inactive = 'No';
 if($captcha_code == ''){
   $valid_captcha = 'No';
-  //$inactive = 'Yes';
+  $inactive = 'Yes';
 }
 
 //INSERT Customer...
@@ -151,9 +151,9 @@ if($special_requests != ''){
 $mail->addBCC("michael@ignition-innovations.com");
 $mail->Subject = 'TheAerationCorps Service Request Confirmation';
 $mail->Body = $etemp;
-//if($valid_captcha == 'Yes'){
+if($valid_captcha == 'Yes'){
   $mail->send();
-//}
+}
 
 /*$header = 'From: The Aeration Corps<service@theaerationcorps.com>' . "\r\n";
 //$header .= "Reply-To: " . $email . "\r\n";
