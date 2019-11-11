@@ -8,6 +8,81 @@
               <div class="owl-carousel" data-nav="true" style="color: #523329;">
                 <!-- T1 -->
                 <div>
+                  <h3 style="color: #523329;">Bill H.</h3>
+                  <p>Great service!</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Sterling,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Bruce L.</h3>
+                  <p>Your guys did a great, thorough job on my lawn. Thanks.</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Alex T.</h3>
+                  <p>Awesome service you have. I just paid the invoice online. I’ll spread the good word!</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Ashburn,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Valerie M.</h3>
+                  <p>We appreciate as well the terrific job you and the crew did, and the care and attention you paid to everything.  
+                    It was also helpful to get the watering instructions along with the invoice. You clearly work hard to earn your 
+                    reputation.  That can’t be said for a lot of other services we’ve come across.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">McLean,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">B.H.</h3>
+                  <p>You guys were great, thanks!</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Alexandria,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Sheila B.</h3>
+                  <p>Outstanding service! Thank you!</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Centreville,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Alycia T.</h3>
+                  <p>You guys did a great job!  Our lawn looks awesome and I hope you will come back to the neighborhood next season!</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Purcellville,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Don B.</h3>
+                  <p>I’ll take all your recommended procedures. Love my grass!</p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Aldie,VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
                   <h3 style="color: #523329;">Joyce B.</h3>
                   <p>We've had other companies stopping by, trying to sell their services, but I tell them that I have a great company that does a wonderful job and am not interested in switching.<br class="d-none d-xl-block">So thanks for doing a great job every year! Consistency & trustworthiness is nice to have in a company!
                   </p>
