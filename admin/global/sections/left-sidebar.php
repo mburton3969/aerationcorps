@@ -61,10 +61,10 @@
 				<?php
 				
 			echo '<li>
-					<a href="analytics.php">
-						<div class="pull-left"><i class="fas fa-chart-pie mr-20"></i><span class="right-nav-text">Site Analytics</span></div>';
+					<a href="reports.php">
+						<div class="pull-left"><i class="fas fa-chart-pie mr-20"></i><span class="right-nav-text">Reports</span></div>';
 			//echo '<div class="pull-right"><span class="label label-danger">1</span></div>';
-				echo '<div class="pull-right"><span style="color:red;font-size:10px;">Coming Soon</span></div>';
+				//echo '<div class="pull-right"><span style="color:red;font-size:10px;">Coming Soon</span></div>';
 			echo '<div class="clearfix"></div>
 					</a>
 				  </li>';

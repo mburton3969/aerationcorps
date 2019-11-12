@@ -283,3 +283,21 @@ function remove_customer(cid,e){
   xhttp.open("GET", "customers/php/remove-customer.php?cid="+cid, true);
   xhttp.send();
 }
+
+
+function restore_customer(cid,e){
+  var conf = confirm("Are you sure you want to restore this customer?");
+  if(conf === false){
+    return;
+  }
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+         alert(xhttp.responseText);
+         e.parentElement.parentElement.remove();
+         window.location.reload();
+      }
+  };
+  xhttp.open("GET", "customers/php/restore-customer.php?cid="+cid, true);
+  xhttp.send();
+}

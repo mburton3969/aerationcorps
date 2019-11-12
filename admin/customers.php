@@ -41,7 +41,8 @@ include 'global/php/security.php';
             <li class="nav-item active"><a data-toggle="tab" href="#pending" style="color:#DC0031;"><span class="glyphicon glyphicon-time"></span> Pending</a></li>
             <li class="nav-item"><a data-toggle="tab" href="#serviced" style="color:#DC0031;"><span class="glyphicon glyphicon-ok"></span> Serviced</a></li>
             <li class="nav-item"><a data-toggle="tab" href="#invoiced" style="color:#DC0031;"><span class="glyphicon glyphicon-usd"></span> Invoiced</a></li>
-          </ul>
+            <li class="nav-item"><a data-toggle="tab" href="#deleted" style="color:#DC0031;"><span class="glyphicon glyphicon-trash"></span> Deleted</a></li>
+					</ul>
 
           <div class="tab-pane active in" id="pending" role="tabpanel">
           <?php
@@ -57,6 +58,11 @@ include 'global/php/security.php';
          <div class="tab-pane fade" id="invoiced" role="tabpanel">
           <?php
               include 'customers/sections/invoiced-orders-table.php';
+          ?>
+          </div>
+					<div class="tab-pane fade" id="deleted" role="tabpanel">
+          <?php
+              include 'customers/sections/deleted-orders-table.php';
           ?>
           </div>
 
@@ -80,7 +86,7 @@ include 'global/php/security.php';
 	
 	<!--Footer-->
 	<?php include 'global/sections/includes.php'; ?>
-  <script src="customers/js/customer-form-handler.js"></script>
+  <script src="customers/js/customer-form-handler.js?cb=<?php echo $cache_buster; ?>"></script>
   
   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	<script>
@@ -92,6 +98,9 @@ include 'global/php/security.php';
         "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
     } );
     $('#invoiced_table').DataTable( {
+        "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
+    } );
+		$('#deleted_table').DataTable( {
         "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
     } );
   },1000);
