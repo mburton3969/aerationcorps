@@ -1,3 +1,6 @@
+<?php
+$cache_buster = '2.1.2';
+?>
 <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="description" content="Magilla is a Dashboard & Admin Site Responsive Template by hencework." />
