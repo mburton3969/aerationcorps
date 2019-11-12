@@ -14,7 +14,7 @@ include '../email/phpmailsettings.php';
 
 $mail->setFrom("service@theaerationcorps.com","Aeration Service");
 $mail->addAddress($recipients);
-$mail->addBCC('michael@ignition-innovations.com');
+$mail->addBCC('archive@ignition-innovations.com');
 $mail->Subject = 'Contact Form!';
 
 // Set Email Display Parameters...
