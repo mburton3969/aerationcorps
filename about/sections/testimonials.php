@@ -6,6 +6,16 @@
             <div class="col-sm-8">
               <!-- Owl Carousel-->
               <div class="owl-carousel" data-nav="true" style="color: #523329;">
+                <!-- Testimony -->
+                <div>
+                  <h3 style="color: #523329;">Lee A.</h3>
+                  <p>The yard looks great heading into the winter, and I look forward to seeing how it looks in the spring!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Sterling,VA</h6>
+                </div>
                 <!-- T1 -->
                 <div>
                   <h3 style="color: #523329;">Bill H.</h3>
