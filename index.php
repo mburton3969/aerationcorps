@@ -17,7 +17,7 @@
  <!-- FALL SPECIAL-->
       <section class="well-xl-var-1 lawn-turf-2" style="background-size: 120% 100%;">
         <div class="container text-center" style="margin-top: -85px;">
-          <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">FALL SPECIAL</h1>
+          <h1 style="color: #f3b143; text-shadow: 4px 4px #041103;">AERATION SPECIAL</h1>
           <h2 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">$95 to aerate your ¼ acre lawn!</h2>
           <p>
 
@@ -29,7 +29,7 @@
           <p>
 
           </p>
-           <h3 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">Aeration Season is almost over <br>& we have limited slots remaining.</h3>
+           <h3 class="text-bold text-shadow" style="color: #ffff; text-shadow: 2px 2px #041103;">Hurry! Sign-Up TODAY!</h3>
             <p>
 
           </p>

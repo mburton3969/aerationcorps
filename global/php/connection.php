@@ -1,4 +1,4 @@
 <?php
 session_start();
-$conn = mysqli_connect('localhost','mburton9_michael','Mths3969','mburton9_aerationcorps') or die($conn->error);
+$conn = mysqli_connect('localhost','aeration_connect','JmH;Xj0qw)iq','aeration_aerationcorps') or die($conn->error);
 ?>
