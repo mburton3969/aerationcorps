@@ -29,7 +29,7 @@
 	<script src="skin2-assets/dist/js/dropdown-bootstrap-extended.js"></script>
 	
 	<!-- Sparkline JavaScript -->
-	<script src="skin2-assets/vendors/jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+	<!--<script src="skin2-assets/vendors/jquery.sparkline/dist/jquery.sparkline.min.js"></script>-->
 	
 	<!-- Owl JavaScript -->
 	<script src="skin2-assets/vendors/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>

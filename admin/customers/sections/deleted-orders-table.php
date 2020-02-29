@@ -1,5 +1,5 @@
 <?php
-$q = "SELECT * FROM `customers` WHERE `inactive` = 'Yes' ORDER BY `ID` DESC";
+$q = "SELECT * FROM `customers` WHERE `inactive` = 'Yes' AND `valid_captcha` = 'Yes' ORDER BY `ID` DESC";
 $g = mysqli_query($conn, $q) or die($conn->error);
 $rn = mysqli_num_rows($g);
 ?>

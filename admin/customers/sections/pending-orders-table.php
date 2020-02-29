@@ -65,6 +65,9 @@ $rn = mysqli_num_rows($g);
                                     //1/4 Acre is 10890sqft...
 																		$acre = 43560;
 														if($r['zillow_lot_size'] == ''){
+                                    echo '<script>
+                                            console.log("' . $r['ID'] . '");
+                                          </script>';
 																		$zillowURL = 'https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17p4gr0dnnv_38l6u&address=' . str_replace(' ','+',$r['address']) . '&citystatezip=' . str_replace(' ','+',$r['city']) . '%2C+' . $r['state'] . '+' . $r['zip'];
 																		//echo $zillowURL;
 																		$search = file_get_contents($zillowURL);

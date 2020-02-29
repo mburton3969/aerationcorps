@@ -1,5 +1,5 @@
 <?php
-$mailconn = mysqli_connect('localhost','mburton9_michael','Mths3969','mburton9_aerationcorps') or die($conn->error);
+$mailconn = mysqli_connect('localhost','aeration_connect','JmH;Xj0qw)iq','aeration_aerationcorps') or die($conn->error);
 
 //Get SMTP Connection Details...
 $mailq = "SELECT * FROM `mailgun_credentials`";
