@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL);
+error_reporting(0);
 include '../global/php/connection.php';
 include 'global/php/security.php';
 ?>
@@ -7,15 +7,8 @@ include 'global/php/security.php';
 <html lang="en">
 <head>
 	<title>Aeration Corps | Back Office</title>
-    <?php include 'global/sections/head.php'; ?>
-	<style>
-		.dataTables_wrapper .dataTables_filter{
-			float:none !Important;
-			text-align:left !Important;
-			margin-left:200px !Important;
-		}
-	</style>
-	
+  <?php include 'global/sections/head.php'; ?>
+	<link href="customers/css/custom.css" rel="stylesheet" />
 	<script src="customers/js/zillow-ls.js"></script>
 </head>
 
@@ -34,8 +27,6 @@ include 'global/php/security.php';
 
        <div class="container-fluid pt-25"><!--Main Content Here-->
 				
-     
-											
 				<div class="tab-content" id="mySubTabContent">
           <ul class="nav nav-tabs">
             <li class="nav-item active"><a data-toggle="tab" href="#pending" style="color:#DC0031;"><span class="glyphicon glyphicon-time"></span> Pending</a></li>
@@ -65,14 +56,8 @@ include 'global/php/security.php';
               include 'customers/sections/deleted-orders-table.php';
           ?>
           </div>
-
         </div>
-
-				
-	
-			
 			</div>
-			
 			
 			<!-- Footer -->
 			<?php include 'global/sections/footer.php'; ?>
@@ -87,24 +72,8 @@ include 'global/php/security.php';
 	<!--Footer-->
 	<?php include 'global/sections/includes.php'; ?>
   <script src="customers/js/customer-form-handler.js?cb=<?php echo $cache_buster; ?>"></script>
-  
   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-	<script>
-		setTimeout(function (){
-    $('#pending_table').DataTable( {
-        "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
-    } );
-    $('#serviced_table').DataTable( {
-        "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
-    } );
-    $('#invoiced_table').DataTable( {
-        "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
-    } );
-		$('#deleted_table').DataTable( {
-        "lengthMenu": [[-1, 10, 25, 50], ["All", 10, 25, 50]]
-    } );
-  },1000);
-	</script>
+	<script src="customers/js/custom.js"></script>
 </body>
   <?php include 'customers/modals/customer-modal.php'; ?>
 </html>

@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +20,6 @@
         <a class="inline-block btn btn-info btn-rounded btn-outline" href="mailto:support@ignition-innovations.com?subject=Portal%20Issue%20Report&body=I%20am%20having%20an%20issue%20with%20the%20following:">Contact Us</a>
       </div>
       <div class="clearfix"></div>
-      </header>
 
       <!-- Main Content -->
       <div class="page-wrapper pa-0 ma-0 auth-page" style="min-height: 322px;">
@@ -51,7 +47,6 @@
                           <div class="clearfix"></div>
                           <input type="password" class="form-control" required="" id="password" name="password" placeholder="Enter Password">
                         </div>
-
                         <div class="form-group">
                           <div class="checkbox checkbox-primary pr-10 pull-left">
                             <input id="cb" name="cb" type="checkbox">
