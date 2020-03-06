@@ -803,3 +803,13 @@
 [05-Dec-2019 09:27:33 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
 [27-Jan-2020 16:29:08 America/Chicago] PHP Notice:  Undefined index: in in /home3/mburton9/public_html/aerationcorps/admin/global/php/security.php on line 2
 [27-Jan-2020 16:29:08 America/Chicago] PHP Notice:  Undefined index: full_name in /home3/mburton9/public_html/aerationcorps/admin/global/sections/nav.php on line 32
+[29-Feb-2020 12:34:27 America/Chicago] PHP Notice:  Undefined index: in in /home1/aerationcorps/public_html/admin/global/php/security.php on line 2
+[29-Feb-2020 12:34:27 America/Chicago] PHP Notice:  Undefined index: full_name in /home1/aerationcorps/public_html/admin/global/sections/nav.php on line 32
+[29-Feb-2020 12:41:35 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/aerationcorps/public_html/admin/service-list.php on line 78
+[29-Feb-2020 12:41:35 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/aerationcorps/public_html/admin/service-list.php on line 78
+[29-Feb-2020 14:12:28 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/aerationcorps/public_html/admin/service-list.php on line 78
+[29-Feb-2020 14:12:28 America/Chicago] PHP Warning:  A non-numeric value encountered in /home1/aerationcorps/public_html/admin/service-list.php on line 78
+[02-Mar-2020 12:27:40 America/Chicago] PHP Notice:  Undefined index: in in /home1/aerationcorps/public_html/admin/global/php/security.php on line 2
+[02-Mar-2020 12:27:40 America/Chicago] PHP Notice:  Undefined index: full_name in /home1/aerationcorps/public_html/admin/global/sections/nav.php on line 32
+[04-Mar-2020 21:30:24 America/Chicago] PHP Notice:  Undefined index: in in /home1/aerationcorps/public_html/admin/global/php/security.php on line 2
+[04-Mar-2020 21:30:24 America/Chicago] PHP Notice:  Undefined index: full_name in /home1/aerationcorps/public_html/admin/global/sections/nav.php on line 32
