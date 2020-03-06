@@ -1,36 +1,35 @@
 <?php
 include '../../global/php/connection.php';
-//print_r($_POST);
 
 //Load Variables...
-$ip = $_SERVER['REMOTE_ADDR'];
-$cust_type = $_POST['cust_type'];
+$ip = mysqli_real_escape_string($_SERVER['REMOTE_ADDR']);
+$cust_type = mysqli_real_escape_string($_POST['cust_type']);
 $fname = mysqli_real_escape_string($conn, $_POST['fname']);
 $lname = mysqli_real_escape_string($conn, $_POST['lname']);
 $address = mysqli_real_escape_string($conn, $_POST['address']);
 $address2 = mysqli_real_escape_string($conn, $_POST['address2']);
 $city = mysqli_real_escape_string($conn, $_POST['city']);
-$state = $_POST['state'];
+$state = mysqli_real_escape_string($_POST['state']);
 $zip = mysqli_real_escape_string($conn, $_POST['zip']);
-$county = $_POST['county'];
-$lot_size = $_POST['lot_size'];
+$county = mysqli_real_escape_string($_POST['county']);
+$lot_size = mysqli_real_escape_string($_POST['lot_size']);
 $day_phone = mysqli_real_escape_string($conn, $_POST['day_phone']);
 $ext = mysqli_real_escape_string($conn, $_POST['ext']);
 $night_phone = mysqli_real_escape_string($conn, $_POST['night_phone']);
-$remail = $_POST['email'];
+$remail = mysqli_real_escape_string($_POST['email']);
 $email = mysqli_real_escape_string($conn, $_POST['email']);
-$email_ack = $_POST['email_ack'];
-$aeration = $_POST['aeration'];
-$overseeding = $_POST['overseeding'];
-$double_aeration = $_POST['double_aeration'];
-$double_overseeding = $_POST['double_overseeding'];
-$fertilizer = $_POST['fertilizer'];
-$prop_maintain = $_POST['prop_maintain'];
-$prop_identify = $_POST['prop_identify'];
-$prop_unique = $_POST['prop_unique'];
-$prop_gate = $_POST['prop_gate'];
-$prop_sprinkler = $_POST['prop_sprinkler'];
-$prop_fence = $_POST['prop_fence'];
+$email_ack = mysqli_real_escape_string($_POST['email_ack']);
+$aeration = mysqli_real_escape_string($_POST['aeration']);
+$overseeding = mysqli_real_escape_string($_POST['overseeding']);
+$double_aeration = mysqli_real_escape_string($_POST['double_aeration']);
+$double_overseeding = mysqli_real_escape_string($_POST['double_overseeding']);
+$fertilizer = mysqli_real_escape_string($_POST['fertilizer']);
+$prop_maintain = mysqli_real_escape_string($_POST['prop_maintain']);
+$prop_identify = mysqli_real_escape_string($_POST['prop_identify']);
+$prop_unique = mysqli_real_escape_string($_POST['prop_unique']);
+$prop_gate = mysqli_real_escape_string($_POST['prop_gate']);
+$prop_sprinkler = mysqli_real_escape_string($_POST['prop_sprinkler']);
+$prop_fence = mysqli_real_escape_string($_POST['prop_fence']);
 $comments = mysqli_real_escape_string($conn, $_POST['comments']);
 $special_requests = mysqli_real_escape_string($conn, $_POST['special_requests']);
 $terms_ack = $_POST['terms_cb'];
@@ -136,9 +135,9 @@ $iq = "INSERT INTO `customers`
        )";
 mysqli_query($conn, $iq) or die('ERROR CODE 28583: ' . $conn->error);
 
-
+// Set Email Template...
 include '../../email/templates/confirm-order-email.php';
-// Set Email Display Parameters...
+// Set Email Parameters...
 include '../../email/phpmailer/PHPMailerAutoload.php';
 $mail = new PHPMailer;
 include '../../email/phpmailsettings.php';
@@ -154,21 +153,6 @@ $mail->Body = $etemp;
 if($valid_captcha == 'Yes'){
   $mail->send();
 }
-
-/*$header = 'From: The Aeration Corps<service@theaerationcorps.com>' . "\r\n";
-//$header .= "Reply-To: " . $email . "\r\n";
-if($special_requests != ''){
-$header .= "Cc: service@theaerationcorps.com" . "\r\n";
-}
-$header .= "Bcc: michael@ignition-innovations.com" . "\r\n";
-$header .= 'X-Mailer: PHP/' . phpversion();
-$header .= "MIME-Version: 1.0\r\n";
-//$header .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-$header .= "Content-Type: text/html; charset=UTF-8\r\n";
-
-$sub = 'TheAerationCorps Service Request Confirmation';
-mail($email,$sub,$etemp,$header);*/
-
 
 echo '<html>
     <head>

@@ -1,5 +1,0 @@
-[30-Aug-2019 23:56:25 America/Chicago] PHP Warning:  include(../global/connection.php): failed to open stream: No such file or directory in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 2
-[30-Aug-2019 23:56:25 America/Chicago] PHP Warning:  include(../global/connection.php): failed to open stream: No such file or directory in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 2
-[30-Aug-2019 23:56:25 America/Chicago] PHP Warning:  include(): Failed opening '../global/connection.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 2
-[30-Aug-2019 23:56:25 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 6
-[30-Aug-2019 23:56:45 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mburton9/public_html/aerationcorps/email/phpmailsettings.php on line 6

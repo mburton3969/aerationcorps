@@ -166,6 +166,7 @@ function submit_signup_form(token){
     return;
   }
   
+  //Add Tracking...
   var atc = document.getElementById('atc');
   //if(localStorage.getItem('ad_code')){
     atc.value = localStorage.getItem('ad_code');
