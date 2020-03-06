@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,12 +70,7 @@
 				
 			</div>
 			<!-- /Login -->
-
-				
-	
-			
-			</div>
-			
+		</div>
 			
 			<!-- Footer -->
 			<?php include 'global/sections/footer.php'; ?>
