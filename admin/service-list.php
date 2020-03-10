@@ -75,7 +75,11 @@ include '../global/php/connection.php';
           $mo = '';
           $mc = '';
           $acre = 43560;
-          $zlls = ($cr['zillow_lot_size'] * $acre);
+          if($cr['zillow_lot_size'] != ''){
+            $zlls = ($cr['zillow_lot_size'] * $acre);
+          }else{
+            $zlls = 0;
+          }
           switch($cr['lot_size']) {
             case '1':
               $lot_size = 'Up to 1/4 Acre';
