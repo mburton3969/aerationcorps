@@ -15,13 +15,13 @@
 <!-- *** Page Content Goes Here *** -->
 
       <!-- Break-->
-      <?php include 'contact/setions/break.php'; ?>
+      <?php include 'contact/sections/break.php'; ?>
       
       <!-- Contact Form-->
       <?php include 'contact/sections/contact-form.php'; ?>
       
       <!-- Break-->
-      <?php include 'contact/setions/break.php'; ?>
+      <?php include 'contact/sections/break.php'; ?>
       
       <!--Google Map-->
       <?php include 'contact/sections/google-map.php'; ?>
