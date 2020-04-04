@@ -25,7 +25,8 @@
               </div>
             </div>
           </div>
-          <button class="btn btn-md btn-secondary btn-no-arrow" type="submit">send message</button>
+          <button class="btn btn-md btn-secondary btn-no-arrow" type="submit" onclick="gtag_report_conversion1()">send message</button>
+          <!-- Added on client event by digilyft team on 17-03-2020 -->
         </form>
       </div>
       <div class="col-md-4 well-sm">

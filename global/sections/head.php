@@ -19,4 +19,44 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-139176938-2');
+      gtag('config', 'AW-658269236');
     </script>
+    
+    <!-- LINE NO 23 CODES ADDED BY DIGILYFT TEAM ON 17th March 2020 -->
+    
+    <!-- Event snippet for Sign-up conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-658269236/DrBvCIONx8oBELTI8bkC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+    <!-- LINE NO 27 to 42 CODES ADDED BY DIGILYFT TEAM ON 17th March 2020 -->
+    
+    <!-- Event snippet for Submit lead form conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion1(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-658269236/_TH_CJbwrcoBELTI8bkC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+    <!-- LINE NO 45 to 60 CODES ADDED BY DIGILYFT TEAM ON 17th March 2020 -->

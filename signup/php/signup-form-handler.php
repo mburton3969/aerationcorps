@@ -157,8 +157,47 @@ if($valid_captcha == 'Yes'){
 echo '<html>
     <head>
       <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- Global site tag (gtag.js) - Google Ads: 658269236 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-658269236"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+
+  gtag("config", "AW-658269236");
+</script>
+
+<script>
+  gtag("event", "conversion", {"send_to": "AW-658269236/jDYpCL3su8oBELTI8bkC"});
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,"script",
+  "https://connect.facebook.net/en_US/fbevents.js");
+  fbq("init", "142962720369739");
+  fbq("track", "PageView");
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=142962720369739&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code --> 
+
     </head>
     <body>
+    <script>
+  fbq("track", "CompleteRegistration", {
+    value: 1,
+    currency: "usd",
+  });
+</script>
   <div class="jumbotron text-xs-center" style="text-align:center;height:100%;">
   <img src="../../images/acpics/aeration-logo_final.png" style="width:20%;" />
   <h1 class="display-3">Thank You for your order!</h1>
