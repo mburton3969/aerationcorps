@@ -1,7 +1,7 @@
 <section class="well-lg-var-5 bg-secondary">
   <form id="signup_form" action="signup/php/signup-form-handler.php" method="POST">
     <div class="container" style="max-width:50%;">
-      <h2 class="text-center">Sign Up Now</h2>
+      <h2 class="text-center">Sign-Up Now</h2>
 
       <div class="row text-center">
         <div class="col-md-12">

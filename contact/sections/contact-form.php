@@ -30,13 +30,13 @@
         </form>
       </div>
       <div class="col-md-4 well-sm">
-        <h4>Call or Email us with any questions or inquiries.</h4>
+        <h4>For a prompt reply, email us with any questions you may have.</h4>
         <p>
           We would be happy to answer your questions.
         </p>
         <address>
                 PO Box 447    
-                <br>Purcellville VA, 20134  
+                <br>Purcellville VA  20134  
               </address>
         <div class="contact-info">
           <dl>

@@ -132,6 +132,21 @@
         BEFORE SIGNING-UP. EVERYONE IN YOUR GROUP MUST SIGN-UP AT APPROXIMATELY THE SAME TIME TO AVOID CAUSING SCHEDULING PROBLEMS. WE CANNOT HONOR THE "GROUP DISCOUNTS" PRICE TO THOSE WHO SIGN-UP AFTER WE HAVE ALREADY MADE OUR SERVICE SCHEDULES. THANK
         YOU.</p>
       <li>
+        <h6 class="index-list-question">How do I form a group with my neighbors?</h6>
+      </li>
+      <p class="index-list-answer">
+        Forming a Group is Simple!:
+        <ul>
+          <li>Decide On A Group Name
+          </li>
+          <li>Have Each Group Member Sign-up Individually On Our Website And...
+          </li>
+          <li>Type The Group Name In The Comments Box At The Bottom Of The Sign-up Page
+          </li>
+        </ul>
+        That's It! We Will Email Everyone With Your Service Date!
+      </p>
+      <li>
         <h6 class="index-list-question">Do you offer dethatching services?</h6>
       </li>
       <p class="index-list-answer">

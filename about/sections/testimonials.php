@@ -8,6 +8,36 @@
               <div class="owl-carousel" data-nav="true" style="color: #523329;">
                 <!-- Testimony -->
                 <div>
+                  <h3 style="color: #523329;">B.L.</h3>
+                  <p>You guys did an awesome job on my lawn last fall! I fired the guy who used to tear it up with his big ride-on machine. Doing business with you was a breeze!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg, VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">B.K.</h3>
+                  <p>Your team came to do aeration and seeding today and I was extremely impressed with the attention to detail. I've used other companies, but I will only use Aeration Corps going forward. Great work!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Aldie, VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">K.N.</h3>
+                  <p>Thank you. Service was great! I have a referral.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Leesburg, VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
                   <h3 style="color: #523329;">Lee A.</h3>
                   <p>The yard looks great heading into the winter, and I look forward to seeing how it looks in the spring!
                   </p>

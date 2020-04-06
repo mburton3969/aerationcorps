@@ -23,5 +23,12 @@
     <p>
 
     </p>
-    <p class="text-bold text-shadow" style="color: #efe3d1; text-shadow: 2px 2px #041103; font-style: italic;">GROUP DISCOUNTS are still available. <br>Sign up now and indicate you are assembling a group. <br>Your price will be adjusted accordingly.</p>
+    <p class="text-bold text-shadow" style="color: #efe3d1; text-shadow: 2px 2px #041103; font-style: italic;">We Offer Generous GROUP DISCOUNTS! It's Simple!
+    <br>
+    	<ul class="text-bold text-shadow" style="color: #efe3d1; text-shadow: 2px 2px #041103; font-style: italic;">
+    		<li>• Decide on a Group Name</li>
+    		<li>• Have Each Group Member Sign-Up Individually On Our Website And...</li>
+    		<li>• Type The Group Name In The Comments Box At The Bottom Of The Sign-Up Page</li>
+    	</ul>
+    </p>
 </section>
