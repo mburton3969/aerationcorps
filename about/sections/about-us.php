@@ -5,8 +5,7 @@
       <div class="col-md-4"><img src="images/acpics/backgrounds/about.jpg" width="370" height="500" alt=""></div>
       <div class="col-md-8 text-center text-md-left">
         <p>
-          The Aeration Corps has been providing core aeration and related services for almost 20 years in Loudoun and surrounding counties. Many lawncare and landscape companies provide aeration services - typically when their regular season ends, using rented
-          equipment.
+          The Aeration Corps has been providing core aeration and related services for almost 20 years in Loudoun and surrounding counties. Many lawncare and landscape companies frantically send out their employees with rented machines to perform service amid their already-hectic fall schedules.
         </p>
         <p>
 
@@ -21,7 +20,7 @@
           Our goal is to delight our customers with excellent service and fair pricing.
         </p>
         <p>
-          <strong>We are licensed and fully insured.</strong>
+          <strong>We are licensed and fully-insured.</strong>
         </p>
       </div>
     </div>
