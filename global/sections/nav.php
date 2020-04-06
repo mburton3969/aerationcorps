@@ -26,7 +26,7 @@
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="services.php">Services</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="sign-up.php">Sign Up</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="sign-up.php">Sign-Up</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="contact.php">Contact Us</a>
                   </li>
