@@ -534,7 +534,7 @@
                 <!-- T42 -->
                 <div>
                   <h3 style="color: #523329;">Bill W.</h3>
-                  <p>I had my lawn serviced yesterday and I am very pleased with the job the technicians did. <br class="d-none d-xl-block">YThank you again for a great job.
+                  <p>I had my lawn serviced yesterday and I am very pleased with the job the technicians did. <br class="d-none d-xl-block">Thank you again for a great job.
                   </p>
                   <p>
                        

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="text-center">
       <div class="text-center">
-        <h2><strong style="color: #384e01;">THERE'S A REASON SO MANY HOMEOWNERS IN LOUDOUN AND SURROUNDING COUNTIES DPEND ON AERATION CORPS</strong></h2>
+        <h2><strong style="color: #384e01;">THERE'S A REASON SO MANY HOMEOWNERS IN LOUDOUN AND SURROUNDING COUNTIES DEPEND ON AERATION CORPS</strong></h2>
         <h2 style="color: #523329;">YEAR-AFTER-YEAR.</h2>
         <br>
         <h6>
