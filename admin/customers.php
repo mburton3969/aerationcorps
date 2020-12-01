@@ -2,6 +2,11 @@
 error_reporting(0);
 include '../global/php/connection.php';
 include 'global/php/security.php';
+if($_REQUEST['view'] == 'ALL'){
+  $addon = "";
+}else{
+  $addon = " LIMIT 25";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -73,7 +78,7 @@ include 'global/php/security.php';
 	<?php include 'global/sections/includes.php'; ?>
   <script src="customers/js/customer-form-handler.js?cb=<?php echo $cache_buster; ?>"></script>
   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-	<script src="customers/js/custom.js"></script>
+	<script src="customers/js/custom.js?cb=<?php echo $cache_buster; ?>"></script>
 </body>
   <?php include 'customers/modals/customer-modal.php'; ?>
 </html>

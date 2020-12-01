@@ -100,7 +100,7 @@
         <h6 class="index-list-question">How many times will you go over my lawn with your machines?</h6>
       </li>
       <p class="index-list-answer">
-        We will Core Aerate all areas of your lawn that are safely accessible by our machines ONE TIME. WE ONLY USE THE HIGHEST QUALITY CORE AERATORS, WHICH EXTRACT CORES APPORXIMATELY EVERY 4 INCHES.
+        We will Core Aerate all areas of your lawn that are safely accessible by our machines ONE TIME. WE ONLY USE THE HIGHEST QUALITY CORE AERATORS, WHICH EXTRACT CORES APPROXIMATELY EVERY 4 INCHES.
       </p>
       <li>
         <h6 class="index-list-question">Can I get a discount by having my lawn aerated twice during the same visit?</h6>

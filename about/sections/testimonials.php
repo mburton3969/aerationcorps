@@ -18,6 +18,27 @@
                 </div>
                 <!-- T1 -->
                 <div>
+                  <h3 style="color: #523329;">Greg W.</h3>
+                  <p>Great job by your crew aerating the AFFL group lawns this week! We'll be sure to use your services next year too.
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Ashburn, VA</h6>
+                </div>
+                <!-- T1 -->
+                <div>
+                  <h3 style="color: #523329;">Shakeel H.</h3>
+                  <p>Thank you for a wonderful job!
+                  </p>
+                  <p>
+                       
+                  </p>
+                  <h6 style="color: #523329;">Ashburn, VA</h6>
+                </div>
+                                
+                <!-- T1 -->
+                <div>
                   <h3 style="color: #523329;">B.K.</h3>
                   <p>Your team came to do aeration and seeding today and I was extremely impressed with the attention to detail. I've used other companies, but I will only use Aeration Corps going forward. Great work!
                   </p>

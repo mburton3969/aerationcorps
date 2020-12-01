@@ -75,6 +75,7 @@
 								<option value="6">1 Acre</option>
 								<option value="7">2 or More Acres</option>
 							</select>
+			<small style="display:inline;">INCLUDING The Footprint Of The House, Driveway, Typical Landscaping, Etc.</small>
         </div>
       </div>
 
@@ -119,7 +120,7 @@
           <br><br>
           <input type="checkbox" class="form-control" id="double_overseeding" name="double_overseeding" style="-webkit-appearance:checkbox;" /> Double Overseeding <small style="display:inline;">(twice the standard cost to Overseed your Lot Size)</small>
           <br><br>
-          <input type="checkbox" class="form-control" id="fertilizer" name="fertilizer" style="-webkit-appearance:checkbox;" /> Application of Premium Organic Fertilizer <small style="display:inline;">(see Services Page for pricing)</small>
+          <input type="checkbox" class="form-control" id="fertilizer" name="fertilizer" style="-webkit-appearance:checkbox;" /> Application of Premium Organic Fertilizer <small style="display:inline;">(NOT a Top-dressing/Compost -  this is a granular fertilizer - see Services Page for pricing)</small>
         </div>
         <div class="col-md-4">
           <img src="images/acpics/2014LawnContrasts.jpg" style="" />

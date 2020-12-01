@@ -1,5 +1,5 @@
 <?php
-$q = "SELECT * FROM `customers` WHERE `inactive` = 'Yes' AND `valid_captcha` = 'Yes' ORDER BY `ID` DESC";
+$q = "SELECT * FROM `customers` WHERE `inactive` = 'Yes' AND `valid_captcha` = 'Yes' ORDER BY `ID` DESC" . $addon;
 $g = mysqli_query($conn, $q) or die($conn->error);
 $rn = mysqli_num_rows($g);
 ?>
@@ -12,7 +12,15 @@ $rn = mysqli_num_rows($g);
 							</div>
 							<div class="panel-heading">
 								<div class="pull-left">
-									<h6 class="panel-title txt-dark">Customer Maintenance &nbsp; <small>[<?php echo $rn; ?> Deleted Orders]</small></h6>
+									<h6 class="panel-title txt-dark">Customer Maintenance &nbsp; <small>[<?php echo $rn; ?> Deleted Orders]</small> 
+                  
+                    <?php
+                      if($_REQUEST['view'] == 'ALL'){
+                        
+                      }else{
+                        echo '<a href="customers.php?view=ALL"><button type="button" class="btn btn-primary btn-sm">View All</button></a>';
+                      }
+                    ?></h6>
 								</div>
 								<div class="pull-right">
 									<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#customerModal" onclick="load_form('New');"><i class="fas fa-plus mr-15" style="color:white;"></i> New Customer</button>

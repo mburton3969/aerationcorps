@@ -3,7 +3,6 @@ $q = "SELECT * FROM `customers` WHERE `inactive` != 'Yes' AND `serviced_date` = 
 $g = mysqli_query($conn, $q) or die($conn->error);
 $rn = mysqli_num_rows($g);
 ?>
-
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="panel panel-default card-view panel-refresh">
@@ -76,7 +75,7 @@ $rn = mysqli_num_rows($g);
 																			$zillowURL2 = $xml->response[0]->results[0]->result[0]->links[0]->homedetails;
                                       $zlls = $xml->response[0]->results[0]->result[0]->lotSizeSqFt;
 																			echo round(($zlls / $acre),2) . ' Acres - ';
-																			echo '<script>record_zillow(' . $r['ID'] . ',\'' . round(($zlls / $acre),2) . '\',\'' . $zillowURL2 . '\');</script>';
+																			echo '<script>console.log("Recording Zillow...");record_zillow(' . $r['ID'] . ',\'' . round(($zlls / $acre),2) . '\',\'' . $zillowURL2 . '\');</script>';
 																		}else if((int)$xml->message[0]->code === 508){
 																			echo 'No Result - ';
 																			$zillowURL2 = 'http://zillow.com';
@@ -90,6 +89,9 @@ $rn = mysqli_num_rows($g);
 																			//echo $zillowURL;
 																		}
 														}else{
+                              echo '<script>
+                                      console.log("Testing...");
+                                    </script>';
 															$zlls = ($r['zillow_lot_size'] * $acre);
 															echo round(($zlls / $acre),2) . ' - ';
 															$zillowURL2 = $r['zillow_link'];
