@@ -1,6 +1,6 @@
 <?php
 $q = "SELECT * FROM `customers` WHERE `inactive` != 'Yes' AND `serviced_date` = '0000-00-00' ORDER BY `ID` DESC";
-$g = mysqli_query($conn, $q) or die($conn->error);
+$g = mysqli_query($conn, $q) or die('Pending Orders Connection Error: ' . $conn->error);
 $rn = mysqli_num_rows($g);
 ?>
         <div class="row">
@@ -62,13 +62,13 @@ $rn = mysqli_num_rows($g);
 																		<td><span class="txt-dark">';
 																		
                                     //1/4 Acre is 10890sqft...
-																		$acre = 43560;
+																		/*$acre = 43560;
 														if($r['zillow_lot_size'] == ''){
                                     echo '<script>
                                             console.log("' . $r['ID'] . '");
                                           </script>';
 																		$zillowURL = 'https://www.zillow.com/webservice/GetDeepSearchResults.htm?zws-id=X1-ZWz17p4gr0dnnv_38l6u&address=' . str_replace(' ','+',$r['address']) . '&citystatezip=' . str_replace(' ','+',$r['city']) . '%2C+' . $r['state'] . '+' . $r['zip'];
-																		//echo $zillowURL;
+																		echo $zillowURL;
 																		$search = file_get_contents($zillowURL);
 																		$xml = simplexml_load_string($search) or die("SEARCH ERROR");
 																		if((int)$xml->message[0]->code === 0){
@@ -146,9 +146,11 @@ $rn = mysqli_num_rows($g);
           }
 																		
 																echo '<br><a href="Javascript:clear_zillow(' . $r['ID'] . ');"><small style="font-size:8px;">[Refresh Data]</small></a>';		
-															echo '</span></td>
+					*/	
+                              echo '</span></td>';
+          
 																		
-                                    <td><span class="txt-dark">' . date("m/d/Y", strtotime($r['date'])) . '</span></td>
+                              echo '<td><span class="txt-dark">' . date("m/d/Y", strtotime($r['date'])) . '</span></td>
                                     <td><span class="txt-dark">' . $r['source'] . '</span></td>
                                     <td><span class="txt-dark">';
                               if($r['cust_type'] == 'New'){

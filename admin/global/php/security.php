@@ -4,5 +4,3 @@ if($_SESSION['in'] != 'Yes'){
           window.location = "index.php?logout=y";
         </script>';
 }
-
-?>

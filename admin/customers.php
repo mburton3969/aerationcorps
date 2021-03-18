@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(E_ALL);
 include '../global/php/connection.php';
 include 'global/php/security.php';
 if($_REQUEST['view'] == 'ALL'){
