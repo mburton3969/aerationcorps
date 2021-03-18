@@ -134,7 +134,7 @@ $etemp = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http:
 											<!--<![endif]-->
 											<div class="img-container center fixedwidth" align="center" style="padding-right: 15px;padding-left: 15px;">
 												<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 15px;padding-left: 15px;" align="center"><![endif]-->
-												<div style="font-size:1px;line-height:15px">&nbsp;</div><img class="center fixedwidth" align="center" border="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/119756_95391/aeration-logo_final.png" alt="Image" title="Image" style="text-decoration: none; -ms-interpolation-mode: bicubic; border: 0; height: auto; width: 100%; max-width: 400px; display: block;" width="400">
+												<div style="font-size:1px;line-height:15px">&nbsp;</div><img class="center fixedwidth" align="center" border="0" src="https://theaerationcorps.com/images/acpics/aeration-logo_final.png" alt="Image" title="Image" style="text-decoration: none; -ms-interpolation-mode: bicubic; border: 0; height: auto; width: 100%; max-width: 400px; display: block;" width="400">
 												<div style="font-size:1px;line-height:15px">&nbsp;</div>
 												<!--[if mso]></td></tr></table><![endif]-->
 											</div>

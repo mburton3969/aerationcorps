@@ -44,10 +44,14 @@ include 'contact-template.php';
 $mail->Body = $etemp;
 
 //mail($recipients,$sub,$mess,$header);
-if($mail->send()){
-  die('MF000');
+if(strpos($contact_email, '@theaerationcorps.com') == false){
+  if($mail->send()){
+    die('MF000');
+  }else{
+    die('MF255');
+  }
 }else{
-  die('MF255');
+  die('MF000');//Fakes the user into thinking the email was sent when it was not (For spammers)...
 }
 
 
