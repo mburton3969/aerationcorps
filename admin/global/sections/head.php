@@ -1,5 +1,5 @@
 <?php
-$cache_buster = '2.1.3';
+$cache_buster = uniqid();
 ?>
 <meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -27,3 +27,12 @@ $cache_buster = '2.1.3';
 
 	<!--jQuery-UI-->
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<?php
+//Detect if DuckDuckGo Browser
+if(strpos($_SERVER['HTTP_USER_AGENT'],'DuckDuckGo') !== false){
+  echo '<script>var DDG = true;</script>';
+}else{
+  echo '<script>var DDG = false;</script>';
+}
+?>

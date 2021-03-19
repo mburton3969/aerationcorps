@@ -269,14 +269,18 @@ function load_form(mode,cid){
 
 
 function remove_customer(cid,e){
-  var conf = confirm("Are you sure you want to remove this customer?");
-  if(conf === false){
-    return;
+  if(DDG === false){
+    var conf = confirm("Are you sure you want to remove this customer?");
+    if(conf === false){
+      return;
+    }
   }
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-         alert(xhttp.responseText);
+        if(DDG === false){
+          alert(xhttp.responseText);
+        }
          e.parentElement.parentElement.remove();
       }
   };
@@ -286,14 +290,18 @@ function remove_customer(cid,e){
 
 
 function restore_customer(cid,e){
-  var conf = confirm("Are you sure you want to restore this customer?");
-  if(conf === false){
-    return;
+  if(DDG === false){
+    var conf = confirm("Are you sure you want to restore this customer?");
+    if(conf === false){
+      return;
+    }
   }
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-         alert(xhttp.responseText);
+        if(DDG === false){
+          alert(xhttp.responseText);
+        }
          e.parentElement.parentElement.remove();
          window.location.reload();
       }

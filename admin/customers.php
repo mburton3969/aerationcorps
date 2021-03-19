@@ -7,6 +7,7 @@ if($_REQUEST['view'] == 'ALL'){
 }else{
   $addon = " LIMIT 25";
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
