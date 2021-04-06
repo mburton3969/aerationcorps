@@ -8,6 +8,15 @@ if($_REQUEST['view'] == 'ALL'){
   $addon = " LIMIT 25";
 }
 
+if($_REQUEST['debug'] == 'yes'){
+  echo '<script>
+          var debug = true;
+        </script>';
+}else{
+  echo '<script>
+          var debug = false;
+        </script>';
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

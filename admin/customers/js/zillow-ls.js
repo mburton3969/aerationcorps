@@ -11,6 +11,7 @@ function record_zillow(cid,ls,link){
 	xhr.open("POST", "customers/php/add-zillow-size.php", true);
   xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 	xhr.send(data);
+  console.log('Save Request Made...');
 }
 
 

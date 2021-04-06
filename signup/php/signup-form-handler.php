@@ -200,12 +200,12 @@ echo '<html>
 </script>
   <div class="jumbotron text-xs-center" style="text-align:center;height:100%;">
   <img src="../../images/acpics/aeration-logo_final.png" style="width:20%;" />
-  <h1 class="display-3">Thank You for your order!</h1>
+  <h1 class="display-3">Thank you for your order!</h1>
   <p class="lead">
     We will contact you two days prior to your scheduled service and invoice after the work has been performed. 
   </p>
   <p class="lead">
-    You should receive a confirmation email shortly. If you don’t, please check your junk email folder <br> and designate our emails as “not junk” to ensure you receive future notifications from us.
+    You should receive a confirmation email shortly. If you don&apos;t, please check your junk email folder <br> and designate our emails as &quot;not junk&quot; to ensure you receive future notifications from us.
   </p>
   <hr>
   <!--<p>
