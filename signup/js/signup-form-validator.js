@@ -4,6 +4,7 @@ function submit_signup_form(token){
     document.getElementById('cust_error').innerHTML = '* Please Select a Customer Type!';
     window.location.href = '#cust_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -11,6 +12,7 @@ function submit_signup_form(token){
     document.getElementById('name_error').innerHTML = '* Please Enter Your First Name!';
     window.location.href = '#name_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -18,6 +20,7 @@ function submit_signup_form(token){
     document.getElementById('name_error').innerHTML = '* Please Enter Your Last Name!';
     window.location.href = '#name_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -25,6 +28,7 @@ function submit_signup_form(token){
     document.getElementById('address_error').innerHTML = '* Please Enter Your Street Address!';
     window.location.href = '#address_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -32,6 +36,7 @@ function submit_signup_form(token){
     document.getElementById('address_error').innerHTML = '* Please Enter Your City!';
     window.location.href = '#address_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -39,6 +44,7 @@ function submit_signup_form(token){
     document.getElementById('address_error').innerHTML = '* Please Enter Your Zip Code!';
     window.location.href = '#address_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -46,6 +52,7 @@ function submit_signup_form(token){
     document.getElementById('address_error').innerHTML = '* Please Select You Lot Size!';
     window.location.href = '#address_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -53,6 +60,7 @@ function submit_signup_form(token){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Daytime Phone Number!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -60,6 +68,7 @@ function submit_signup_form(token){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Evening Phone Number!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }*/
   
@@ -67,6 +76,7 @@ function submit_signup_form(token){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Email Address!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -74,6 +84,7 @@ function submit_signup_form(token){
     document.getElementById('contact_error').innerHTML = '* Please Enter Your Email Address again for verification!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -81,6 +92,7 @@ function submit_signup_form(token){
     document.getElementById('contact_error').innerHTML = '* The Email Addresses Entered Do Not Match!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -88,6 +100,7 @@ function submit_signup_form(token){
     document.getElementById('contact_error').innerHTML = '* Please Check the Box Below to Acknowledge the Info About the Use of Emails!';
     window.location.href = '#contact_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -95,6 +108,7 @@ function submit_signup_form(token){
     document.getElementById('work_error').innerHTML = '* You Must Select at Least 1 Service to Perform!';
     window.location.href = '#work_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   var q_trip = false;
@@ -102,6 +116,7 @@ function submit_signup_form(token){
     document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
     window.location.href = '#question_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }else if($("#prop_maintain_yes").is(':checked')){
     q_trip = true;
@@ -111,6 +126,7 @@ function submit_signup_form(token){
     document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
     window.location.href = '#question_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }else if($("#prop_identify_yes").is(':checked')){
     q_trip = true;
@@ -120,6 +136,7 @@ function submit_signup_form(token){
     document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
     window.location.href = '#question_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }else if($("#prop_unique_yes").is(':checked')){
     q_trip = true;
@@ -129,6 +146,7 @@ function submit_signup_form(token){
     document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
     window.location.href = '#question_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }else if($("#prop_gate_yes").is(':checked')){
     q_trip = true;
@@ -138,6 +156,7 @@ function submit_signup_form(token){
     document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
     window.location.href = '#question_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }else if($("#prop_sprinkler_yes").is(':checked')){
     q_trip = true;
@@ -147,6 +166,7 @@ function submit_signup_form(token){
     document.getElementById('question_error').innerHTML = '* Please Answer ALL of the Questions in This Section!';
     window.location.href = '#question_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }else if($("#prop_fence_yes").is(':checked')){
     q_trip = true;
@@ -156,6 +176,7 @@ function submit_signup_form(token){
     document.getElementById('comments_terms_error').innerHTML = '* Please Enter Comments Regarding the questions above that were answered YES!';
     window.location.href = '#comments_terms_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   
@@ -163,6 +184,7 @@ function submit_signup_form(token){
     document.getElementById('comments_terms_error').innerHTML = '* Please Check the Box to Accept the Terms and Conditions!';
     window.location.href = '#comments_terms_error';
     window.scrollTo(window.scrollX, window.scrollY - 100);
+    grecaptcha.reset();
     return;
   }
   

@@ -203,7 +203,7 @@
           <br>
         </div>
         <div class="col-md-6">
-          <button type="button" class="btn btn-default btn-md g-recaptcha" data-sitekey="6LfOUbkUAAAAAIHdijdnmFdUiDKH3mY4Cbinh7wO" data-callback="submit_signup_form" onclick="gtag_report_conversion()">Submit</button>
+          <button type="button" class="btn btn-default btn-md g-recaptcha" data-sitekey="6LfOUbkUAAAAAIHdijdnmFdUiDKH3mY4Cbinh7wO" data-callback="submit_signup_form" onclick="gtag_report_conversion();">Submit</button>
         </div>
         <div class="col-md-6">
           <img src="images/acpics/payment-options.gif" />
